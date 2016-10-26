@@ -54,7 +54,7 @@
         <?php /*<div id="wall_1" class="image" data-stellar-background-ratio="0.4"></div>*/ ?>
         <div class="container">
             <div id="content_1" class="content">
-                <h1>Opis firmy</h1>
+                <h1>Jak to działa</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore
@@ -73,6 +73,19 @@
                     culpa
                     qui officia deserunt mollit anim id est laborum.</p>
             </div>
+            <div class="container center">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <img src="{{ URL::asset('images/demo/125x125.png') }}"/>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <img src="{{ URL::asset('images/demo/125x125.png') }}"/>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <img src="{{ URL::asset('images/demo/125x125.png') }}"/>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -81,25 +94,7 @@
             <section id="clients" class="flexslider centred">
                 <!-- ################################################################################################ -->
                 <div class="center btmspace-50">
-                    <h2 class="heading btmspace-80">Nasze sukcesy</h2>
-                    <ul class="nospace btmspace-50 group">
-                        <li class="one_quarter first"><i class="fa fa-3x fa-bed"></i>
-                            <p>12345</p>
-                            <p><a href="#">Nulla fermentum</a></p>
-                        </li>
-                        <li class="one_quarter"><i class="fa fa-3x fa-beer"></i>
-                            <p>12345</p>
-                            <p><a href="#">Sapien interdum</a></p>
-                        </li>
-                        <li class="one_quarter"><i class="fa fa-3x fa-music"></i>
-                            <p>12345</p>
-                            <p><a href="#">Fusce bibendum</a></p>
-                        </li>
-                        <li class="one_quarter"><i class="fa fa-3x fa-bullseye"></i>
-                            <p>12345</p>
-                            <p><a href="#">Viverra eleifend</a></p>
-                        </li>
-                    </ul>
+                    <h2 class="heading btmspace-80">Slider z logotypami firm, które porównujemy</h2>
                 </div>
                 <!-- ################################################################################################ -->
                 <div class="center btmspace-50"><i class="fa fa-3x fa-chevron-down" style="opacity:.2;"></i></div>
@@ -116,37 +111,6 @@
                 </ul>
                 <!-- ################################################################################################ -->
             </section>
-
-            <div class="container">
-                <div id="content_2" class="content white">
-                    <h2>Opis doświadczeń w pozyskiwaniu ruchu</h2>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex
-                        ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                        eu
-                        fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt
-                        mollit
-                        anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate
-                        velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in
-                        culpa
-                        qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
         </div>
         <!-- ################################################################################################ -->
 
@@ -206,50 +170,126 @@
     <!-- ################################################################################################ -->
  */ ?>
 
-        <div id="wall_2" class="image" data-stellar-background-ratio="0.4"></div>
         <div class="container">
-            <div id="content_3" class="content">
+            <div id="content_6" class="content">
 
-                <h1>Nasza oferta dla Twojej firmy</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit
-                    anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa
-                    qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit
-                    anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa
-                    qui officia deserunt mollit anim id est laborum.</p>
+                <h1>Kontakt</h1>
 
+                <div class="row">
+                    <div class="email_form">
+                        <h6 class="title">Podaj swoje dane kontaktowe:</h6>
+                        <div class="center">
+                            <div class="row">
+                                <form class="btmspace-30" method="post" action="#">
+                                    <fieldset>
+                                        <legend>Kontakt:</legend>
+                                        <div class="col-xs-12 col-sm-4 col-md-4">
+                                            <input class="btmspace-15" type="text" value="" placeholder="Imię">
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4">
+                                            <input class="btmspace-15" type="text" value=""
+                                                   placeholder="Numer telefonu">
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4">
+                                            <button type="submit" value="submit" class="center_mrg full_width">
+                                                Negocjuj
+                                            </button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <?php /*
+        <div class="wrapper flex-wrapper overlay bgded" style="background-image:url('images/demo/backgrounds/03.png')">
+            <div class="container">
+                <div class="row">
+                    <div class="circle-section">
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="circle-container">
+                                <div class="outer-ring"></div>
+                                <!-- Used for more of a gyroscope type effect
+                                <div class="outer-outer-ring"></div>
+                                -->
+                                <div class="circle">
+                                    <div class="front">
+                                        <h3>TEST</h3>
+                                        <h2>83.12</h2>
+                                        <p>testest</p>
+                                        <p>testest</p>
+                                    </div>
+                                    <div class="back">
+                                        <p>BACK</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="circle-container">
+                                <div class="outer-ring"></div>
+                                <!-- Used for more of a gyroscope type effect
+                                <div class="outer-outer-ring"></div>
+                                -->
+                                <div class="circle">
+                                    <div class="front">
+                                        <h3>TEST</h3>
+                                        <h2>83.12</h2>
+                                        <p>testest</p>
+                                        <p>testest</p>
+                                    </div>
+                                    <div class="back">
+                                        <p>BACK</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="circle-container">
+                                <div class="outer-ring"></div>
+                                <!-- Used for more of a gyroscope type effect
+                                <div class="outer-outer-ring"></div>
+                                -->
+                                <div class="circle">
+                                    <div class="front">
+                                        <h3>TEST</h3>
+                                        <h2>83.12</h2>
+                                        <p>testest</p>
+                                        <p>testest</p>
+                                    </div>
+                                    <div class="back">
+                                        <p>BACK</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="circle-container">
+                                <div class="outer-ring"></div>
+                                <!-- Used for more of a gyroscope type effect
+                                <div class="outer-outer-ring"></div>
+                                -->
+                                <div class="circle">
+                                    <div class="front">
+                                        <h3>TEST</h3>
+                                        <h2>83.12</h2>
+                                        <p>testest</p>
+                                        <p>testest</p>
+                                    </div>
+                                    <div class="back">
+                                        <p>BACK</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wall_2" class="image" data-stellar-background-ratio="0.4"></div>
+
         <!-- ################################################################################################ -->
         <div class="wrapper flex-wrapper overlay bgded" style="background-image:url('images/demo/backgrounds/02.png')">
             <div id="testimonials" class="flexslider clear">
@@ -300,150 +340,23 @@
             </div>
         </div>
         <!-- ################################################################################################ -->
- */ ?>
 
-        <div id="wall_3" class="image" data-stellar-background-ratio="0.4"></div>
-        <div class="container">
-            <div id="content_4" class="content">
-
-                <h1>Co zyskujesz na współpracy z nami</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit
-                    anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa
-                    qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit
-                    anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa
-                    qui officia deserunt mollit anim id est laborum.</p>
-
-                <div class="container center">
-                    <div class="row">
-                        <div class="col-xs-4 col-sm-4 col-md-4">
-                            <img src="{{ URL::asset('images/demo/125x125.png') }}"/>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4">
-                            <img src="{{ URL::asset('images/demo/125x125.png') }}"/>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4">
-                            <img src="{{ URL::asset('images/demo/125x125.png') }}"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="wall_4" class="image" data-stellar-background-ratio="0.4"></div>
-        <div class="container">
-            <div id="content_5" class="content">
-
-                <h1>Porównanie kosztów kampanii dla indywidualnej firmy z kosztami za efekt, jaki proponujemy</h1>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore
-                                et
-                                dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex
-                                ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu
-                                fugiat
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt
-                                mollit
-                                anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate
-                                velit
-                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa
-                                qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore
-                                et
-                                dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex
-                                ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu
-                                fugiat
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt
-                                mollit
-                                anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in voluptate
-                                velit
-                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa
-                                qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="wall_5" class="image" data-stellar-background-ratio="0.4"></div>
         <div class="container">
             <div id="content_6" class="content">
 
-                <h1>Chcesz poznać szczegółową ofertę dla Twojej firmy? Zostaw do siebie kontakt</h1>
+                <h1>Newsletter</h1>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="email_form">
-                                <h6 class="title">Podaj swój adres E-mail</h6>
-                                <form class="btmspace-30" method="post" action="#">
-                                    <fieldset>
-                                        <legend>Newsletter:</legend>
-                                        <input class="btmspace-15" type="text" value="" placeholder="E-mail">
-                                        <button type="submit" value="submit" class="center_mrg">Wyślij</button>
-                                    </fieldset>
-                                </form>
-                            </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="email_form">
+                            <h6 class="title">Podaj swój adres E-mail</h6>
+                            <form class="btmspace-30" method="post" action="#">
+                                <fieldset>
+                                    <legend>Newsletter:</legend>
+                                    <input class="btmspace-15" type="text" value="" placeholder="E-mail">
+                                    <button type="submit" value="submit" class="center_mrg">Wyślij</button>
+                                </fieldset>
+                            </form>
                         </div>
                     </div>
                 </div>

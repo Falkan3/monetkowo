@@ -31,7 +31,8 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 .circle{border-radius:50%; background-clip:padding-box;}
 .btn{display:inline-block; padding:15px 25px 17px; text-transform:uppercase; border:1px solid;}
 .center_mrg{margin-left:auto;margin-right:auto;}
-.content.white p {color:#fff;}
+.full_width{width:100%;}
+.content.white p, .content.white h1, .content.white h2, .content.white h3 {color:#fff;}
 
 .clear, .group{display:block;}
 .clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}

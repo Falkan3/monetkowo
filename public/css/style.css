@@ -65,16 +65,120 @@
     font-weight: 600;
     color: #3cb0f8;
 }
+
 .main h2::first-letter {
     font-size: 36px;
     font-weight: 400;
     color: #3cb0f8;
 }
 
-
 .carousel-items li a {
     text-decoration: none;
 }
+
+/* Flipping circles -----------------------------------------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:700);
+
+.circle-section .circle-container {
+    position: relative;
+    margin: 0 auto;
+}
+
+.circle-section .circle-container:hover .circle {
+    transform: rotate3d(45, 45, 0, 180deg);
+}
+
+.circle-section .circle-container:hover .outer-ring {
+    transform: rotate3d(45, 0, 0, 180deg);
+}
+
+.circle-section .circle-container:hover .outer-outer-ring {
+    transform: rotate3d(0, 45, 0, 180deg);
+}
+
+.circle-section .circle-container, .front, .back {
+    width: 175px;
+    height: 175px;
+    background-color: rgba(0,0,0,0);
+}
+
+.circle-section .circle, .outer-ring, .outer-outer-ring {
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.circle-section .circle {
+    position: relative;
+    width: 175px;
+    height: 175px;
+}
+
+.circle-section .front, .back {
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    backface-visibility: hidden;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    padding: 10px 10px;
+}
+
+.circle-section .front {
+    background-color: #fff;
+    z-index: 2;
+}
+
+.circle-section .front p, .back p, .front h1, .front h2, .front h3, .back h1, .back h2, .back h3 {
+    text-align: center;
+    margin: 0;
+    color: #000;
+}
+
+.circle-section .front h1, .back h1 {
+    margin-top: 1.2em;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+
+.circle-section .back {
+    transform: rotate3d(45,45,0,180deg);
+    background-color: #fff;
+}
+
+.circle-section .back-logo {
+    width: 60%;
+    display: block;
+    margin: 2em auto;
+}
+
+.circle-section .outer-ring {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 191px;
+    height: 191px;
+    background-color: rgba(255,255,255,0);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+.circle-section .outer-outer-ring {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 211px;
+    height: 211px;
+    background-color: rgba(255,255,255,0);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+/* !Flipping circles -----------------------------------------------------------------------------*/
 
 @media screen and (max-width: 720px) {
     .main .image {

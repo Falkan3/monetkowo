@@ -9,8 +9,9 @@
                     <li>
                         <b></b>
                         <div>
-                            <a href="about.html">Nasze produkty</a>
-                            <a href="#">Kontakt</a>
+                            <a href="about.html">FAQ</a>
+                            <a href="#">Top promocje</a>
+                            <a href="#">Jak z nami zarobisz</a>
                         </div>
                     </li>
                 </ul>
