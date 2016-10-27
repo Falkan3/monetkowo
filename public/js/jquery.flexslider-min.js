@@ -50,6 +50,7 @@ $(window).load(function() {
         }
     });
 
+    /*
     $("#latest").flexslider({
         selector: ".carousel-items > li",
         animation: "slide",
@@ -72,7 +73,7 @@ $(window).load(function() {
         start: function(slider) {
             $('body').removeClass('loading');
         }
-    });
+    }); */
 
     $("#clients").flexslider({
         selector: ".carousel-items > li",
@@ -103,6 +104,6 @@ $(window).load(function() {
 $(window).bind("resize", function(){
     $("#pageintro").flexslider(0);
     $("#testimonials").flexslider(0);
-    $("#latest").flexslider(0);
+    //$("#latest").flexslider(0);
     $("#clients").flexslider(0);
 });
