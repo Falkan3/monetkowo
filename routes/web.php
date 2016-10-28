@@ -11,17 +11,14 @@
 |
 */
 
-use \App\User;
-
-//index route
 Route::get('/', function () {
-    $data = User::all();
-    return view('welcome',['data' => $data]);
+    return view('main.main');
+});
+
+Route::get('/welcome', function () {
+    return view('welcome');
 });
 
 Auth::routes();
-//route removing registration
-//Route::any('/auth/register','HomeController@index');
 
 Route::get('/home', 'HomeController@index');
-Route::get('/parallax', 'MainController@parallax');

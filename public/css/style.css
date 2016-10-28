@@ -3,193 +3,67 @@
     padding: 0;
 }
 
-.image {
-    height: 400px;
-    width: 100%;
-    background: #55e6c5;
+#page_intro {
+    background-image: url(../images/demo/backgrounds/stock1.jpg);
+    background-size: cover;
     z-index: 1;
 }
 
-.content {
-    width: 100%;
-    z-index: 2;
-}
-
-.content h1 {
-    font-size: 40px;
-    color: #464646;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    margin: 30px 40px;
-}
-
-.content p {
-    font-size: 20px;
-    color: #343434;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    margin: 30px 60px;
-}
-
-#wall_1 {
-    background: url(../images/anchors.png) repeat;
-    background-attachment: fixed;
-}
-
-#wall_2 {
-    background: url(../images/swirl_pattern.png) repeat;
-    background-attachment: fixed;
-}
-
-#wall_3 {
-    background: url(../images/school.png) repeat;
-    background-attachment: fixed;
-}
-
-#wall_4 {
-    background: url(../images/skulls.png) repeat;
-    background-attachment: fixed;
-}
-
-#wall_5 {
-    background: url(../images/giftly.png) repeat;
-    background-attachment: fixed;
-}
-
-#content_1 {
+#page_intro .heading {
     position: relative;
+    top: 50%;
 }
 
-.main h1::first-letter {
-    font-size: 60px;
-    font-weight: 600;
-    color: #3cb0f8;
-}
-
-.main h2::first-letter {
-    font-size: 36px;
-    font-weight: 400;
-    color: #3cb0f8;
-}
-
-.carousel-items li a {
-    text-decoration: none;
-}
-
-/* Flipping circles -----------------------------------------------------------------------------*/
-
-@import url(http://fonts.googleapis.com/css?family=Cabin:700);
-
-.circle-section .circle-container {
+#page_intro .heading {
     position: relative;
-    margin: 0 auto;
+    top: 50%;
 }
 
-.circle-section .circle-container:hover .circle {
-    transform: rotate3d(45, 45, 0, 180deg);
+#page_intro .heading h1:nth-child(2){
+    color: #11a89e;
 }
 
-.circle-section .circle-container:hover .outer-ring {
-    transform: rotate3d(45, 0, 0, 180deg);
+.number-column-vertical-center h2 {
+    padding: 90px 0;
 }
 
-.circle-section .circle-container:hover .outer-outer-ring {
-    transform: rotate3d(0, 45, 0, 180deg);
+.float-r {
+    float: right;
 }
 
-.circle-section .circle-container, .front, .back {
-    width: 175px;
-    height: 175px;
-    background-color: rgba(0,0,0,0);
+.float-r.number-text {
+    padding-top: 60px;
 }
 
-.circle-section .circle, .outer-ring, .outer-outer-ring {
-    transition: 0.5s;
-    transform-style: preserve-3d;
-    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
-}
-
-.circle-section .circle {
-    position: relative;
-    width: 175px;
-    height: 175px;
-}
-
-.circle-section .front, .back {
-    border-radius: 50%;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
-    backface-visibility: hidden;
+.number-column.right-line:after {
+    height: 2px;
+    background-color: #000;
+    color: #ff00ff;
+    width: 30%;
+    content: "";
     position: absolute;
-    top: -2px;
-    left: -2px;
-    padding: 10px 10px;
+    top: 65%;
+    left: 65%;
 }
 
-.circle-section .front {
-    background-color: #fff;
-    z-index: 2;
-}
-
-.circle-section .front p, .back p, .front h1, .front h2, .front h3, .back h1, .back h2, .back h3 {
-    text-align: center;
-    margin: 0;
-    color: #000;
-}
-
-.circle-section .front h1, .back h1 {
-    margin-top: 1.2em;
-    font-weight: 700;
-    font-size: 3em;
-    text-align: center;
-}
-
-.circle-section .back {
-    transform: rotate3d(45,45,0,180deg);
-    background-color: #fff;
-}
-
-.circle-section .back-logo {
-    width: 60%;
-    display: block;
-    margin: 2em auto;
-}
-
-.circle-section .outer-ring {
+.number-column.left-line:after {
+    height: 2px;
+    background-color: #000;
+    color: #ff00ff;
+    width: 30%;
+    content: "";
     position: absolute;
-    top: -10px;
-    left: -10px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    width: 191px;
-    height: 191px;
-    background-color: rgba(255,255,255,0);
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    top: 65%;
+    left: 15%;
 }
 
-.circle-section .outer-outer-ring {
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    width: 211px;
-    height: 211px;
-    background-color: rgba(255,255,255,0);
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
-}
-
-/* !Flipping circles -----------------------------------------------------------------------------*/
+/* Media --------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 720px) {
-    .main .image {
-        height: 200px;
+    .float-r {
+        float: none;
     }
-
-    .main .content h1 {
-        margin: 20px 2%;
-    }
-
-    .main .content p {
-        margin: 20px 5%;
+    .number-column:after {
+        display: none;
     }
 }
