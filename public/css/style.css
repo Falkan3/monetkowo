@@ -3,28 +3,13 @@
     padding: 0;
 }
 
-#page_intro {
-    background-image: url(../images/demo/backgrounds/stock1.jpg);
-    background-size: cover;
-    z-index: 1;
-}
-
-#page_intro .heading {
-    position: relative;
-    top: 50%;
-}
-
-#page_intro .heading {
-    position: relative;
-    top: 50%;
-}
-
 #page_intro .heading h1:nth-child(2){
     color: #11a89e;
 }
 
 .number-column-vertical-center h2 {
     padding: 90px 0;
+    margin: 0;
 }
 
 .float-r {
@@ -34,6 +19,66 @@
 .float-r.number-text {
     padding-top: 60px;
 }
+
+.tile {
+    min-height: 500px;
+    padding: 0 60px;
+}
+.tile p {
+    text-align: justify;
+}
+
+.tile .separator-clear {
+    clear: both;
+    display: block;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.tile .separator {
+    border-top: 2px solid #000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 10%;
+}
+
+.tile .separator.white {
+    border-color: #fff;
+}
+
+.tile_color_1 {
+    background-color: #1baca2;
+}
+
+.tile_color_2 {
+    background-color: #3a4264;
+}
+
+.tile_color_3 {
+    background-color: #fff;
+}
+
+.tile_color_4 {
+    background-color: #fba32b;
+}
+
+.tile_color_1 h1, .tile_color_1 h2, .tile_color_1 p {
+    color: #fff;
+}
+
+.tile_color_2 h1, .tile_color_2 h2, .tile_color_2 p {
+    color: #fff;
+}
+
+.tile_color_2 h1:first-letter {
+    color: #1baca2;
+}
+
+/*
 
 .number-column.right-line:after {
     height: 2px;
@@ -55,6 +100,26 @@
     position: absolute;
     top: 65%;
     left: 15%;
+}
+
+*/
+
+.carousel-caption {
+    background: #36556f;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 0;
+}
+
+#page_intro h3 {
+    display: inline-block;
+    padding: 10px;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Media --------------------------------------------------------------------------------------- */

@@ -24,6 +24,28 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em; width: 100%; 
 .btn{display:inline-block; padding:15px 25px 17px; text-transform:uppercase; border:1px solid;}
 .center_mrg{margin-left:auto;margin-right:auto;}
 
+.absolute-middle, li.absolute-middle a, div.absolute-middle h1 {
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
 .clear, .group{display:block;}
 .clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
 .clear, .clear::after, .group, .group::after{clear:both;}

@@ -93,6 +93,14 @@ header nav ul li:last-child {
     padding-top: 0;
 }
 
+header nav ul li:not(:first-child):hover {
+    background: #3a4264;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+}
+
 header nav img {
     vertical-align: baseline;
     max-height: 80px;
@@ -116,15 +124,12 @@ header {
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
     transition: height 0.3s;
-
     -webkit-transition: -webkit-transform 1s;
     transition: transform 1s;
-
     text-align: center;
-
     -webkit-transform: translateY(35px);
     transform: translateY(35px);
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header.shrink {
@@ -157,7 +162,8 @@ header.shrink h1 {
 
 header nav li a {
     display: inline-block;
-    padding: 28px 0;
+    height: 100%;
+    padding: 0;
     box-sizing: border-box;
     color: #000;
     font-size: 16px;
@@ -231,7 +237,8 @@ header .content {
     header nav ul li a {
         font-size: 13px;
         padding: 8px 0;
-        width: auto;
+        width: 100%;
+        text-decoration: none;
     }
 
     header.shrink nav ul li a {
@@ -292,7 +299,7 @@ header .content {
     }
 
     header nav ul li:last-child b.visible:after {
-        border-top-color: #51b2dc;
+        border-top-color: #13a89e;
     }
 
     header nav ul li:last-child>div.visible {
@@ -301,7 +308,7 @@ header .content {
         top: 39px;
         right: 0;
         opacity: 1;
-        background: #51b2dc;
+        background: #fff;
     }
 
     header nav ul li:last-child>div {
@@ -314,13 +321,22 @@ header .content {
     }
 
     header nav ul li:last-child a {
-        display: block;
-        margin: 0;
-        padding: 22px 60px;
+         display: block;
+         margin: 0;
+         padding: 22px 60px;
+         color: #000;
+         font-size: 36px;
+         text-align: center;
+         border-bottom: 1px solid #3a4264;
+     }
+
+    header nav ul li:last-child a:last-child {
+        border-bottom: none;
+    }
+
+    header nav ul li:last-child a:hover {
+        background: #3a4264;
         color: #fff;
-        font-size: 36px;
-        text-align: center;
-        border-bottom: 1px solid #fff;
     }
 
     header nav ul li:last-child>div a, header.shrink nav ul li:last-child>div a {
@@ -337,6 +353,13 @@ header .content {
 @media screen and (max-width: 480px) {
     #page_intro .heading h1, .heading h1 {
         font-size: 36px;
+    }
+    header nav ul li a {
+        font-size: 13px;
+        padding: 0;
+        line-height: 16px;
+        width: 100%;
+        height: 100%;
     }
 }
 

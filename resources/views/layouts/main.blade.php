@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/custom.flexslider.css') }}" type="text/css" media="all"/>
 
     <!-- Scripts -->
     <script src="{{ URL::asset('js/jquery-3.1.1.min.js') }}"></script>
@@ -40,6 +41,7 @@
 <a id="backtotop" href="#"><i class="fa fa-chevron-up"></i></a>
 
 <!-- Scripts -->
+<script src="{{ URL::asset('js/jquery.mobilemenu.js') }}"></script>
 <script src="{{ URL::asset('js/script.js') }}"></script>
 
 </body>
