@@ -93,11 +93,11 @@ header nav ul li:last-child {
     padding-top: 0;
 }
 
-header nav ul li:not(:first-child):hover {
+header nav ul li:not(:first-child):not(:last-child):hover {
     background: #3a4264;
 }
 
-header nav ul li a:hover {
+header nav ul li:not(:last-child) a:hover {
     color: #fff;
 }
 
