@@ -23,7 +23,7 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
+                <div class="item active bgded overlay">
                     <img src="{{ URL::asset('images/demo/backgrounds/stock1.jpg')}}" alt="Chania">
                     <div class="carousel-caption">
                         <h3>Chania</h3>
@@ -31,7 +31,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item bgded overlay">
                     <img src="{{ URL::asset('images/demo/backgrounds/stock2.jpeg')}}" alt="Chania">
                     <div class="carousel-caption">
                         <h3>Chania</h3>

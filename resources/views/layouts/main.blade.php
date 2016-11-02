@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" href="{{ URL::asset('css/custom.flexslider.css') }}" type="text/css" media="all"/>
 
     <!-- Scripts -->
     <script src="{{ URL::asset('js/jquery-3.1.1.min.js') }}"></script>
