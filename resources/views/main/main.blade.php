@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Parallax demo')
+@section('title', 'Monetkowo')
 
 @section('content')
     <?php /*
