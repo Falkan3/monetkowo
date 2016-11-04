@@ -126,7 +126,13 @@
 
 /* Media --------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1024px) {
+    .number-column svg {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .float-r {
         float: none;
     }
