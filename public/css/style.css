@@ -23,6 +23,7 @@
 .tile {
     min-height: 500px;
     padding: 0 60px;
+    overflow: auto;
 }
 .tile p {
     text-align: justify;
@@ -142,4 +143,5 @@
     .number-column svg {
         height: 100px;
     }
+    div.screen-height, section.screen-height {height: auto; min-height: 660px;}
 }
