@@ -85,8 +85,16 @@ $('.carousel img').each(function() {
 });
 
 $(window).on('resize', function (){
-    $wHeight = $(window).height();
-    $item.height($wHeight);
+    if($(window).width() > 768)
+    {
+        $wHeight = $(window).height();
+        $item.height($wHeight);
+    }
+    else
+    {
+        $wHeight = 662;
+        $item.height($wHeight);
+    }
 });
 
 $('.carousel').carousel({

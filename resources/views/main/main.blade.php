@@ -19,12 +19,17 @@
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active bgded overlay">
-                    <img src="{{ URL::asset('images/demo/backgrounds/stock1.jpg')}}" alt="Chania">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider1.jpg')}}" alt="Chania">
                     <div class="carousel-caption">
                         <h3>Chania</h3>
                         <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
@@ -32,7 +37,47 @@
                 </div>
 
                 <div class="item bgded overlay">
-                    <img src="{{ URL::asset('images/demo/backgrounds/stock2.jpeg')}}" alt="Chania">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider2.jpg')}}" alt="Chania">
+                    <div class="carousel-caption">
+                        <h3>Chania</h3>
+                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    </div>
+                </div>
+
+                <div class="item bgded overlay">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg')}}" alt="Chania">
+                    <div class="carousel-caption">
+                        <h3>Chania</h3>
+                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    </div>
+                </div>
+
+                <div class="item bgded overlay">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider4.jpg')}}" alt="Chania">
+                    <div class="carousel-caption">
+                        <h3>Chania</h3>
+                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    </div>
+                </div>
+
+                <div class="item bgded overlay">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider5.jpg')}}" alt="Chania">
+                    <div class="carousel-caption">
+                        <h3>Chania</h3>
+                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    </div>
+                </div>
+
+                <div class="item bgded overlay">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider6.jpg')}}" alt="Chania">
+                    <div class="carousel-caption">
+                        <h3>Chania</h3>
+                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    </div>
+                </div>
+
+                <div class="item bgded overlay">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider7.jpg')}}" alt="Chania">
                     <div class="carousel-caption">
                         <h3>Chania</h3>
                         <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
