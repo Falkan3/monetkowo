@@ -14,6 +14,7 @@
     </section>
  */ ?>
     <section id="page_intro" class="screen-height">
+        <img id="loading" src="{{asset('images/ajax-loader.gif')}}" alt="loading..." />
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -99,6 +100,44 @@
 
     <section id="page_2" class="">
         <div class="content">
+            <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_2">
+                <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon" />
+                <h1><span class="color_one">Abonament</span> za Internet</h1>
+                <div class="separator white"></div>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+            </div>
+            <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
+                <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon" />
+                <h1><span class="color_two">Rachunek</span> telefoniczny</h1>
+                <div class="separator"></div>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+            </div>
+            <!-- two -->
+            <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
+                <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon" />
+                <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
+                <div class="separator"></div>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+            </div>
+            <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_1">
+                <img src="{{asset('images/demo/KONTO-BANKOWE.png')}}" alt="icon" class="icon" />
+                <h1><span class="color_two">Konto</span> bankowe</h1>
+                <div class="separator white"></div>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="page_3" class="">
+        <div class="content">
             <h1>Jak to działa</h1>
             <div class="container btmspace-80">
                 <div class="col-sm-12 col-sm-4 col-md-4 number-column right-line" number-data="1"></div>
@@ -121,40 +160,6 @@
                 <div class="col-sm-12 col-sm-8 col-md-8 number-column-vertical-center">
                     <h2>Testowy tekst</h2>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="page_3" class="">
-        <div class="content">
-            <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_2">
-                <h1>TEST</h1>
-                <div class="separator white"></div>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-            </div>
-            <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
-                <h1>TEST</h1>
-                <div class="separator"></div>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-            </div>
-            <!-- two -->
-            <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
-                <h1>TEST</h1>
-                <div class="separator"></div>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-            </div>
-            <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_1">
-                <h1>TEST</h1>
-                <div class="separator white"></div>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
             </div>
         </div>
     </section>

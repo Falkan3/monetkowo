@@ -396,6 +396,28 @@ header .content {
     color: #374565;
 }
 
+.content .tile h1::first-letter {
+    font-size: inherit;
+    font-weight: bold;
+    color: inherit;
+}
+
+span.color_one {
+    color: #1baca2;
+}
+
+span.color_two {
+    color: #3a4264;
+}
+
+#loading {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: none;
+}
+
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */
 table, th, td {

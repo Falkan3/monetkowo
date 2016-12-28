@@ -97,7 +97,16 @@ $(window).on('resize', function (){
     }
 });
 
-$('.carousel').carousel({
-    interval: 6000,
-    pause: "false"
+var loadings = $('#loading');
+
+$(window).on("beforeload", function(){
+    loadings.show();
+});
+
+$(window).on("load", function(){
+    loadings.hide();
+    $('.carousel').carousel({
+        interval: 6000,
+        pause: "false"
+    });
 });

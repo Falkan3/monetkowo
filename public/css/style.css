@@ -21,9 +21,15 @@
 }
 
 .tile {
-    min-height: 500px;
-    padding: 0 60px;
+    min-height: 550px;
+    padding: 45px 60px;
     overflow: auto;
+    text-align: left;
+}
+.tile h1 {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
 }
 .tile p {
     text-align: justify;
@@ -49,6 +55,10 @@
 
 .tile .separator.white {
     border-color: #fff;
+}
+
+.tile .icon {
+    max-width: 125px;
 }
 
 .tile_color_1 {
