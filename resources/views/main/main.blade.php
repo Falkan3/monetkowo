@@ -14,21 +14,21 @@
     </section>
  */ ?>
     <section id="page_intro" class="screen-height">
-        <img id="loading" src="{{asset('images/ajax-loader.gif')}}" alt="loading..." />
+        <img id="loading" src="{{asset('images/ajax-loader.gif')}}" alt="loading..."/>
+        <div class="big_logo_container">
+            <img src="{{ URL::asset('images/logo.png') }}" />
+        </div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-                <li data-target="#myCarousel" data-slide-to="5"></li>
-                <li data-target="#myCarousel" data-slide-to="6"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
+                <?php /*
                 <div class="item active bgded overlay">
                     <img src="{{ URL::asset('images/demo/backgrounds/slider1.jpg')}}" alt="Chania">
                     <div class="carousel-caption">
@@ -36,23 +36,25 @@
                         <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
                     </div>
                 </div>
+                */ ?>
 
-                <div class="item bgded overlay">
-                    <img src="{{ URL::asset('images/demo/backgrounds/slider2.jpg')}}" alt="Chania">
+                <div class="item active bgded overlay">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider2.jpg')}}" alt="slajd1">
                     <div class="carousel-caption">
-                        <h3>Chania</h3>
-                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                        <h3>Skorzystaj z rad doradców i negocjuj kwoty swoich rachunków</h3>
+                        <a href="#" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
 
                 <div class="item bgded overlay">
-                    <img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg')}}" alt="Chania">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg')}}" alt="slajd2">
                     <div class="carousel-caption">
-                        <h3>Chania</h3>
-                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                        <h3>Przełącz się z nami na wyższy poziom oszczędzania</h3>
+                        <a href="#" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
 
+                <?php /*
                 <div class="item bgded overlay">
                     <img src="{{ URL::asset('images/demo/backgrounds/slider4.jpg')}}" alt="Chania">
                     <div class="carousel-caption">
@@ -68,15 +70,17 @@
                         <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
                     </div>
                 </div>
+                */ ?>
 
                 <div class="item bgded overlay">
-                    <img src="{{ URL::asset('images/demo/backgrounds/slider6.jpg')}}" alt="Chania">
+                    <img src="{{ URL::asset('images/demo/backgrounds/slider6.jpg')}}" alt="slajd3">
                     <div class="carousel-caption">
-                        <h3>Chania</h3>
-                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                        <h3>Minimalizuj koszty swojego domowego budżetu</h3>
+                        <a href="#" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
 
+                <?php /*
                 <div class="item bgded overlay">
                     <img src="{{ URL::asset('images/demo/backgrounds/slider7.jpg')}}" alt="Chania">
                     <div class="carousel-caption">
@@ -84,6 +88,7 @@
                         <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
                     </div>
                 </div>
+                */ ?>
             </div>
 
             <!-- Left and right controls -->
@@ -101,37 +106,41 @@
     <section id="page_2" class="">
         <div class="content">
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_2">
-                <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon" />
+                <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
                 <h1><span class="color_one">Abonament</span> za Internet</h1>
                 <div class="separator white"></div>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p class="btn">WIĘCEJ</p>
             </div>
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
-                <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon" />
+                <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon"/>
                 <h1><span class="color_two">Rachunek</span> telefoniczny</h1>
                 <div class="separator"></div>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p class="btn">WIĘCEJ</p>
             </div>
             <!-- two -->
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
-                <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon" />
+                <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon"/>
                 <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
                 <div class="separator"></div>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p class="btn">WIĘCEJ</p>
             </div>
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_1">
-                <img src="{{asset('images/demo/KONTO-BANKOWE.png')}}" alt="icon" class="icon" />
+                <img src="{{asset('images/demo/KONTO-BANKOWE.png')}}" alt="icon" class="icon"/>
                 <h1><span class="color_two">Konto</span> bankowe</h1>
                 <div class="separator white"></div>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p class="btn">WIĘCEJ</p>
             </div>
         </div>
     </section>

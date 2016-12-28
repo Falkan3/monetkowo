@@ -9,20 +9,25 @@ body, input, textarea, select {
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
+/*
 #header {
     padding-top: 20px;
 }
+*/
 
-#header #logo {
+header #logo {
     width: auto;
     height: auto;
+    display: none;
 }
 
+/*
 #header #logo h1 {
     margin: 10px 0 0 0;
     padding: 0;
     font-size: 32px;
 }
+*/
 
 header nav .wrapper {
     height: 100%;
@@ -47,7 +52,7 @@ header nav .wrapper:after, header nav .wrapper:before {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background-color: #fff;
 }
 
 header nav, header nav ul {
@@ -57,6 +62,7 @@ header nav, header nav ul {
 header nav ul {
     width: 100%;
     margin: 0;
+    background-color: #fff;
 }
 
 header nav ul li {
@@ -67,7 +73,6 @@ header nav ul li {
     height: 100%;
     text-align: center;
     border-right: 2px solid #d7d7d7;
-    background: #fff;
     box-sizing: border-box;
     text-transform: uppercase;
     position: relative;
@@ -78,7 +83,6 @@ header nav ul li {
 header nav ul li:first-child {
     width: 30%;
     border-right: none;
-    background: transparent;
     box-sizing: content-box;
     margin: 0 1.25%;
     padding-top: 0;
@@ -136,6 +140,10 @@ header.shrink {
     height: 60px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
+}
+
+header.shrink #logo {
+    display: block;
 }
 
 header.shrink nav img {
@@ -202,6 +210,10 @@ header nav ul li a {
     width: 100%;
 }
 
+header nav ul li a:focus {
+    text-decoration: none;
+}
+
 header.shrink nav ul li:first-child {
     padding-top: 0;
 }
@@ -214,6 +226,45 @@ header nav ul li.active a, header nav ul li:last-child a.active {
     margin-bottom: 15px;
     font-size: 80px;
     color: #fff;
+}
+
+.big_logo_container {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+.big_logo_container img {
+    position: relative;
+    left: -50%;
+    min-width: 300px;
+    z-index: 1;
+}
+
+.btn {
+     display: inline-block;
+     padding: 15px 25px 17px;
+     text-transform: uppercase;
+     border: 1px solid #fff;
+     text-decoration: none;
+     color: #fff;
+     margin: 10px 0;
+ }
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.tile.tile_color_3 .btn {
+    border: 1px solid #3a4264;
+}
+.tile.tile_color_3 .btn:hover {
+    background-color: #3a4264;
+    color: #fff;
+}
+
+.tile.tile_color_1 .btn {
+    border: 1px solid #fff;
 }
 
 /*
@@ -229,7 +280,7 @@ header .content {
         height: 40px !important;
         -webkit-transform: translateY(0) !important;
         transform: translateY(0) !important;
-        top: 12px !important;
+        top: 0 !important;
         -webkit-transition: none !important;
         transition: none !important;
     }
@@ -239,6 +290,10 @@ header .content {
         padding: 8px 0;
         width: 100%;
         text-decoration: none;
+    }
+
+    header #logo {
+        display: block;
     }
 
     header.shrink nav ul li a {

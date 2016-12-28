@@ -6,6 +6,28 @@ $("#backtotop").click(function (e) {
     return false;
 });
 
+$("a.anchor").click(function (e) {
+    var dest = $(this).attr('href');
+    if(dest[0]=='#')
+    {
+        e.preventDefault();
+        if(dest=='#top')
+        {
+            $("body,html").animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        }
+        else
+        {
+            $("body,html").animate({
+                scrollTop: $(dest).offset().top-30
+            }, 600);
+            return false;
+        }
+    }
+});
+
 $(window).scroll(function () {
     if ($(window).scrollTop() > 150) {
         $("#backtotop").addClass("visible");

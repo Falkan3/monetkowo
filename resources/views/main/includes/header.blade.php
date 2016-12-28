@@ -2,9 +2,9 @@
     <nav>
         <div class="wrapper">
             <ul>
-                <li><img id="logo" src="{{ URL::asset('images/logo.png') }}"/></li>
-                <li class="absolute-middle"><a href="#">O nas</a></li>
-                <li class="absolute-middle"><a href="#">Jak działamy</a></li>
+                <li><a href="#top" class="anchor"><img id="logo" src="{{ URL::asset('images/logo.png') }}"/></a></li>
+                <li class="absolute-middle anchor"><a href="#">O nas</a></li>
+                <li class="absolute-middle anchor"><a href="#page_2">Jak działamy</a></li>
                 <li>
                     <b></b>
                     <div>
