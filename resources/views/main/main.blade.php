@@ -116,7 +116,7 @@
             </div>
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
                 <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon"/>
-                <h1><span class="color_two">Rachunek</span> telefoniczny</h1>
+                <h1><span class="color_one">Rachunek</span> telefoniczny</h1>
                 <div class="separator"></div>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
@@ -126,7 +126,7 @@
             <!-- two -->
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
                 <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon"/>
-                <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
+                <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
                 <div class="separator"></div>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>

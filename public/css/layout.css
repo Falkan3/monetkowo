@@ -147,6 +147,7 @@ header.shrink {
 header.shrink #logo {
     visibility: visible;
     opacity: 1;
+    padding: 7px;
 }
 
 header.shrink nav img {
