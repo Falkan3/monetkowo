@@ -1,7 +1,11 @@
 var loadings = $('#loading');
+var carousel = $('#myCarousel');
+
+carousel.css('visibility', 'hidden');
+loadings.show();
 
 $(document).ready(function(e) {
-    loadings.show();
+
 });
 
 //ANCHORS -------------------------------------------------------
@@ -135,4 +139,5 @@ $(window).on("load", function(){
         interval: 6000,
         pause: "false"
     });
+    carousel.css('visibility', 'visible');
 });
