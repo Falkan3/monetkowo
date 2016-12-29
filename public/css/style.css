@@ -39,6 +39,9 @@
 .tile p {
     text-align: justify;
 }
+.tile .btn {
+    padding: 6px 45px;
+}
 
 .tile .separator-clear {
     clear: both;
@@ -65,7 +68,7 @@
 .tile .icon {
     max-height: 80px;
     float: left;
-    margin-right: 35px;
+    margin-right: 50px;
 }
 
 .tile_color_1 {

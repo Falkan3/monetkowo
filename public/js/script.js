@@ -1,3 +1,11 @@
+var loadings = $('#loading');
+
+$(document).ready(function(e) {
+    loadings.show();
+});
+
+//ANCHORS -------------------------------------------------------
+
 $("#backtotop").click(function (e) {
     e.preventDefault();
     $("body,html").animate({
@@ -27,6 +35,8 @@ $("a.anchor").click(function (e) {
         }
     }
 });
+
+//ANCHORS /--------------------------------------------------------
 
 $(window).scroll(function () {
     if ($(window).scrollTop() > 150) {
@@ -117,12 +127,6 @@ $(window).on('resize', function (){
         $wHeight = 662;
         $item.height($wHeight);
     }
-});
-
-var loadings = $('#loading');
-
-$(window).on("beforeload", function(){
-    loadings.show();
 });
 
 $(window).on("load", function(){
