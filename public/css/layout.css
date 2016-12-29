@@ -245,26 +245,44 @@ header nav ul li.active a, header nav ul li:last-child a.active {
      padding: 15px 25px 17px;
      text-transform: uppercase;
      border: 1px solid #fff;
+     border-radius: 0;
      text-decoration: none;
-     color: #fff;
+     color: #000;
      margin: 10px 0;
+     background-color: #fff;
  }
 
 .btn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.tile.tile_color_2 .btn {
+    border: 1px solid #fff;
     background-color: #fff;
-    color: #000;
+    color: #3a4264;
+}
+.tile.tile_color_2 .btn:hover {
+    background-color: transparent;
+    color: #fff;
 }
 
 .tile.tile_color_3 .btn {
     border: 1px solid #3a4264;
-}
-.tile.tile_color_3 .btn:hover {
     background-color: #3a4264;
     color: #fff;
+}
+.tile.tile_color_3 .btn:hover {
+    background-color: transparent;
+    color: #3a4264;
 }
 
 .tile.tile_color_1 .btn {
     border: 1px solid #fff;
+    color: #1baca2;
+}
+.tile.tile_color_1 .btn:hover {
+    color: #fff;
 }
 
 /*
