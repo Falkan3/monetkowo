@@ -31,6 +31,10 @@
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 50px;
+    height: 110px;
+    vertical-align: middle;
+    margin-top: 0;
+    display: table-cell;
 }
 .tile p {
     text-align: justify;
@@ -48,7 +52,7 @@
 
 .tile .separator {
     border-top: 2px solid #000;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
     max-width: 10%;
@@ -59,7 +63,7 @@
 }
 
 .tile .icon {
-    max-height: 125px;
+    max-height: 100px;
     float: left;
     margin-right: 20px;
 }
@@ -90,6 +94,10 @@
 
 .tile_color_2 h1:first-letter {
     color: #1baca2;
+}
+
+.one-line {
+    white-space: nowrap;
 }
 
 /*

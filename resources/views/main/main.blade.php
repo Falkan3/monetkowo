@@ -16,7 +16,7 @@
     <section id="page_intro" class="screen-height">
         <img id="loading" src="{{asset('images/ajax-loader.gif')}}" alt="loading..."/>
         <div class="big_logo_container">
-            <img src="{{ URL::asset('images/logo.png') }}" />
+            <img src="{{ URL::asset('images/logo-big.png') }}" />
         </div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -107,7 +107,7 @@
         <div class="content">
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_2">
                 <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
-                <h1><span class="color_one">Abonament</span> za Internet</h1>
+                <h1><span class="color_one">Abonament</span> <span class="one-line">za Internet</span></h1>
                 <div class="separator white"></div>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
                 <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
