@@ -7,6 +7,20 @@ body, input, textarea, select {
     line-height: 1.6em;
 }
 
+.page {
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+.page:last-child {
+    margin-bottom: 0;
+}
+
+.narrow-paragraph {
+    max-width: 700px;
+    text-align: justify;
+}
+
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 /*
@@ -255,6 +269,7 @@ header nav ul li.active a, header nav ul li:last-child a.active {
     margin-bottom: 50px;
 }
 
+
 .btn {
      display: inline-block;
      padding: 10px 35px;
@@ -474,6 +489,7 @@ header .content {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     margin: 30px 40px;
+    text-transform: uppercase;
 }
 
 .content p {
@@ -512,6 +528,50 @@ span.color_two {
     left: 49%;
     top: 45%;
     position: absolute;
+}
+
+section:last-child {
+    margin-bottom: 120px;
+}
+
+div.background {
+    background-color: #333;
+    min-height: 200px;
+}
+
+#contact-form input[type="text"], #contact-form textarea {
+    width: 100%;
+    height: 65px;
+    border: 2px solid #000;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#contact-form input[type="text"]:last-child, #contact-form textarea:last-child {
+    margin-bottom: 0;
+}
+
+#contact-form textarea {
+    height: 100%;
+    width: 100%;
+}
+
+#contact-form .btn {
+    width: 100%;
+}
+
+.footer-container {
+    min-height: 80px;
+    padding: 15px 0;
+    background-color: #13a89e;
+}
+
+.footer-container p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 25px;
+    color: #fff;
+    font-weight: bold;
 }
 
 /* Tables
@@ -608,5 +668,44 @@ td {
     color: inherit;
 }
 
+/*footer */
+
+footer .flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .flex-container .flex-center {
+    align-self: center;
+}
+
+/* /footer */
+
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 993px) {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex-container .flex-center {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        bottom: 140px;
+    }
+
+    #contact-form > div {
+        padding: 0;
+    }
+
+    footer .footer-container p {
+        display: block;
+        text-align: center;
+    }
+}

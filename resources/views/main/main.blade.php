@@ -16,7 +16,7 @@
     <section id="page_intro" class="screen-height">
         <img id="loading" src="{{asset('images/ajax-loader.gif')}}" alt="loading..."/>
         <div class="big_logo_container">
-            <img src="{{ URL::asset('images/logo-big.png') }}" />
+            <img src="{{ URL::asset('images/logo-big.png') }}"/>
         </div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -102,25 +102,22 @@
             </a>
         </div>
     </section>
-
-    <section id="page_2" class="">
-        <div class="content">
+    <div class="content">
+        <section id="page_1" class="page">
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_2">
                 <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
                 <h1><span class="color_one">Abonament</span> <span class="one-line">za Internet</span></h1>
                 <div class="separator white"></div>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj z najkorzystniejszych
+                    aktualnie promocji i obniż swój abonament za Internet.</p>
                 <p class="btn">WIĘCEJ</p>
             </div>
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_3">
                 <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon"/>
                 <h1><span class="color_one">Rachunek</span> telefoniczny</h1>
                 <div class="separator"></div>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Czy Twój rachunek telefoniczny spędza Ci sen z powiek? Nie musi! Teraz to dziecinnie proste.
+                    Podpowiemy Ci w kilku krokach co zrobić , by spać spokojnie.</p>
                 <p class="btn">WIĘCEJ</p>
             </div>
             <!-- two -->
@@ -128,50 +125,112 @@
                 <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon"/>
                 <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
                 <div class="separator"></div>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie Ci jak
+                    negocjować z bankiem raty kredytu.</p>
                 <p class="btn">WIĘCEJ</p>
             </div>
             <div class="col-sm-12 col-sm-6 col-md-6 tile tile_color_1">
                 <img src="{{asset('images/demo/KONTO-BANKOWE.png')}}" alt="icon" class="icon"/>
                 <h1><span class="color_two">Konto</span> bankowe</h1>
                 <div class="separator white"></div>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
-                <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+                <p>Czy wciąż płacisz za prowadzenie swojego konta? Zrezygnuj z opłat! Skorzystaj z wiedzy naszych
+                    analityków i wybierz konto najlepsze na rynku.</p>
                 <p class="btn">WIĘCEJ</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="page_3" class="">
-        <div class="content">
-            <h1>Jak to działa</h1>
-            <div class="container btmspace-80">
-                <div class="col-sm-12 col-sm-4 col-md-4 number-column right-line" number-data="1"></div>
-                <div class="col-sm-12 col-sm-8 col-md-8 number-column-vertical-center">
-                    <h2>Testowy tekst</h2>
+        <section id="page_2" class="page">
+            <div class="container">
+                <h1>Tylko 3 proste kroki dzielą Cię aby zupełnie za darmo obniżyć swoje miesięczne wydatki!</h1>
+                <div class="container btmspace-80 flex-container">
+                    <div class="col-sm-12 col-md-6 flex-container">
+                        <div class="col-sm-12 col-md-6 number-column right-line" number-data="1"></div>
+                        <div class="col-sm-12 col-md-6 flex-center">
+                            <h2><span class="header_one">Formularz</span> kontaktowy</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 number-column-vertical-center flex-center">
+                        <p>Wybierz kategorię , która Cię interesuje i kliknij w przycisk "Dowiedz się więcej". Wpisz
+                            poprawne dane do formularza kontaktowego i prześlij do nas zgłoszenie.</p>
+                    </div>
+                </div>
+
+                <div class="container btmspace-80">
+                    <div class="col-sm-12 col-md-6 margin-vertical medium mobile">
+                        <img src="https://www.topposition.eu/wp-content/uploads/2014/11/rakieta-topposition-compressor.png"/>
+                    </div>
+                    <div class="container margin-top-big no-margin-mobile">
+                        <div class="col-sm-12 col-md-6 flex-container float-r">
+                            <div class="col-sm-12 col-md-6 number-column left-line col-lg-push-6" number-data="2"></div>
+                            <div class="col-sm-12 col-md-6 col-lg-pull-6 flex-center">
+                                <h2><span class="header_one">Rozmowa</span><span
+                                            class="text-nowrap">z konsultantem</span></h2>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 number-column-vertical-center">
+                            <p class="margin-vertical medium">Poczekaj na kontakt konsultanta. Po przesłaniu zgłoszenia
+                                będziemy do Ciebie dzwonić w celu
+                                uzupełnienia informacji.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="container btmspace-80 flex-container">
+                    <div class="col-sm-12 col-sm-12 col-md-6 flex-container">
+                        <div class="col-sm-12 col-md-6 number-column right-line" number-data="3"></div>
+                        <div class="col-sm-12 col-md-6 flex-center">
+                            <h2>Wybór <span class="text-nowrap">i <span class="header_one">negocjacje</span></span>
+                                oferty</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 number-column-vertical-center flex-center">
+                        <p>Na podstawie podanych przez Ciebie danych, przedstawimy Ci ofertę dopasowaną do Twoich
+                            potrzeb. Pomożemy Ci również w negocjowaniu warunków wybranej przez Ciebie oferty.</p>
+                    </div>
+                </div>
+
+                <h3>Tylko tyle aby ograniczyć wydatki i zaoszczędzone pieniądze przeznaczyć na dowolnie wybrany przez
+                    Ciebie cel.</h3>
+            </div>
+        </section>
+
+        <section id="page_3" class="page">
+            <div class="container">
+                <h1>O nas</h1>
+                <p class="narrow-paragraph center-block"><span class="header_one normal-size">Monetkowo</span><span
+                            class="header_two normal-size">.pl</span> to zespół analityków i doradców poszukujących
+                    najkorzystniejszych dla klientów ofert
+                    zarówno z branży finansowej jak i poza finansowej. Dbamy o to by produkty były dopasowane do potrzeb
+                    naszych klientów. Podpowiadamy w jaki sposób obniżyć wysokość miesięcznych rachunków czy też
+                    zmniejszyć ogólne koszty kredytu. </p>
+            </div>
+        </section>
+
+        <section id="page_4" class="page">
+            <div class="container">
+                <h1>Skontaktuj się z nami!</h1>
+                <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
+                <div class="container margin-vertical medium">
+                    {!! Form::open(['url' => 'contactform', 'id' => 'contact-form', 'class' => 'same-height']) !!}
+                    <div class="col-xs-12 col-sm-6 scalable" style="height: 305px;">
+                        {{Form::text('first_name', '', ['placeholder' => 'Twoje imię', 'maxlength' => 25])}}
+                        {{Form::text('email', '', ['placeholder' => 'E-mail', 'maxlength' => 50])}}
+                        {{Form::text('tel', '', ['placeholder' => 'Numer telefonu', 'maxlength' => 20])}}
+                        {{Form::text('subject', '', ['placeholder' => 'Temat', 'maxlength' => 25])}}
+                    </div>
+                    <div class="col-xs-12 col-sm-6 scalable margin-on-mobile" style="height: 305px;">
+                        {{Form::textarea('contents', '', ['placeholder' => 'Treść wiadomości', 'maxlength' => 250])}}
+                    </div>
+                    <div class="col-xs-12 col-sm-6" style="float: right">
+                        {{ Form::submit('Wyślij', ['class' => 'btn'])}}
+                    </div>
+                    {!! Form::close() !!}
                 </div>
             </div>
-
-            <div class="container btmspace-80">
-                <div class="number-container">
-                    <div class="col-sm-6 col-sm-4 col-md-4 number-column left-line float-r" number-data="2"></div>
-                </div>
-                <div class="col-sm-12 col-sm-8 col-md-8 number-column-vertical-center">
-                    <h2>Testowy tekst</h2>
-                </div>
-            </div>
-
-            <div class="container btmspace-80">
-                <div class="col-sm-12 col-sm-4 col-md-4 number-column right-line" number-data="3"></div>
-                <div class="col-sm-12 col-sm-8 col-md-8 number-column-vertical-center">
-                    <h2>Testowy tekst</h2>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 @stop
 
 <?php /*

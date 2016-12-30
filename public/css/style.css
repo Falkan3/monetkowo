@@ -8,7 +8,7 @@
 }
 
 .number-column-vertical-center h2 {
-    padding: 90px 0;
+    padding: 70px 0 20px 0;
     margin: 0;
 }
 
@@ -41,6 +41,7 @@
 }
 .tile .btn {
     padding: 6px 45px;
+    margin-top: 60px;
 }
 
 .tile .separator-clear {
@@ -149,15 +150,89 @@
     background-repeat: no-repeat;
 }
 
+#page_2 p, #page_2 h2 {
+    text-align: left;
+}
+
+#page_2 .float-r p, #page_2 .float-r h2 {
+    text-align: left;
+}
+
+#page_2 h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+span.header_one {
+    color: #13a89e;
+    font-size: 52px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+span.header_two {
+    color: #374565;
+    font-size: 52px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+span.header_one.normal-size, span.header_two.normal-size {
+    font-size: inherit;
+}
+
 /* Media --------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+    .number-column svg {
+        height: 175px;
+    }
+
+    #page_2 h2 {
+        font-size: 32px;
+    }
+
+    span.header_one {
+        font-size: 42px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .number-column svg {
         height: 150px;
     }
+    #page_2 h2 {
+        padding: 20px 0 20px 0;
+    }
+
+    #page_2 h2 {
+        font-size: 26px;
+    }
+
+    span.header_one {
+        font-size: 30px;
+    }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 992px) {
+    #page_2 h2 {
+        padding: 20px 0 20px 0;
+    }
+    #page_2 h2 {
+        font-size: 24px;
+    }
+
+    span.header_one {
+        font-size: 28px;
+    }
+
+    #page_2 p, #page_2 h2, #page_2 .float-r p, #page_2 .float-r h2 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
     .float-r {
         float: none;
     }
