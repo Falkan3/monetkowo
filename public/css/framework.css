@@ -24,6 +24,7 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em; width: 100%; 
 .btn{display:inline-block; padding:15px 25px 17px; text-transform:uppercase; border:1px solid;}
 .center_mrg{margin-left:auto;margin-right:auto;}
 .margin-vertical.medium {margin: 40px 0;}
+.margin-vertical-medium {margin: 40px 0;}
 .margin-top-big {margin-top: 130px;}
 .padding-horizontal.medium {
     padding-left: 30px;
@@ -229,7 +230,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .no-margin-mobile {
         margin: 0 !important;
     }

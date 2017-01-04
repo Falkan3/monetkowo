@@ -488,8 +488,9 @@ header .content {
     color: #464646;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    margin: 30px 40px;
+    margin: 70px 40px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .content p {
@@ -517,6 +518,10 @@ span.color_one {
 
 span.color_two {
     color: #3a4264;
+}
+
+span.new-line {
+    display: block;
 }
 
 #loading {

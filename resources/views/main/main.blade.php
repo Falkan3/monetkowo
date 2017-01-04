@@ -141,7 +141,7 @@
 
         <section id="page_2" class="page text-left steps">
             <div class="container">
-                <h1>Tylko 3 proste kroki dzielą Cię aby zupełnie za darmo obniżyć swoje miesięczne wydatki!</h1>
+                <h1>Tylko 3 proste kroki dzielą Cię aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span></h1>
                 <div class="container-fluid btmspace-80 flex-container">
                     <div class="col-sm-12 col-md-6 flex-container">
                         <div class="col-sm-12 col-md-6 number-column right-line" number-data="1"></div>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
 
-                <div class="container btmspace-80">
+                <div class="container-fluid btmspace-80">
                     <div class="col-sm-12 col-md-6 margin-vertical medium mobile">
                         <img src="https://www.topposition.eu/wp-content/uploads/2014/11/rakieta-topposition-compressor.png"/>
                     </div>
@@ -169,7 +169,7 @@
                         </div>
 
                         <div class="col-sm-12 col-md-6">
-                            <p class="margin-vertical medium">Poczekaj na kontakt konsultanta. Po przesłaniu zgłoszenia
+                            <p class="margin-vertical-medium no-margin-mobile">Poczekaj na kontakt konsultanta. Po przesłaniu zgłoszenia
                                 będziemy do Ciebie dzwonić w celu
                                 uzupełnienia informacji.</p>
                         </div>
@@ -191,8 +191,8 @@
                     </div>
                 </div>
 
-                <h3>Tylko tyle aby ograniczyć wydatki i zaoszczędzone pieniądze przeznaczyć na dowolnie wybrany przez
-                    Ciebie cel.</h3>
+                <h1>Tylko tyle aby ograniczyć wydatki i zaoszczędzone pieniądze przeznaczyć na dowolnie wybrany przez
+                    Ciebie cel.</h1>
             </div>
         </section>
 
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6">
-                            <div class="flipper-height" style="background: url(http://localhost:8000/images/demo/backgrounds/slider1.jpg); background-size: cover;">
+                            <div class="flipper-height" style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
                             </div>
                         </div>
                     </div>
