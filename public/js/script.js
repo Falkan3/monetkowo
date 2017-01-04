@@ -5,7 +5,7 @@ carousel.css('visibility', 'hidden');
 loadings.show();
 
 $(document).ready(function (e) {
-
+    resize_flippers();
 });
 
 //ANCHORS -------------------------------------------------------
@@ -29,9 +29,17 @@ $("a.anchor").click(function (e) {
             return false;
         }
         else {
-            $("body,html").animate({
-                scrollTop: $(dest).offset().top - 30
-            }, 600);
+            if ($(window).scrollTop() > 150) {
+                $("body,html").animate({
+                    scrollTop: $(dest).offset().top - 70
+                }, 600);
+            }
+            else {
+                $("body,html").animate({
+                    scrollTop: $(dest).offset().top - 100
+                }, 600);
+            }
+
             return false;
         }
     }
@@ -131,6 +139,7 @@ $(window).on('resize', function () {
 
         reset_boxes();
     }
+    resize_flippers();
 });
 
 $(window).on("load", function () {
@@ -168,5 +177,17 @@ function reset_boxes() {
     same_height_container.each(function (e) {
         var boxes = $(this).find('div.scalable');
         boxes.height('auto');
+    });
+}
+
+var flippers = $('.flip-container');
+var flipper_height_items = $('.flipper-height');
+
+function resize_flippers() {
+    flippers.each(function(e) {
+        $(this).height($(this).width());
+    });
+    flipper_height_items.each(function(e) {
+        $(this).height(flippers.eq(0).height());
     });
 }

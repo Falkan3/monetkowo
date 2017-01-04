@@ -138,7 +138,7 @@ header {
     left: 0;
     width: 100%;
     color: #fff;
-    z-index: 3;
+    z-index: 16;
     height: 80px;
     overflow: hidden;
     -webkit-transition: height 0.3s;
@@ -262,7 +262,7 @@ header nav ul li.active a, header nav ul li:last-child a.active {
 .carousel-caption h3 {
     margin-bottom: 0;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 42px;
 }
 
 .carousel-caption .btn {
@@ -539,7 +539,7 @@ div.background {
     min-height: 200px;
 }
 
-#contact-form input[type="text"], #contact-form textarea {
+#contact-form input[type="text"], #contact-form textarea, #contact-form select {
     width: 100%;
     height: 65px;
     border: 2px solid #000;
@@ -547,7 +547,7 @@ div.background {
     margin-bottom: 15px;
 }
 
-#contact-form input[type="text"]:last-child, #contact-form textarea:last-child {
+#contact-form input[type="text"]:last-child, #contact-form textarea:last-child, #contact-form select:last-child {
     margin-bottom: 0;
 }
 
@@ -572,6 +572,9 @@ div.background {
     margin-right: 25px;
     color: #fff;
     font-weight: bold;
+}
+.footer-container a p:hover {
+    color: #3a4264;
 }
 
 /* Tables
@@ -675,9 +678,19 @@ footer .flex-container {
     justify-content: center;
 }
 
-footer .flex-container .flex-center {
+
+.flex-container-always {
+    display: flex;
+    justify-content: center;
+}
+.flex-container-always .flex-center {
     align-self: center;
 }
+
+.header-separator {
+    margin-top: 160px;
+}
+
 
 /* /footer */
 
@@ -695,9 +708,19 @@ footer .flex-container .flex-center {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .carousel-caption h3 {
+        font-size: 32px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .carousel-caption {
         bottom: 140px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 28px;
     }
 
     #contact-form > div {
@@ -707,5 +730,10 @@ footer .flex-container .flex-center {
     footer .footer-container p {
         display: block;
         text-align: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    .carousel-caption h3 {
+        font-size: 22px;
     }
 }

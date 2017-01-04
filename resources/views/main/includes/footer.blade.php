@@ -1,13 +1,13 @@
 <footer>
-    <div class="footer-container flex-container">
+    <div class="footer-container flex-container-always">
         <div class="container flex-center">
             <div class="col-xs-12 col-sm-4 margin-on-mobile">
                 <p>Copyright MONETKOWO.pl</p>
             </div>
             <div class="col-xs-12 col-sm-8" style="text-align: right">
-                <p>Polityka prywatności</p>
-                <p>Polityka cookies</p>
-                <p>Regulamin</p>
+                <a href="https://lp.monetkowo.pl/polityka-prywatnosci"><p>Polityka prywatności</p></a>
+                <a href="https://lp.monetkowo.pl/polityka-cookies"><p>Polityka cookies</p></a>
+                <a href="https://lp.monetkowo.pl/regulamin"><p>Regulamin</p></a>
             </div>
         </div>
     </div>

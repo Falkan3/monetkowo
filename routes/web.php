@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('main.main');
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
+Route::get('/kontakt', function () {
+    return view('main.contact');
 });
 
 Auth::routes();
