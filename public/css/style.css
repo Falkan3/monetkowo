@@ -296,6 +296,10 @@ span.header_one.normal-size, span.header_two.normal-size {
         height: auto;
         min-height: 660px;
     }
+    .tile h1 {
+        height: auto;
+        padding-top: 10px;
+    }
     .tile p {
         font-size: 16px;
     }

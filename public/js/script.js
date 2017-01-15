@@ -126,20 +126,22 @@ $('.carousel img').each(function () {
     $(this).remove();
 });
 
-$(window).on('resize', function () {
+function resizeContents() {
     if ($(window).width() > 768) {
         $wHeight = $(window).height();
         $item.height($wHeight);
-
         resize_boxes();
     }
     else {
         $wHeight = 662;
         $item.height($wHeight);
-
         reset_boxes();
     }
     resize_flippers();
+}
+
+$(window).on('resize', function () {
+    resizeContents();
 });
 
 $(window).on("load", function () {
@@ -152,8 +154,8 @@ $(window).on("load", function () {
 
     if ($(window).width() > 768) {
         boxes_init();
-        resize_boxes();
     }
+    resizeContents();
 });
 
 var same_height_container = $('.same-height');
