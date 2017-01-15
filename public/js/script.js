@@ -182,6 +182,7 @@ function reset_boxes() {
 
 var flippers = $('.flip-container');
 var flipper_height_items = $('.flipper-height');
+//var flippers_cards = flippers.find('.flipper');
 
 function resize_flippers() {
     flippers.each(function(e) {
@@ -191,3 +192,16 @@ function resize_flippers() {
         $(this).height(flippers.eq(0).height());
     });
 }
+
+flippers.hover(function(e) {
+   $(this).addClass('hover');
+});
+flippers.mouseleave(function(e) {
+    $(this).removeClass('hover');
+});
+
+/*
+flippers_cards.click(function(e) {
+    $(this).css('transform', 'rotateY(180deg)');
+});
+*/

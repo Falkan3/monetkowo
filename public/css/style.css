@@ -262,13 +262,20 @@ span.header_one.normal-size, span.header_two.normal-size {
         font-size: 20px;
     }
     .tile h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
     .tile .icon {
-        margin-right: 50px;
+        margin-right: 40px;
     }
     .steps .no-margin-mobile {
         margin: 0 !important;
+    }
+    .tile {
+        padding: 35px 50px;
+    }
+
+    .content h1 {
+        font-size: 32px;
     }
 }
 
@@ -288,5 +295,24 @@ span.header_one.normal-size, span.header_two.normal-size {
     div.screen-height, section.screen-height {
         height: auto;
         min-height: 660px;
+    }
+    .tile p {
+        font-size: 16px;
+    }
+    .tile h1 {
+        font-size: 30px;
+    }
+    .tile .icon {
+        margin-right: 0;
+        max-height: 70px;
+        display: block;
+        float: none;
+    }
+    .tile {
+        padding: 25px 35px;
+    }
+
+    .content h1 {
+        font-size: 26px;
     }
 }

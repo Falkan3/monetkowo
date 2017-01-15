@@ -174,7 +174,8 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
     perspective: 1000px;
 }
 /* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
+/* .flip-container:hover .flipper, */
+.flip-container.hover .flipper {
     transform: rotateY(180deg);
 }
 
