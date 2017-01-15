@@ -152,9 +152,7 @@ $(window).on("load", function () {
     });
     carousel.css('visibility', 'visible');
 
-    if ($(window).width() > 768) {
-        boxes_init();
-    }
+    boxes_init();
     resizeContents();
 });
 
