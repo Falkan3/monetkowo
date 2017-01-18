@@ -157,7 +157,7 @@
 
                 <div class="container-fluid btmspace-80">
                     <div class="col-sm-12 col-md-6 margin-vertical medium mobile">
-                        <img src="https://www.topposition.eu/wp-content/uploads/2014/11/rakieta-topposition-compressor.png"/>
+                        <img src="{{asset('images/demo/kroki_img.png')}}"/>
                     </div>
                     <div class="container-fluid margin-top-big no-margin-mobile">
                         <div class="col-sm-12 col-md-6 flex-container float-r">
