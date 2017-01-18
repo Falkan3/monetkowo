@@ -204,7 +204,7 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #9b8a30; background-size: cover;">
+                                         style="background: #69218f; background-size: cover;">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -218,7 +218,7 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #0E76A8; background-size: cover;">
+                                         style="background: #14a79d; background-size: cover;">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -238,7 +238,7 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #67b168; background-size: cover;">
+                                         style="background: #3b4165; background-size: cover;">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -252,7 +252,7 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #ac2925; background-size: cover;">
+                                         style="background: #69218f; background-size: cover;">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
