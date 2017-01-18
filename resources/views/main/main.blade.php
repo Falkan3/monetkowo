@@ -204,9 +204,9 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #0E76A8; background-size: cover;">
+                                         style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
                                         <!-- front content -->
-                                        <p class="flex-center">Lokata</p>
+                                        <?php /* <p class="flex-center">Lokata</p> */ ?>
                                     </div>
                                     <div class="back" style="background: #59c8ff; background-size: cover;">
                                         <!-- back content -->
@@ -218,9 +218,9 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #e78b00; background-size: cover;">
+                                         style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
                                         <!-- front content -->
-                                        <p class="flex-center">OC/AC</p>
+                                        <?php /* <p class="flex-center">OC/AC</p> */ ?>
                                     </div>
                                     <div class="back" style="background: #59c8ff; background-size: cover;">
                                         <!-- back content -->
@@ -238,9 +238,9 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #07a300; background-size: cover;">
+                                         style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
                                         <!-- front content -->
-                                        <p class="flex-center">Ubezp. na życie</p>
+                                        <?php /* <p class="flex-center">Ubezp. na życie</p> */ ?>
                                     </div>
                                     <div class="back" style="background: #59c8ff; background-size: cover;">
                                         <!-- back content -->
@@ -252,9 +252,9 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #434343; background-size: cover;">
+                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
                                         <!-- front content -->
-                                        <p class="flex-center">Konsolidacja</p>
+                                        <?php /* <p class="flex-center">Konsolidacja</p>*/ ?>
                                     </div>
                                     <div class="back" style="background: #59c8ff; background-size: cover;">
                                         <!-- back content -->
