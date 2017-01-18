@@ -204,11 +204,11 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
+                                         style="background: #9b8a30; background-size: cover;">
                                         <!-- front content -->
-                                        <?php /* <p class="flex-center">Lokata</p> */ ?>
+                                        <p class="flex-center">Lorem Ipsum</p>
                                     </div>
-                                    <div class="back" style="background: #59c8ff; background-size: cover;">
+                                    <div class="back" style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>
@@ -218,11 +218,11 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
+                                         style="background: #0E76A8; background-size: cover;">
                                         <!-- front content -->
-                                        <?php /* <p class="flex-center">OC/AC</p> */ ?>
+                                        <p class="flex-center">Lorem Ipsum</p>
                                     </div>
-                                    <div class="back" style="background: #59c8ff; background-size: cover;">
+                                    <div class="back" style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>
@@ -238,11 +238,11 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
+                                         style="background: #67b168; background-size: cover;">
                                         <!-- front content -->
-                                        <?php /* <p class="flex-center">Ubezp. na życie</p> */ ?>
+                                        <p class="flex-center">Lorem Ipsum</p>
                                     </div>
-                                    <div class="back" style="background: #59c8ff; background-size: cover;">
+                                    <div class="back" style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>
@@ -252,11 +252,11 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                         style="background: #ac2925; background-size: cover;">
                                         <!-- front content -->
-                                        <?php /* <p class="flex-center">Konsolidacja</p>*/ ?>
+                                        <p class="flex-center">Lorem Ipsum</p>
                                     </div>
-                                    <div class="back" style="background: #59c8ff; background-size: cover;">
+                                    <div class="back" style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>
