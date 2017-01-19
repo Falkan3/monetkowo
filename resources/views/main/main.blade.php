@@ -204,7 +204,7 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #69218f; background-size: cover;">
+                                         style="background: #c5c3c6; background-size: cover;">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -252,7 +252,7 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
-                                         style="background: #69218f; background-size: cover;">
+                                         style="background: #c5c3c6; background-size: cover;">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
