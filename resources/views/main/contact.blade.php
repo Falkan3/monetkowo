@@ -8,7 +8,7 @@
         <section id="page_1" class="page">
             <div class="container">
                 <h1>O nas</h1>
-                <p class="narrow-paragraph center-block"><span class="header_one normal-size">Monetkowo</span><span
+                <p class="narrow-paragraph center-block line-height-150"><span class="header_one normal-size">Monetkowo</span><span
                             class="header_two normal-size">.pl</span> to zespół analityków i doradców poszukujących
                     najkorzystniejszych dla klientów ofert
                     zarówno z branży finansowej jak i poza finansowej. Dbamy o to by produkty były dopasowane do potrzeb
@@ -19,7 +19,7 @@
 
         <section id="page_2" class="page">
             <div class="container">
-                <h1>Skontaktuj się z nami!</h1>
+                <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
                 <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
                 <div class="container-fluid margin-vertical medium">
                     {!! Form::open(['url' => 'contactform', 'id' => 'contact-form', 'class' => 'same-height']) !!}
@@ -33,7 +33,7 @@
                         {{Form::textarea('contents', '', ['placeholder' => 'Treść wiadomości', 'maxlength' => 250])}}
                     </div>
                     <div class="col-xs-12 col-sm-6" style="float: right">
-                        {{ Form::submit('Wyślij', ['class' => 'btn'])}}
+                        {{ Form::submit('Wyślij', ['class' => 'btn alternative'])}}
                     </div>
                     {!! Form::close() !!}
                 </div>

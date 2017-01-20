@@ -141,7 +141,7 @@
 
         <section id="page_2" class="page text-left steps">
             <div class="container">
-                <h1>Tylko 3 proste kroki dzielą Cię aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span></h1>
+                <h1>Tylko 3 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span></h1>
                 <div class="container-fluid btmspace-80 flex-container line-height-150">
                     <div class="col-sm-12 col-md-6 flex-container">
                         <div class="col-sm-12 col-md-6 number-column right-line" number-data="1"></div>
@@ -150,8 +150,8 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 flex-center">
-                        <p>Wybierz kategorię , która Cię interesuje i kliknij w przycisk "Dowiedz się więcej". Wpisz
-                            poprawne dane do formularza kontaktowego i prześlij do nas zgłoszenie.</p>
+                        <p>Wybierz kategorię , która Cię interesuje i kliknij <span class="no-wrap">w przycisk</span> "Dowiedz się więcej". Wpisz
+                            poprawne dane do formularza kontaktowego i prześlij <span class="no-wrap">do nas</span> zgłoszenie.</p>
                     </div>
                 </div>
 
@@ -170,7 +170,7 @@
 
                         <div class="col-sm-12 col-md-6">
                             <p class="margin-vertical-medium no-margin-mobile">Poczekaj na kontakt konsultanta. Po przesłaniu zgłoszenia
-                                będziemy do Ciebie dzwonić w celu
+                                będziemy <span class="no-wrap">do Ciebie</span> dzwonić w celu
                                 uzupełnienia informacji.</p>
                         </div>
                     </div>
@@ -191,8 +191,8 @@
                     </div>
                 </div>
 
-                <h1>Tylko tyle aby ograniczyć wydatki i zaoszczędzone pieniądze przeznaczyć na dowolnie wybrany przez
-                    Ciebie cel.</h1>
+                <h1>Tylko tyle aby <span class="header_one">ograniczyć wydatki</span> <span class="new-line">i zaoszczędzone pieniądze przeznaczyć</span> <span class="new-line">na dowolnie wybrany przez
+                    Ciebie cel.</span></h1>
             </div>
         </section>
 
@@ -286,7 +286,7 @@
 
         <section id="page_4" class="page">
             <div class="container">
-                <h1>Skontaktuj się z nami!</h1>
+                <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
                 <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
                 <div class="container-fluid margin-vertical medium">
                     {!! Form::open(['url' => 'contactform', 'id' => 'contact-form', 'class' => 'same-height']) !!}

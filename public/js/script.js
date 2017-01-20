@@ -200,6 +200,23 @@ flippers.mouseleave(function(e) {
     $(this).removeClass('hover');
 });
 
+//Make first option grey in select
+var selects = $('#contact-form select');
+selects.css('color', '#999');
+selects.change(function(e) {
+    if(this.selectedIndex == 0) {
+        $(this).css('color', '#999');
+    }
+    else {
+        $(this).css('color', '#000');
+    }
+});
+var selects_option_first = $('#contact-form select option:first');
+selects_option_first.each(function() {
+    $(this).attr('disabled', true);
+});
+
+
 /*
 flippers_cards.click(function(e) {
     $(this).css('transform', 'rotateY(180deg)');

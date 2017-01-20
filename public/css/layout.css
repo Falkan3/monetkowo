@@ -543,6 +543,9 @@ span.color_two {
 span.new-line {
     display: block;
 }
+span.no-wrap {
+    white-space: nowrap;
+}
 
 div.line-height-150 p {
     line-height: 150%;
@@ -574,6 +577,12 @@ div.background {
     border: 2px solid #c5c3c6;
     padding: 15px;
     margin-bottom: 15px;
+}
+#contact-form select option {
+    color: #000;
+}
+#contact-form select option:first-child {
+    color: #999;
 }
 
 #contact-form input[type="text"]:last-child, #contact-form textarea:last-child, #contact-form select:last-child {
