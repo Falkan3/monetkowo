@@ -142,7 +142,7 @@
         <section id="page_2" class="page text-left steps">
             <div class="container">
                 <h1>Tylko 3 proste kroki dzielą Cię aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span></h1>
-                <div class="container-fluid btmspace-80 flex-container">
+                <div class="container-fluid btmspace-80 flex-container line-height-150">
                     <div class="col-sm-12 col-md-6 flex-container">
                         <div class="col-sm-12 col-md-6 number-column right-line" number-data="1"></div>
                         <div class="col-sm-12 col-md-6 flex-center">
@@ -159,7 +159,7 @@
                     <div class="col-sm-12 col-md-6 margin-vertical medium mobile">
                         <img src="{{asset('images/demo/kroki_2_img.png')}}"/>
                     </div>
-                    <div class="container-fluid margin-top-big no-margin-mobile">
+                    <div class="container-fluid margin-top-big no-margin-mobile line-height-150">
                         <div class="col-sm-12 col-md-6 flex-container float-r">
                             <div class="col-sm-12 col-md-6 number-column left-line col-lg-push-6" number-data="2"></div>
                             <div class="col-sm-12 col-md-6 col-lg-pull-6 flex-center">
@@ -177,7 +177,7 @@
 
                 </div>
 
-                <div class="container-fluid btmspace-80 flex-container">
+                <div class="container-fluid btmspace-80 flex-container line-height-150">
                     <div class="col-sm-12 col-sm-12 col-md-6 flex-container">
                         <div class="col-sm-12 col-md-6 number-column right-line" number-data="3"></div>
                         <div class="col-sm-12 col-md-6 flex-center">
@@ -198,7 +198,7 @@
 
         <section id="page_3" class="page">
             <div class="container-fluid">
-                <div class="col-xs-8 col-sm-10 center-no-float">
+                <div class="col-xs-8 col-sm-10 center-no-float" style="overflow: hidden;">
                     <div class="row">
                         <div class="col-xs-12 col-sm-3">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -300,7 +300,7 @@
                         {{Form::textarea('contents', '', ['placeholder' => 'Treść wiadomości', 'maxlength' => 250])}}
                     </div>
                     <div class="col-xs-12 col-sm-6" style="float: right">
-                        {{ Form::submit('Wyślij', ['class' => 'btn'])}}
+                        {{ Form::submit('Wyślij', ['class' => 'btn alternative'])}}
                     </div>
                     {!! Form::close() !!}
                 </div>

@@ -22,7 +22,7 @@
 
 .tile {
     min-height: 450px;
-    padding: 45px 60px;
+    padding: 45px 120px;
     overflow: auto;
     text-align: left;
 }
@@ -201,6 +201,18 @@ span.header_one.normal-size, span.header_two.normal-size {
 
 /* Media --------------------------------------------------------------------------------------- */
 
+@media screen and (max-width:1400px) {
+    .tile {
+        padding: 45px 8%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .tile {
+        padding: 45px 6%;
+    }
+}
+
 @media screen and (max-width:1200px) {
     .number-column svg {
         height: 175px;
@@ -214,6 +226,9 @@ span.header_one.normal-size, span.header_two.normal-size {
         font-size: 42px;
     }
 
+    .tile {
+        padding: 45px 60px;
+    }
     .tile p {
         font-size: 18px;
     }
