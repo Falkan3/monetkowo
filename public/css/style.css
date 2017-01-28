@@ -74,11 +74,11 @@
 }
 
 .tile_color_1 {
-    background-color: #1baca2;
+    background-color: #22AED1;
 }
 
 .tile_color_2 {
-    background-color: #3a4264;
+    background-color: #163A51;
 }
 
 .tile_color_3 {
@@ -98,7 +98,7 @@
 }
 
 .tile_color_2 h1:first-letter {
-    color: #1baca2;
+    color: #22AED1;
 }
 
 .one-line {

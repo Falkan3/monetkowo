@@ -141,17 +141,20 @@
 
         <section id="page_2" class="page text-left steps">
             <div class="container">
-                <h1>Tylko 3 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span></h1>
+                <h1>Tylko 3 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
+                </h1>
                 <div class="container-fluid btmspace-80 flex-container line-height-150">
                     <div class="col-sm-12 col-md-6 flex-container">
                         <div class="col-sm-12 col-md-6 number-column right-line" number-data="1"></div>
                         <div class="col-sm-12 col-md-6 flex-center">
-                            <h2><span class="header_one">Formularz</span> kontaktowy</h2>
+                            <h2>Podajesz aktualnie posiadane <span class="header_one">stawki</span></h2>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 flex-center">
-                        <p>Wybierz kategorię , która Cię interesuje i kliknij <span class="no-wrap">w przycisk</span> "Dowiedz się więcej". Wpisz
-                            poprawne dane do formularza kontaktowego i prześlij <span class="no-wrap">do nas</span> zgłoszenie.</p>
+                        <p>Wybierz kategorię , która Cię interesuje i kliknij <span class="no-wrap">w przycisk</span>
+                            "Dowiedz się więcej". Wpisz
+                            poprawne dane do formularza kontaktowego i prześlij <span class="no-wrap">do nas</span>
+                            zgłoszenie.</p>
                     </div>
                 </div>
 
@@ -163,13 +166,14 @@
                         <div class="col-sm-12 col-md-6 flex-container float-r">
                             <div class="col-sm-12 col-md-6 number-column left-line col-lg-push-6" number-data="2"></div>
                             <div class="col-sm-12 col-md-6 col-lg-pull-6 flex-center">
-                                <h2><span class="header_one">Rozmowa</span><span
-                                            class="text-nowrap">z konsultantem</span></h2>
+                                <h2><span class="header_one">Negocjujemy </span><span
+                                            class="text-nowrap">dla Ciebie</span> nowe warunki</h2>
                             </div>
                         </div>
 
                         <div class="col-sm-12 col-md-6">
-                            <p class="margin-vertical-medium no-margin-mobile">Poczekaj na kontakt konsultanta. Po przesłaniu zgłoszenia
+                            <p class="margin-vertical-medium no-margin-mobile">Poczekaj na kontakt konsultanta. Po
+                                przesłaniu zgłoszenia
                                 będziemy <span class="no-wrap">do Ciebie</span> dzwonić w celu
                                 uzupełnienia informacji.</p>
                         </div>
@@ -181,17 +185,18 @@
                     <div class="col-sm-12 col-sm-12 col-md-6 flex-container">
                         <div class="col-sm-12 col-md-6 number-column right-line" number-data="3"></div>
                         <div class="col-sm-12 col-md-6 flex-center">
-                            <h2>Wybór <span class="text-nowrap">i <span class="header_one">negocjacje</span></span>
-                                oferty</h2>
+                            <h2>Wybierasz <span class="header_one">najlepszą</span> ofertę</h2>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 flex-center">
-                        <p class="padding-horizontal medium">Na podstawie podanych przez Ciebie danych, przedstawimy Ci ofertę dopasowaną do Twoich
+                        <p class="padding-horizontal medium">Na podstawie podanych przez Ciebie danych, przedstawimy Ci
+                            ofertę dopasowaną do Twoich
                             potrzeb. Pomożemy Ci również w negocjowaniu warunków wybranej przez Ciebie oferty.</p>
                     </div>
                 </div>
 
-                <h1>Tylko tyle aby <span class="header_one">ograniczyć wydatki</span> <span class="new-line">i zaoszczędzone pieniądze przeznaczyć</span> <span class="new-line">na dowolnie wybrany przez
+                <h1>Tylko tyle aby <span class="header_one">ograniczyć wydatki</span> <span class="new-line">i zaoszczędzone pieniądze przeznaczyć</span>
+                    <span class="new-line">na dowolnie wybrany przez
                     Ciebie cel.</span></h1>
             </div>
         </section>
@@ -208,7 +213,8 @@
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
-                                    <div class="back" style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>
@@ -222,14 +228,16 @@
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
-                                    <div class="back" style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6">
-                            <div class="flipper-height" style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
+                            <div class="flipper-height"
+                                 style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
                             </div>
                         </div>
                     </div>
@@ -242,7 +250,8 @@
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
-                                    <div class="back" style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>
@@ -252,18 +261,154 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
                                     <div class="front flex-container-always"
+                                         style="background: #FE4A49; background-size: cover;">
+                                        <!-- front content -->
+                                        <p class="flex-center">Lorem Ipsum</p>
+                                    </div>
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                        <!-- back content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-sm-offset-6">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front flex-container-always"
+                                         style="background: #E63946; background-size: cover;">
+                                        <!-- front content -->
+                                        <p class="flex-center">Lorem Ipsum</p>
+                                    </div>
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
+                                        <!-- back content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front flex-container-always"
+                                         style="background: #122C34; background-size: cover;">
+                                        <!-- front content -->
+                                        <p class="flex-center">Lorem Ipsum</p>
+                                    </div>
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                        <!-- back content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="margin-top-big"></div>
+
+            <div class="container-fluid">
+                <div class="col-xs-8 col-sm-10 center-no-float" style="overflow: hidden;">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front flex-container-always"
                                          style="background: #c5c3c6; background-size: cover;">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
-                                    <div class="back" style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
+                                        <!-- back content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front flex-container-always"
+                                         style="background: #14a79d; background-size: cover;">
+                                        <!-- front content -->
+                                        <p class="flex-center">Lorem Ipsum</p>
+                                    </div>
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6">
-
+                            <div class="flipper-height"
+                                 style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front flex-container-always"
+                                         style="background: #3b4165; background-size: cover;">
+                                        <!-- front content -->
+                                        <p class="flex-center">Lorem Ipsum</p>
+                                    </div>
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
+                                        <!-- back content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front flex-container-always"
+                                         style="background: #FE4A49; background-size: cover;">
+                                        <!-- front content -->
+                                        <p class="flex-center">Lorem Ipsum</p>
+                                    </div>
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                        <!-- back content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front flex-container-always"
+                                         style="background: #E63946; background-size: cover;">
+                                        <!-- front content -->
+                                        <p class="flex-center">Lorem Ipsum</p>
+                                    </div>
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                        <!-- back content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front flex-container-always"
+                                         style="background: #122C34; background-size: cover;">
+                                        <!-- front content -->
+                                        <p class="flex-center">Lorem Ipsum</p>
+                                    </div>
+                                    <div class="back"
+                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                        <!-- back content -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -29,14 +29,14 @@ $("a.anchor").click(function (e) {
             return false;
         }
         else {
-            if ($(window).scrollTop() > 150) {
+            if ($(window).scrollTop() > 50) {
                 $("body,html").animate({
-                    scrollTop: $(dest).offset().top - 70
+                    scrollTop: $(dest).offset().top - 50
                 }, 600);
             }
             else {
                 $("body,html").animate({
-                    scrollTop: $(dest).offset().top - 100
+                    scrollTop: $(dest).offset().top - 50
                 }, 600);
             }
 
@@ -67,10 +67,10 @@ $(window).scroll(function () {
     }
 });
 
-$("nav b").click(function (e) {
-    e.preventDefault();
-    $(this).toggleClass("visible");
-    $(this).next('div').toggleClass("visible");
+$('.navbar-collapse a').click(function (e) {
+    if($( window ).width() <= 768) {
+        $('.navbar-collapse').collapse('toggle');
+    }
 });
 
 /* DRAWING SVG */

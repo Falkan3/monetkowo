@@ -2,7 +2,7 @@
     <div class="footer-container flex-container-always">
         <div class="container flex-center">
             <div class="col-xs-12 col-sm-4 margin-on-mobile">
-                <p>Copyright MONETKOWO.pl</p>
+                <p>Copyright NEGOCJUJEMYPROMOCJE.pl</p>
             </div>
             <div class="col-xs-12 col-sm-8" style="text-align: right">
                 <a href="https://lp.monetkowo.pl/polityka-prywatnosci"><p>Polityka prywatności</p></a>
