@@ -21,20 +21,21 @@
 }
 
 .tile {
-    min-height: 450px;
-    padding: 45px 120px;
+    min-height: 600px;
+    padding: 45px 70px;
     overflow: auto;
     text-align: left;
 }
 .tile h1 {
     text-align: left;
+    height: 110px;
+    display:table-cell;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 50px;
-    height: 110px;
     vertical-align: middle;
+    margin-bottom: 50px;
     margin-top: 0;
-    display: table-cell;
+    font-size: 34px;
 }
 .tile p {
     text-align: justify;
@@ -70,6 +71,7 @@
 .tile .icon {
     max-height: 80px;
     float: left;
+    margin-top: 20px;
     margin-right: 50px;
 }
 
@@ -206,11 +208,17 @@ span.header_one.normal-size, span.header_two.normal-size {
     .tile {
         padding: 45px 6%;
     }
+    .tile h1 {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width:1300px) {
     .tile {
         padding: 45px 4%;
+    }
+    .tile h1 {
+        font-size: 26px;
     }
 }
 
@@ -229,12 +237,13 @@ span.header_one.normal-size, span.header_two.normal-size {
 
     .tile {
         padding: 45px 60px;
+        min-height: 550px;
     }
     .tile p {
         font-size: 18px;
     }
     .tile h1 {
-        font-size: 32px;
+        font-size: 24px;
     }
     .tile .icon {
         margin-right: 40px;
@@ -274,6 +283,9 @@ span.header_one.normal-size, span.header_two.normal-size {
         text-align: center;
     }
 
+    .tile {
+        min-height: 450px;
+    }
     .tile p {
         font-size: 20px;
     }
