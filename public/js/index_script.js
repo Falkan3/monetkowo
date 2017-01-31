@@ -1,25 +1,5 @@
 $('nav .navbar-brand img').addClass('logo-invisible');
 
-$(window).scroll(function () {
-    if ($(window).scrollTop() > 150) {
-        $("#backtotop").addClass("visible");
-    } else {
-        $("#backtotop").removeClass("visible");
-    }
-
-    var shrinkHeader = 300;
-    var scroll = getCurrentScroll();
-    if (scroll >= shrinkHeader) {
-        $('header').addClass('shrink');
-    }
-    else {
-        $('header').removeClass('shrink');
-    }
-    function getCurrentScroll() {
-        return window.pageYOffset || document.documentElement.scrollTop;
-    }
-});
-
 /* DRAWING SVG */
 
 $(".number-column").each(function (e) {

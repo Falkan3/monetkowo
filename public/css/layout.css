@@ -41,17 +41,6 @@ nav .navbar-brand {
 
 nav .navbar-brand img {
     max-height: 40px;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-
-img.logo-invisible {
-    visibility: hidden;
-    opacity: 0;
-}
-
-header.shrink nav .navbar-brand img {
-    visibility: visible;
-    opacity: 1;
 }
 
 #page_intro h1 {
