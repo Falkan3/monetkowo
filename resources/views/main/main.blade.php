@@ -104,38 +104,65 @@
     </section>
     <div class="content">
         <section id="page_1" class="page">
-            <div class="col-sm-12 col-md-6 tile tile_color_2">
-                <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
-                <h1><span class="color_one">Abonament</span> <span class="one-line">za Internet</span></h1>
-                <div class="separator white"></div>
-                <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj z najkorzystniejszych
-                    aktualnie promocji i obniż swój abonament za Internet.</p>
-                <p class="btn">WIĘCEJ</p>
-            </div>
-            <div class="col-sm-12 col-md-6 tile tile_color_3">
-                <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon"/>
-                <h1><span class="color_one">Rachunek</span> telefoniczny</h1>
-                <div class="separator"></div>
-                <p>Czy Twój rachunek telefoniczny spędza Ci sen z powiek? Nie musi! Teraz to dziecinnie proste.
-                    Podpowiemy Ci w kilku krokach co zrobić, by spać spokojnie.</p>
-                <p class="btn">WIĘCEJ</p>
-            </div>
-            <!-- two -->
-            <div class="col-sm-12 col-md-6 tile tile_color_3">
-                <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon"/>
-                <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
-                <div class="separator"></div>
-                <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie Ci jak
-                    negocjować z bankiem raty kredytu.</p>
-                <p class="btn">WIĘCEJ</p>
-            </div>
-            <div class="col-sm-12 col-md-6 tile tile_color_1">
-                <img src="{{asset('images/demo/KONTO-BANKOWE.png')}}" alt="icon" class="icon"/>
-                <h1><span class="color_two">Konto</span> bankowe</h1>
-                <div class="separator white"></div>
-                <p>Czy wciąż płacisz za prowadzenie swojego konta? Zrezygnuj z opłat! Skorzystaj z wiedzy naszych
-                    analityków i wybierz konto najlepsze na rynku.</p>
-                <p class="btn">WIĘCEJ</p>
+            <div class="container-fluid no-padding">
+                <div class="row no-margin">
+                    <div class="col-sm-12 col-md-4 tile tile_color_2">
+                        <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
+                        <h1><span class="color_one">Abonament</span> <span class="one-line">za Internet</span></h1>
+                        <div class="separator white"></div>
+                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj z
+                            najkorzystniejszych
+                            aktualnie promocji i obniż swój abonament za Internet.</p>
+                        <p class="btn">WIĘCEJ</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 tile tile_color_3">
+                        <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon"/>
+                        <h1><span class="color_one">Rachunek</span> telefoniczny</h1>
+                        <div class="separator"></div>
+                        <p>Czy Twój rachunek telefoniczny spędza Ci sen z powiek? Nie musi! Teraz to dziecinnie proste.
+                            Podpowiemy Ci w kilku krokach co zrobić, by spać spokojnie.</p>
+                        <p class="btn">WIĘCEJ</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 tile tile_color_2">
+                        <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
+                        <h1><span class="color_one">Abonament</span> <span class="one-line">za Internet</span></h1>
+                        <div class="separator white"></div>
+                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj z
+                            najkorzystniejszych
+                            aktualnie promocji i obniż swój abonament za Internet.</p>
+                        <p class="btn">WIĘCEJ</p>
+                    </div>
+                </div>
+                <!-- two -->
+                <div class="row no-margin">
+                    <div class="col-sm-12 col-md-4 tile tile_color_3">
+                        <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon"/>
+                        <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
+                        <div class="separator"></div>
+                        <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie Ci
+                            jak
+                            negocjować z bankiem raty kredytu.</p>
+                        <p class="btn">WIĘCEJ</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 tile tile_color_1">
+                        <img src="{{asset('images/demo/KONTO-BANKOWE.png')}}" alt="icon" class="icon"/>
+                        <h1><span class="color_two">Konto</span> bankowe</h1>
+                        <div class="separator white"></div>
+                        <p>Czy wciąż płacisz za prowadzenie swojego konta? Zrezygnuj z opłat! Skorzystaj z wiedzy
+                            naszych
+                            analityków i wybierz konto najlepsze na rynku.</p>
+                        <p class="btn">WIĘCEJ</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 tile tile_color_3">
+                        <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon"/>
+                        <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
+                        <div class="separator"></div>
+                        <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie Ci
+                            jak
+                            negocjować z bankiem raty kredytu.</p>
+                        <p class="btn">WIĘCEJ</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -284,112 +311,6 @@
                                     </div>
                                     <div class="back"
                                          style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #122C34; background-size: cover;">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="margin-top-big"></div>
-
-            <div class="container-fluid">
-                <div class="col-xs-8 col-sm-10 center-no-float" style="overflow: hidden;">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #c5c3c6; background-size: cover;">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #14a79d; background-size: cover;">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <div class="flipper-height"
-                                 style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #163A51; background-size: cover;">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #FE4A49; background-size: cover;">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #E63946; background-size: cover;">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
                                         <!-- back content -->
                                     </div>
                                 </div>

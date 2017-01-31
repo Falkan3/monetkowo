@@ -204,13 +204,13 @@ span.header_one.normal-size, span.header_two.normal-size {
 
 @media screen and (max-width:1400px) {
     .tile {
-        padding: 45px 8%;
+        padding: 45px 6%;
     }
 }
 
 @media screen and (max-width:1300px) {
     .tile {
-        padding: 45px 6%;
+        padding: 45px 4%;
     }
 }
 
