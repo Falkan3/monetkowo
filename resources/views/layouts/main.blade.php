@@ -42,6 +42,7 @@
 <!-- Scripts -->
 <script src="{{ URL::asset('js/jquery.mobilemenu.js') }}"></script>
 <script src="{{ URL::asset('js/script.js') }}"></script>
+<script src="{{ URL::asset('js/index_script.js') }}"></script>
 
 </body>
 </html>

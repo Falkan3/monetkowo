@@ -5,6 +5,7 @@
 @section('content')
     <div class="header-separator"></div>
     <div class="content">
+        <?php /*
         <section id="page_1" class="page">
             <div class="container">
                 <h1>O nas</h1>
@@ -16,8 +17,9 @@
                     zmniejszyć ogólne koszty kredytu. </p>
             </div>
         </section>
+        */ ?>
 
-        <section id="page_2" class="page">
+        <section id="page_1" class="page">
             <div class="container">
                 <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
                 <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
@@ -39,6 +41,5 @@
                 </div>
             </div>
         </section>
-    </div>
     </div>
 @stop

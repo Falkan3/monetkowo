@@ -41,9 +41,12 @@ nav .navbar-brand {
 
 nav .navbar-brand img {
     max-height: 40px;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+img.logo-invisible {
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
 }
 
 header.shrink nav .navbar-brand img {
@@ -107,13 +110,13 @@ header.shrink nav .navbar-brand img {
 }
 
 .btn.alternative {
-    background-color: #3b4165;
-    border: 1px solid #3b4165;
+    background-color: #163A51;
+    border: 1px solid #163A51;
 }
 .btn.alternative:hover {
     background-color: #fff;
     background-color: transparent;
-    color: #3b4165;
+    color: #163A51;
 }
 
 .tile.tile_color_2 .btn {
@@ -168,6 +171,7 @@ header.shrink nav .navbar-brand img {
 .content {
     width: 100%;
     max-width: 1920px;
+    min-height: 100%;
     z-index: 2;
     text-align: center;
     margin-left: auto;
@@ -271,7 +275,7 @@ div.background {
 .footer-container {
     min-height: 80px;
     padding: 15px 0;
-    background-color: #13a89e;
+    background-color: #007cc3;
 }
 
 .footer-container p {
