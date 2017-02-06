@@ -103,13 +103,13 @@
         <section id="page_1" class="page">
             <div class="container-fluid no-padding">
                 <div class="row no-margin">
-                    <div class="col-sm-12 col-md-4 tile tile_color_2">
+                    <div class="col-sm-12 col-md-4 tile tile_color_1">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
                                 <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
-                                <h1><span class="color_one">Abonament</span> <span class="one-line">za Internet</span>
+                                <h1><span class="color_two">Abonament</span> <span class="one-line">za Internet</span>
                                 </h1>
                             </div>
                         </div>
@@ -134,13 +134,13 @@
                             Podpowiemy Ci w kilku krokach co zrobić, by spać spokojnie.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 tile tile_color_2">
+                    <div class="col-sm-12 col-md-4 tile tile_color_1">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
                                 <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
-                                <h1><span class="color_one">Abonament</span> <span class="one-line">za Internet</span>
+                                <h1><span class="color_two">Abonament</span> <span class="one-line">za Internet</span>
                                 </h1>
                             </div>
                         </div>
@@ -153,29 +153,29 @@
                 </div>
                 <!-- two -->
                 <div class="row no-margin">
-                    <div class="col-sm-12 col-md-4 tile tile_color_1">
+                    <div class="col-sm-12 col-md-4 tile tile_color_2">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KREDYTY_w.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
-                                <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
+                                <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
                             </div>
                         </div>
-                        <div class="separator"></div>
+                        <div class="separator white"></div>
                         <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie
                             Ci
                             jak
                             negocjować z bankiem raty kredytu.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 tile tile_color_2">
+                    <div class="col-sm-12 col-md-4 tile tile_color_1">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
                                 <img src="{{asset('images/demo/KONTO-BANKOWE.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
-                                <h1><span class="color_one new-line">Konto</span> bankowe</h1>
+                                <h1><span class="color_two new-line">Konto</span> bankowe</h1>
                             </div>
                         </div>
                         <div class="separator white"></div>
@@ -184,16 +184,16 @@
                             analityków i wybierz konto najlepsze na rynku.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 tile tile_color_1">
+                    <div class="col-sm-12 col-md-4 tile tile_color_2">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KREDYTY.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KREDYTY_w.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
-                                <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
+                                <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
                             </div>
                         </div>
-                        <div class="separator"></div>
+                        <div class="separator white"></div>
                         <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie
                             Ci
                             jak

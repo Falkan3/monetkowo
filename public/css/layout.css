@@ -99,13 +99,13 @@ nav .navbar-brand img {
 }
 
 .btn.alternative {
-    background-color: #163A51;
-    border: 1px solid #163A51;
+    background-color: #E63946;
+    border: 1px solid #E63946;
 }
 .btn.alternative:hover {
     background-color: #fff;
     background-color: transparent;
-    color: #163A51;
+    color: #E63946;
 }
 
 .tile.tile_color_2 .btn {
@@ -264,7 +264,8 @@ div.background {
 .footer-container {
     min-height: 80px;
     padding: 15px 0;
-    background-color: #007cc3;
+    background-color: #14a79d;
+    background: linear-gradient(rgba(196, 102, 0, 0.2), rgba(155, 89, 182, 0.2)), #14a79d;
 }
 
 .footer-container p {
