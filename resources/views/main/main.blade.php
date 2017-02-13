@@ -38,7 +38,8 @@
                 <div class="item active bgded overlay">
                     <img src="{{ URL::asset('images/demo/backgrounds/slider2.jpg')}}" alt="slajd1">
                     <div class="carousel-caption">
-                        <h3>Skorzystaj z rad doradców i negocjuj kwoty swoich rachunków</h3>
+                        <h3>Skorzystaj z rad doradców</h3>
+                        <h3>negocjuj kwoty swoich rachunków</h3>
                         <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
@@ -125,7 +126,7 @@
                                 <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
-                                <h1><span class="color_one">Rachunek</span> telefoniczny</h1>
+                                <h1><span class="color_two">Rachunek</span> telefoniczny</h1>
                             </div>
                         </div>
                         <div class="separator"></div>
@@ -268,9 +269,8 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-3">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #c5c3c6; background-size: cover;">
+                                <div class="flipper color_1">
+                                    <div class="front flex-container-always">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -283,9 +283,8 @@
                         </div>
                         <div class="col-xs-12 col-sm-3">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #14a79d; background-size: cover;">
+                                <div class="flipper color_3">
+                                    <div class="front flex-container-always">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -305,9 +304,8 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-3 col-sm-offset-3">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #163A51; background-size: cover;">
+                                <div class="flipper color_2">
+                                    <div class="front flex-container-always">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -320,9 +318,8 @@
                         </div>
                         <div class="col-xs-12 col-sm-3">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #FE4A49; background-size: cover;">
+                                <div class="flipper color_1">
+                                    <div class="front flex-container-always">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -337,9 +334,8 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-3 col-sm-offset-6">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #E63946; background-size: cover;">
+                                <div class="flipper color_3">
+                                    <div class="front flex-container-always">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>
@@ -352,9 +348,8 @@
                         </div>
                         <div class="col-xs-12 col-sm-3">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper">
-                                    <div class="front flex-container-always"
-                                         style="background: #122C34; background-size: cover;">
+                                <div class="flipper color_2">
+                                    <div class="front flex-container-always">
                                         <!-- front content -->
                                         <p class="flex-center">Lorem Ipsum</p>
                                     </div>

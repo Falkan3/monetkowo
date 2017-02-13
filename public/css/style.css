@@ -44,6 +44,8 @@
 .tile .btn {
     padding: 6px 45px;
     margin-top: 35px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 .tile .separator-clear {
@@ -76,11 +78,11 @@
 }
 
 .tile_color_1 {
-    background-color: #22AED1;
+    background-color: #000;
 }
 
 .tile_color_2 {
-    background-color: #163A51;
+    background-color: #ff9c10;
 }
 
 .tile_color_3 {
@@ -164,12 +166,13 @@
 .steps h2 {
     font-size: 42px;
     font-weight: bold;
+    line-height: 100%;
 }
 
 span.header_one {
-    color: #22AED1;
+    color: #ff9c10;
     font-size: 52px;
-    line-height: 150%;
+    line-height: 115%;
     font-weight: bold;
 }
 
@@ -187,7 +190,9 @@ span.header_one.normal-size, span.header_two.normal-size {
 #page_3 div {
     padding: 0;
 }
-
+.flipper {
+    background-size: cover;
+}
 .flipper img {
     width: 100%;
     max-height: 300px;
@@ -201,6 +206,21 @@ span.header_one.normal-size, span.header_two.normal-size {
     color: #fff;
 }
 
+.flipper.color_1 {
+    background: #ff9c10;
+}
+.flipper.color_1 p {
+    color: #000;
+}
+.flipper.color_2 {
+    background: #000;
+}
+.flipper.color_3 {
+    background: #ddd;
+}
+.flipper.color_3 p {
+    color: #000;
+}
 
 /* Media --------------------------------------------------------------------------------------- */
 

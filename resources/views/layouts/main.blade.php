@@ -11,7 +11,6 @@
     <title>@yield('title')</title>
 
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/fontawesome-4.3.0.min.css') }}" type="text/css"
