@@ -70,11 +70,18 @@ nav .navbar-brand img {
 .carousel-caption {
     text-align: left;
 }
+.carousel-caption .btn {
+    float: left;
+    clear: left;
+}
 
 .carousel-caption h3 {
+    display: inline-block;
     margin-bottom: 0;
     text-transform: uppercase;
     font-size: 42px;
+    float: left;
+    clear: left;
 }
 .carousel-caption h3:nth-of-type(odd) {
     padding: 5px 25px;
@@ -95,6 +102,7 @@ nav .navbar-brand img {
 
 .carousel-caption a.btn-block {
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 
@@ -164,6 +172,11 @@ nav .navbar-brand img {
     }
     .btn {
         padding: 10px 15px;
+    }
+    .carousel-caption .btn, .carousel-caption h3 {
+        float: none;
+        clear: none;
+        display: block !important;
     }
 }
 

@@ -47,7 +47,8 @@
                 <div class="item bgded overlay">
                     <img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg')}}" alt="slajd2">
                     <div class="carousel-caption">
-                        <h3>Przełącz się z nami na wyższy poziom oszczędzania</h3>
+                        <h3>Przełącz się z nami</h3>
+                        <h3>na wyższy poziom oszczędzania</h3>
                         <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
@@ -73,7 +74,8 @@
                 <div class="item bgded overlay">
                     <img src="{{ URL::asset('images/demo/backgrounds/slider6.jpg')}}" alt="slajd3">
                     <div class="carousel-caption">
-                        <h3>Minimalizuj koszty swojego domowego budżetu</h3>
+                        <h3>Minimalizuj koszty</h3>
+                        <h3>swojego domowego budżetu</h3>
                         <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
