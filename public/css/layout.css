@@ -83,6 +83,7 @@ nav .navbar-brand img {
     float: left;
     clear: left;
     text-shadow: none;
+    white-space: pre-wrap;
 }
 .carousel-caption h3:nth-of-type(odd) {
     padding: 5px 25px;
