@@ -103,13 +103,73 @@
         </div>
     </section>
     <div class="content">
-        <section id="page_1" class="page">
+        <section id="page_table" class="page">
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h1>Lorem Ipsum</h1>
+                        </div>
+                    </div>
+
+                    <div class="table-container">
+                        <div class="row table-header">
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <p>Nazwy produktów</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <p>Promocje standardowe</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <p>Super promocje</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <p>Oszczędności</p>
+                            </div>
+                        </div>
+
+                        <div class="table-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Lorem</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Lorem</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Lorem</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Lorem</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Lorem</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Lorem</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Lorem</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Lorem</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="page_tiles" class="page">
             <div class="container-fluid no-padding">
                 <div class="row no-margin">
-                    <div class="col-sm-12 col-md-4 tile tile_color_1">
+                    <div class="col-sm-12 col-md-4 tile tile_color_3">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/INTERNET_b.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two">Abonament</span> <span class="one-line">za Internet</span>
@@ -122,13 +182,13 @@
                             aktualnie promocji i obniż swój abonament za Internet.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 tile tile_color_3">
+                    <div class="col-sm-12 col-md-4 tile tile_color_2">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/TELEFON.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/TELEFON_w.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
-                                <h1><span class="color_two">Rachunek</span> telefoniczny</h1>
+                                <h1><span class="color_one">Rachunek</span> telefoniczny</h1>
                             </div>
                         </div>
                         <div class="separator"></div>
@@ -137,10 +197,10 @@
                             Podpowiemy Ci w kilku krokach co zrobić, by spać spokojnie.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 tile tile_color_1">
+                    <div class="col-sm-12 col-md-4 tile tile_color_3">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/INTERNET_b.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two">Abonament</span> <span class="one-line">za Internet</span>
@@ -172,10 +232,10 @@
                             negocjować z bankiem raty kredytu.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 tile tile_color_1">
+                    <div class="col-sm-12 col-md-4 tile tile_color_3">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KONTO-BANKOWE.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KONTO-BANKOWE_b.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two new-line">Konto</span> bankowe</h1>
@@ -207,7 +267,7 @@
             </div>
         </section>
 
-        <section id="page_2" class="page text-left steps">
+        <section id="page_steps" class="page text-left steps">
             <div class="container">
                 <h1>Tylko 3 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
                 </h1>
@@ -265,7 +325,7 @@
             </div>
         </section>
 
-        <section id="page_3" class="page">
+        <section id="page_cards" class="page">
             <div class="container-fluid">
                 <div class="col-xs-8 col-sm-10 center-no-float" style="overflow: hidden;">
                     <div class="row">
@@ -381,7 +441,7 @@
         </section>
         */ ?>
 
-        <section id="page_4" class="page">
+        <section id="page_contact" class="page">
             <div class="container">
                 <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
                 <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
