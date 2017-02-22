@@ -1,12 +1,18 @@
 var loadings = $('#loading');
 var carousel = $('#myCarousel');
 
-carousel.css('visibility', 'hidden');
-loadings.show();
-
 $(document).ready(function (e) {
+    carousel.css('visibility', 'hidden');
+    centerLoadings();
+    loadings.show();
     resize_flippers();
 });
+
+function centerLoadings() {
+    loadings.each(function(e){
+        $(this).css('left', $(document).width() /2 - $(this).width() / 2);
+    });
+}
 
 //ANCHORS -------------------------------------------------------
 
@@ -102,6 +108,7 @@ function resizeContents() {
 }
 
 $(window).on('resize', function () {
+    centerLoadings();
     resizeContents();
 });
 

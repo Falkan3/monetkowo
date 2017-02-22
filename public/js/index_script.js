@@ -22,3 +22,20 @@ $(".number-column").each(function (e) {
 
     $(this).html(svg);
 });
+
+//----------------------------------------
+
+var tableHeaders = $('.table-container .table-show-on-mobile-contents .name');
+//Init table on mobile
+function initTableMobile() {
+    $('.table-container .table-show-on-mobile-contents .table-mobile-contents').hide();
+}
+
+$(document).ready(function (e) {
+    initTableMobile();
+});
+
+tableHeaders.on('click', function(e){
+    console.log('clicked ' + $(this).find('p').text());
+    $(this).parent().find('.table-mobile-contents').slideToggle();
+});

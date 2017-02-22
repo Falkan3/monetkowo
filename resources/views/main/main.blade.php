@@ -106,56 +106,147 @@
         <section id="page_table" class="page">
             <div class="container">
                 <div class="row">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <h1>Lorem Ipsum</h1>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <h1>Lorem Ipsum</h1>
+                            </div>
                         </div>
                     </div>
 
                     <div class="table-container">
-                        <div class="row table-header">
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <p>Nazwy produktów</p>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <p>Promocje standardowe</p>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <p>Super promocje</p>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <p>Oszczędności</p>
+                        <div class="container-fluid">
+                            <div class="row table-header">
+                                <div class="col-xs-12 col-sm-12 col-md-3">
+                                    <p>Nazwy produktów</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3 table-hide-on-mobile">
+                                    <p>Promocje standardowe</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3 table-hide-on-mobile">
+                                    <p>Super promocje</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3 table-hide-on-mobile">
+                                    <p>Oszczędności</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="table-body">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Lorem</p>
+                        <div class="table-body table-hide-on-mobile">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Lorem</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Lorem</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Lorem</p>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Lorem</p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 table-show-on-mobile">
+                            <div class="row table-show-on-mobile-contents">
+                                <?php //NAME ELEMENTS ?>
+                                <div class="container-fluid table-mobile-element">
+
+                                    <?php //ONE NAME ELEMENT ?>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 name">
+                                            <p>ABC</p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="container-fluid table-mobile-contents">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT HEADER 1</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT 1</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT HEADER 2</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT 2</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT HEADER 3</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT 3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php //ONE NAME ELEMENT ?>
+
+                                    <?php //ONE NAME ELEMENT ?>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 name">
+                                            <p>ABC</p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="container-fluid table-mobile-contents">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT HEADER 1</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT 1</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT HEADER 2</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT 2</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT HEADER 3</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>CONTENT 3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php //ONE NAME ELEMENT ?>
+
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Lorem</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Lorem</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Lorem</p>
-                                </div>
+                                <?php //NAME ELEMENTS ?>
+
                             </div>
                         </div>
                     </div>
@@ -176,7 +267,7 @@
                                 </h1>
                             </div>
                         </div>
-                        <div class="separator white"></div>
+                        <div class="separator"></div>
                         <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj z
                             najkorzystniejszych
                             aktualnie promocji i obniż swój abonament za Internet.</p>
@@ -207,7 +298,7 @@
                                 </h1>
                             </div>
                         </div>
-                        <div class="separator white"></div>
+                        <div class="separator"></div>
                         <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj z
                             najkorzystniejszych
                             aktualnie promocji i obniż swój abonament za Internet.</p>
@@ -225,7 +316,7 @@
                                 <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
                             </div>
                         </div>
-                        <div class="separator white"></div>
+                        <div class="separator"></div>
                         <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie
                             Ci
                             jak
@@ -241,7 +332,7 @@
                                 <h1><span class="color_two new-line">Konto</span> bankowe</h1>
                             </div>
                         </div>
-                        <div class="separator white"></div>
+                        <div class="separator"></div>
                         <p>Czy wciąż płacisz za prowadzenie swojego konta? Zrezygnuj z opłat! Skorzystaj z wiedzy
                             naszych
                             analityków i wybierz konto najlepsze na rynku.</p>
@@ -256,11 +347,9 @@
                                 <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
                             </div>
                         </div>
-                        <div class="separator white"></div>
-                        <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie
-                            Ci
-                            jak
-                            negocjować z bankiem raty kredytu.</p>
+                        <div class="separator"></div>
+                        <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie Ci
+                            jak negocjować z bankiem raty kredytu.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
                 </div>

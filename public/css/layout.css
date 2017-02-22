@@ -16,6 +16,12 @@ body, input, textarea, select {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 991px) {
+    .page {
+        margin-bottom: 50px;
+    }
+}
+
 .narrow-paragraph {
     max-width: 700px;
     text-align: justify;
@@ -135,27 +141,82 @@ nav .navbar-brand img {
 .table-container .table-body > div p {
     padding: 10px;
 }
-.table-container .table-body > div:nth-child(even) {
+.table-container .table-body > div > .row:nth-child(even) {
     background-color: #f6f6f6;
 }
-.table-container .table-body .row > div:last-child {
+.table-container .table-body > div > .row > div:last-child {
     background-color: #ff9c10;
 }
-.table-container .table-body .row:nth-child(even) > div:last-child {
+.table-container .table-body > div > .row > div:last-child p {
+    color: #fff;
+}
+.table-container .table-body > div > .row:nth-child(even) > div:last-child {
     background-color: #f99710;
 }
-.table-container .table-body > .row:hover, .table-container .table-body > .row:hover div {
+.table-container .table-body > div > .row:nth-child(even) > div:last-child p {
+    color: #fff;
+}
+.table-container .table-body > div > .row:hover, .table-container .table-body > .row:hover div {
     background-color: #ffff00;
 }
-.table-container .table-body > row:nth-child(even):hover, .table-container .table-body > .row:nth-child(even):hover div {
+.table-container .table-body > div > row:nth-child(even):hover, .table-container .table-body > .row:nth-child(even):hover div {
     background-color: #ffe710;
 }
-.table-container .table-body > .row:hover div:last-child {
+.table-container .table-body > div > .row:hover div:last-child {
     background-color: #f9da00;
 }
-.table-container .table-body > .row:nth-child(even):hover div:last-child {
+.table-container .table-body > div > .row:nth-child(even):hover div:last-child {
     background-color: #f9cd00;
 }
+
+/* Table mobile view */
+
+.table-container .table-show-on-mobile {
+    display: none;
+}
+
+.table-container .table-show-on-mobile .table-mobile-element .table-mobile-contents > .row > div {
+    padding: 15px;
+}
+
+/* Formatting name row of each element */
+.table-container .table-show-on-mobile-contents .name {
+    padding: 15px 0;
+}
+.table-container .table-show-on-mobile-contents .name:hover {
+    cursor: pointer;
+}
+.table-container .table-show-on-mobile-contents .table-mobile-element > .row > .name {
+    background-color: #fff;
+}
+/* -------------------------------------------------------- */
+
+/* Formatting the bg color of last row in each element */
+.table-container .table-show-on-mobile-contents .table-mobile-element > .row > .table-mobile-contents > .row:last-child {
+    background-color: #f99710;
+}
+.table-container .table-show-on-mobile-contents .table-mobile-element > .row > .table-mobile-contents > .row:last-child p {
+    color: #fff;
+}
+/* ---------------------------------------------------- */
+
+/* Formatting even children */
+.table-container .table-show-on-mobile-contents .table-mobile-element > .row:nth-child(even) > .name, .table-container .table-show-on-mobile-contents .table-mobile-element > .row > .table-mobile-contents {
+    background-color: #f6f6f6;
+}
+/* ------------------------------------------------------- */
+
+@media screen and (max-width: 991px) {
+    .table-container .table-hide-on-mobile, .table-container .table-header .table-hide-on-mobile {
+        display: none;
+    }
+    .table-container .table-show-on-mobile {
+        display: block;
+    }
+}
+
+/* /Table mobile view */
+
 
 .btn {
      display: inline-block;
@@ -267,6 +328,12 @@ nav .navbar-brand img {
     margin: 70px 40px;
     text-transform: uppercase;
     text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    .content h1 {
+        margin: 20px 18px 40px 18px;
+    }
 }
 
 .content p {
