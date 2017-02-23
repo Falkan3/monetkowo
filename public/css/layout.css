@@ -22,6 +22,10 @@ body, input, textarea, select {
     }
 }
 
+div.bged.circle::before {
+    border-radius: 50%;
+}
+
 .narrow-paragraph {
     max-width: 700px;
     text-align: justify;
@@ -332,7 +336,6 @@ nav .navbar-brand img {
 
 .content {
     width: 100%;
-    max-width: 1920px;
     min-height: 100%;
     z-index: 2;
     text-align: center;
@@ -372,16 +375,21 @@ nav .navbar-brand img {
     color: inherit;
 }
 
+span.downlight {
+    font-size: 85%;
+}
+
 span.color_one {
     color: #000;
 }
-
 span.color_two {
     color: #ff9c10;
 }
-
 span.color_three {
     color: #696464;
+}
+span.color_four {
+    color: #a09f9f;
 }
 
 span.new-line {
@@ -461,6 +469,104 @@ div.background {
 .footer-container a p:hover {
     color: #ff9c10;
 }
+
+/* -------------------------------------- /CIRCLES -------------------------------------- */
+.circles .circle {
+    color: #fff;
+    margin: 0 auto;
+}
+.circles > div:nth-child(1) .circle {
+    background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2016/02/5718897981_10faa45ac3_b-640x624.jpg);
+}
+.circles > div:nth-child(2) .circle {
+    background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2016/02/5718897981_10faa45ac3_b-640x624.jpg);
+}
+.circles > div:nth-child(3) .circle {
+    background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2016/02/5718897981_10faa45ac3_b-640x624.jpg);
+}.circles > div:nth-child(4) .circle {
+     background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2016/02/5718897981_10faa45ac3_b-640x624.jpg);
+ }
+
+.circles .circle h2 {
+    margin: 0;
+    padding: 85px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #000;
+}
+.circles .circle > div {
+    position: relative;
+}
+.circles div.numeration p {
+    text-align: center;
+    font-size: 140%;
+    margin: 15px 0 0 0;
+}
+
+@media (min-width: 992px) {
+    .circles > div.arrowed .circle::after {
+        content: '';
+        height: 60px;
+        width: 110px;
+        display: block;
+        position: absolute;
+        background-image: url(http://icons.iconarchive.com/icons/iconsmind/outline/512/Arrow-Right-2-icon.png);
+        right: -54%;
+        bottom: 40px;
+        z-index: -1;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width: 1200px) {
+    .circles > div.arrowed .circle::after {
+        right: -70%;
+    }
+}
+@media (min-width: 1600px) {
+    .circles > div.arrowed .circle::after {
+        right: -83%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .circles div.numeration p {
+        font-size: 150%;
+    }
+}
+@media (max-width: 991px) {
+    .circles .circle {
+        margin-bottom: 15px;
+    }
+    .circles div.numeration p {
+        font-size: 160%;
+    }
+    .circles div.numeration {
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .circles {
+        padding: 0 15%;
+    }
+    /*
+    .circle.arrowed::after {
+        content: '';
+        height: 115px;
+        width: 70px;
+        display: block;
+        position: absolute;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e9/Arrow_bottom.png);
+        bottom: -50px;
+        right: auto;
+        z-index: -1;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    */
+}
+
+/* -------------------------------------- /CIRCLES -------------------------------------- */
 
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */

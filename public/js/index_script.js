@@ -33,9 +33,17 @@ function initTableMobile() {
 
 $(document).ready(function (e) {
     initTableMobile();
+    rescaleCircles();
 });
 
 tableHeaders.on('click', function(e){
     console.log('clicked ' + $(this).find('p').text());
     $(this).parent().find('.table-mobile-contents').slideToggle();
 });
+
+var circles = $('.circles .circle');
+function rescaleCircles() {
+    circles.each(function(){
+        $(this).css('width', $(this).height());
+    });
+}

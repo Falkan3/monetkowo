@@ -358,44 +358,44 @@
 
         <section id="page_steps" class="page text-left steps">
             <div class="container">
-                <h1>Tylko 3 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
+                <h1>Tylko 4 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
                 </h1>
 
                 <div class="container circles no-margin-mobile">
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="circle aligner all bged bgcolor_transparent">
+                        <div class="circle aligner all bgded bgcolor_transparent">
                             <div>
                                 <h2></h2>
                             </div>
                         </div>
-                        <div class="numeration"><p><span class="downlight colored4">1.</span> Wniosek</p></div>
+                        <div class="numeration"><p><span class="downlight color_four">1.</span> Wniosek</p></div>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="circle aligner all bged bgcolor_transparent">
+                        <div class="circle aligner all bgded bgcolor_transparent">
                             <div>
                                 <h2></h2>
                             </div>
                         </div>
-                        <div class="numeration"><p><span class="downlight colored4">2.</span> Weryfikacja</p></div>
+                        <div class="numeration"><p><span class="downlight color_four">2.</span> Weryfikacja</p></div>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="circle aligner all bged bgcolor_transparent">
+                        <div class="circle aligner all bgded bgcolor_transparent">
                             <div>
                                 <h2></h2>
                             </div>
                         </div>
-                        <div class="numeration"><p><span class="downlight colored4">3.</span> Oferta</p></div>
+                        <div class="numeration"><p><span class="downlight color_four">3.</span> Oferta</p></div>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="circle aligner all bged bgcolor_transparent">
+                        <div class="circle aligner all bgded bgcolor_transparent">
                             <div>
                                 <h2></h2>
                             </div>
                         </div>
-                        <div class="numeration"><p><span class="downlight colored4">4.</span> Gotówka</p></div>
+                        <div class="numeration"><p><span class="downlight color_four">4.</span> Gotówka</p></div>
                     </div>
                 </div>
             </div>
