@@ -148,6 +148,10 @@
 }
 */
 
+#page_intro {
+    position: relative;
+}
+
 #page_intro h3 {
     padding: 10px;
 }
@@ -192,6 +196,9 @@ span.header_one.normal-size, span.header_two.normal-size {
 
 #page_cards div {
     padding: 0;
+}
+#page_cards .row {
+    margin: 0;
 }
 .flipper {
     background-size: cover;

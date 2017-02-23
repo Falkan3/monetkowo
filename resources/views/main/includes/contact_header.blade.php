@@ -19,7 +19,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
                     <li><a href="{{url('/')}}" class="anchor">Strona główna</a></li>
-                    <li><a href="#page_1" class="anchor">Formularz</a></li>
+                    <li><a href="#page_contact" class="anchor">Formularz</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

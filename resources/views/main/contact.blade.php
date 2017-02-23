@@ -19,7 +19,7 @@
         </section>
         */ ?>
 
-        <section id="page_1" class="page">
+        <section id="page_contact" class="page">
             <div class="container">
                 <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
                 <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>

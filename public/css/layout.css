@@ -113,6 +113,8 @@ nav .navbar-brand img {
     margin-top: 20px;
 }
 
+/* RESPONSIVE TABLE */
+
 .table-container p {
     margin: 0;
 }
@@ -144,6 +146,8 @@ nav .navbar-brand img {
 .table-container .table-body > div > .row:nth-child(even) {
     background-color: #f6f6f6;
 }
+
+/* Last child formatting */
 .table-container .table-body > div > .row > div:last-child {
     background-color: #ff9c10;
 }
@@ -156,6 +160,9 @@ nav .navbar-brand img {
 .table-container .table-body > div > .row:nth-child(even) > div:last-child p {
     color: #fff;
 }
+/* ----------------------- */
+
+/* highlight row formatting */
 .table-container .table-body > div > .row:hover, .table-container .table-body > .row:hover div {
     background-color: #ffff00;
 }
@@ -168,6 +175,7 @@ nav .navbar-brand img {
 .table-container .table-body > div > .row:nth-child(even):hover div:last-child {
     background-color: #f9cd00;
 }
+/* ----------------------- */
 
 /* Table mobile view */
 
@@ -180,14 +188,23 @@ nav .navbar-brand img {
 }
 
 /* Formatting name row of each element */
-.table-container .table-show-on-mobile-contents .name {
+.table-container .table-show-on-mobile-contents .table-mobile-element > .row > .name {
     padding: 15px 0;
 }
-.table-container .table-show-on-mobile-contents .name:hover {
+.table-container .table-show-on-mobile-contents .table-mobile-element > .row > .name p {
+    text-transform: uppercase;
+}
+.table-container .table-show-on-mobile-contents .table-mobile-element > .row > .name:hover {
     cursor: pointer;
 }
 .table-container .table-show-on-mobile-contents .table-mobile-element > .row > .name {
     background-color: #fff;
+}
+/* -------------------------------------------------------- */
+
+/* Formatting contents of element */
+.table-container .table-show-on-mobile-contents .table-mobile-element .table-mobile-contents > .row > div:first-child p {
+    text-transform: uppercase;
 }
 /* -------------------------------------------------------- */
 
@@ -214,6 +231,8 @@ nav .navbar-brand img {
         display: block;
     }
 }
+
+/* /RESPONSIVE TABLE ---------------------------------------------------------------------------------------------- */
 
 /* /Table mobile view */
 

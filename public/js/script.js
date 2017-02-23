@@ -26,21 +26,26 @@ $("#backtotop").click(function (e) {
 
 $("a.anchor").click(function (e) {
     var dest = $(this).attr('href');
-    if (dest[0] == '#') {
+    console.log(dest)
+    if (dest[0] == '\#') {
+        console.log('yes')
         e.preventDefault();
-        if (dest == '#top') {
+        if (dest == '\#top') {
             $("body,html").animate({
                 scrollTop: 0
             }, 600);
             return false;
         }
         else {
+            console.log('scrolling')
             if ($(window).scrollTop() > 50) {
+                console.log('doing it')
                 $("body,html").animate({
                     scrollTop: $(dest).offset().top - 50
                 }, 600);
             }
             else {
+                console.log('really doing it')
                 $("body,html").animate({
                     scrollTop: $(dest).offset().top - 50
                 }, 600);

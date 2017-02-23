@@ -173,34 +173,34 @@
                                     <?php //ONE NAME ELEMENT ?>
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 name">
-                                            <p>ABC</p>
+                                            <p>abc</p>
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="container-fluid table-mobile-contents">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT HEADER 1</p>
+                                                    <p>content header 1</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT 1</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT HEADER 2</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT 2</p>
+                                                    <p>content 1</p>
                                                 </div>
                                             </div>
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT HEADER 3</p>
+                                                    <p>content header 2</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT 3</p>
+                                                    <p>content 2</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 3</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 3</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -210,34 +210,34 @@
                                     <?php //ONE NAME ELEMENT ?>
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 name">
-                                            <p>ABC</p>
+                                            <p>abc</p>
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="container-fluid table-mobile-contents">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT HEADER 1</p>
+                                                    <p>content header 1</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT 1</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT HEADER 2</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT 2</p>
+                                                    <p>content 1</p>
                                                 </div>
                                             </div>
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT HEADER 3</p>
+                                                    <p>content header 2</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>CONTENT 3</p>
+                                                    <p>content 2</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 3</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 3</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -360,153 +360,143 @@
             <div class="container">
                 <h1>Tylko 3 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
                 </h1>
-                <div class="container-fluid btmspace-80 flex-container line-height-150">
-                    <div class="col-sm-12 col-md-6 flex-container">
-                        <div class="col-sm-12 col-md-6 number-column right-line" number-data="1"></div>
-                        <div class="col-sm-12 col-md-6 flex-center">
-                            <h2>Podajesz aktualnie posiadane <span class="header_one">stawki</span></h2>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 flex-center">
-                        <p>Wybierz kategorię , która Cię interesuje i kliknij <span class="no-wrap">w przycisk</span>
-                            "Dowiedz się więcej". Wpisz
-                            poprawne dane do formularza kontaktowego i prześlij <span class="no-wrap">do nas</span>
-                            zgłoszenie.</p>
-                    </div>
-                </div>
 
-                <div class="container-fluid btmspace-80">
-                    <div class="col-sm-12 col-md-6 margin-vertical medium mobile">
-                        <img src="{{asset('images/demo/kroki_2_img.png')}}"/>
-                    </div>
-                    <div class="container-fluid margin-top-big no-margin-mobile line-height-150">
-                        <div class="col-sm-12 col-md-6 flex-container float-r">
-                            <div class="col-sm-12 col-md-6 number-column left-line col-lg-push-6" number-data="2"></div>
-                            <div class="col-sm-12 col-md-6 col-lg-pull-6 flex-center">
-                                <h2><span class="header_one">Negocjujemy </span><span
-                                            class="text-nowrap">dla Ciebie</span> nowe warunki</h2>
+                <div class="container circles no-margin-mobile">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="circle aligner all bged bgcolor_transparent">
+                            <div>
+                                <h2></h2>
                             </div>
                         </div>
-
-                        <div class="col-sm-12 col-md-6">
-                            <p class="margin-vertical-medium no-margin-mobile">Poczekaj na kontakt konsultanta. Po
-                                przesłaniu zgłoszenia
-                                będziemy <span class="no-wrap">do Ciebie</span> dzwonić w celu
-                                uzupełnienia informacji.</p>
-                        </div>
+                        <div class="numeration"><p><span class="downlight colored4">1.</span> Wniosek</p></div>
                     </div>
 
-                </div>
-
-                <div class="container-fluid btmspace-80 flex-container line-height-150">
-                    <div class="col-sm-12 col-sm-12 col-md-6 flex-container">
-                        <div class="col-sm-12 col-md-6 number-column right-line" number-data="3"></div>
-                        <div class="col-sm-12 col-md-6 flex-center">
-                            <h2>Wybierasz <span class="header_one">najlepszą</span> ofertę</h2>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="circle aligner all bged bgcolor_transparent">
+                            <div>
+                                <h2></h2>
+                            </div>
                         </div>
+                        <div class="numeration"><p><span class="downlight colored4">2.</span> Weryfikacja</p></div>
                     </div>
-                    <div class="col-sm-12 col-md-6 flex-center">
-                        <p class="padding-horizontal medium">Na podstawie podanych przez Ciebie danych, przedstawimy Ci
-                            ofertę dopasowaną do Twoich
-                            potrzeb. Pomożemy Ci również w negocjowaniu warunków wybranej przez Ciebie oferty.</p>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="circle aligner all bged bgcolor_transparent">
+                            <div>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="numeration"><p><span class="downlight colored4">3.</span> Oferta</p></div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="circle aligner all bged bgcolor_transparent">
+                            <div>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="numeration"><p><span class="downlight colored4">4.</span> Gotówka</p></div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="page_cards" class="page">
-            <div class="container-fluid">
-                <div class="col-xs-8 col-sm-10 center-no-float" style="overflow: hidden;">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper color_1">
-                                    <div class="front flex-container-always">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
+            <div class="container">
+                <div class="col-xs-8 col-sm-12 center-no-float" style="overflow: hidden;">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper color_1">
+                                        <div class="front flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Lorem Ipsum</p>
+                                        </div>
+                                        <div class="back"
+                                             style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
+                                            <!-- back content -->
+                                            <a href="http://www.google.pl"><span class="filler"></span></a>
+                                        </div>
                                     </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper color_3">
+                                        <div class="front flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Lorem Ipsum</p>
+                                        </div>
+                                        <div class="back"
+                                             style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
+                                            <!-- back content -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="flipper-height"
+                                     style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-sm-offset-3">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper color_2">
+                                        <div class="front flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Lorem Ipsum</p>
+                                        </div>
+                                        <div class="back"
+                                             style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
+                                            <!-- back content -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper color_1">
+                                        <div class="front flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Lorem Ipsum</p>
+                                        </div>
+                                        <div class="back"
+                                             style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                            <!-- back content -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper color_3">
-                                    <div class="front flex-container-always">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <div class="flipper-height"
-                                 style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-3 col-sm-offset-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper color_2">
-                                    <div class="front flex-container-always">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-sm-offset-6">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper color_3">
+                                        <div class="front flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Lorem Ipsum</p>
+                                        </div>
+                                        <div class="back"
+                                             style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
+                                            <!-- back content -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper color_1">
-                                    <div class="front flex-container-always">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-3 col-sm-offset-6">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper color_3">
-                                    <div class="front flex-container-always">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                <div class="flipper color_2">
-                                    <div class="front flex-container-always">
-                                        <!-- front content -->
-                                        <p class="flex-center">Lorem Ipsum</p>
-                                    </div>
-                                    <div class="back"
-                                         style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
-                                        <!-- back content -->
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="flipper color_2">
+                                        <div class="front flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Lorem Ipsum</p>
+                                        </div>
+                                        <div class="back"
+                                             style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                            <!-- back content -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -564,4 +554,64 @@
 	        </g>
 	      </svg>
 
+ */ ?>
+
+<?php /*
+ <section id="page_steps" class="page text-left steps">
+            <div class="container">
+                <h1>Tylko 3 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
+                </h1>
+                <div class="container-fluid btmspace-80 flex-container line-height-150">
+                    <div class="col-sm-12 col-md-6 flex-container">
+                        <div class="col-sm-12 col-md-6 number-column right-line" number-data="1"></div>
+                        <div class="col-sm-12 col-md-6 flex-center">
+                            <h2>Podajesz aktualnie posiadane <span class="header_one">stawki</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 flex-center">
+                        <p>Wybierz kategorię , która Cię interesuje i kliknij <span class="no-wrap">w przycisk</span>
+                            "Dowiedz się więcej". Wpisz
+                            poprawne dane do formularza kontaktowego i prześlij <span class="no-wrap">do nas</span>
+                            zgłoszenie.</p>
+                    </div>
+                </div>
+
+                <div class="container-fluid btmspace-80">
+                    <div class="col-sm-12 col-md-6 margin-vertical medium mobile">
+                        <img src="{{asset('images/demo/kroki_2_img.png')}}"/>
+                    </div>
+                    <div class="container-fluid margin-top-big no-margin-mobile line-height-150">
+                        <div class="col-sm-12 col-md-6 flex-container float-r">
+                            <div class="col-sm-12 col-md-6 number-column left-line col-lg-push-6" number-data="2"></div>
+                            <div class="col-sm-12 col-md-6 col-lg-pull-6 flex-center">
+                                <h2><span class="header_one">Negocjujemy </span><span
+                                            class="text-nowrap">dla Ciebie</span> nowe warunki</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6">
+                            <p class="margin-vertical-medium no-margin-mobile">Poczekaj na kontakt konsultanta. Po
+                                przesłaniu zgłoszenia
+                                będziemy <span class="no-wrap">do Ciebie</span> dzwonić w celu
+                                uzupełnienia informacji.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="container-fluid btmspace-80 flex-container line-height-150">
+                    <div class="col-sm-12 col-sm-12 col-md-6 flex-container">
+                        <div class="col-sm-12 col-md-6 number-column right-line" number-data="3"></div>
+                        <div class="col-sm-12 col-md-6 flex-center">
+                            <h2>Wybierasz <span class="header_one">najlepszą</span> ofertę</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 flex-center">
+                        <p class="padding-horizontal medium">Na podstawie podanych przez Ciebie danych, przedstawimy Ci
+                            ofertę dopasowaną do Twoich
+                            potrzeb. Pomożemy Ci również w negocjowaniu warunków wybranej przez Ciebie oferty.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
  */ ?>
