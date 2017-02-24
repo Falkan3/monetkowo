@@ -10,8 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#top" class="anchor navbar-brand"><img id="logo"
-                                                                src="{{ URL::asset('images/logo.png') }}"/></a>
+                <a href="#top" class="anchor navbar-brand"><img id="logo" src="{{ URL::asset('images/logo.png') }}" alt="logo" /></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

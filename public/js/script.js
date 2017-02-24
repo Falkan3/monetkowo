@@ -118,15 +118,18 @@ $(window).on('resize', function () {
 });
 
 $(window).on("load", function () {
-    loadings.hide();
-    $('.carousel').carousel({
-        interval: 6000,
-        pause: "false"
-    });
-    carousel.css('visibility', 'visible');
+    setTimeout(function(){
+        loadings.hide();
+        $('.carousel').carousel({
+            interval: 6000,
+            pause: "false"
+        });
+        carousel.css('visibility', 'visible');
 
-    boxes_init();
-    resizeContents();
+        boxes_init();
+        resizeContents();
+    }, 500);
+
 });
 
 var same_height_container = $('.same-height');

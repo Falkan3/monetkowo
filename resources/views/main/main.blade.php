@@ -254,6 +254,51 @@
             </div>
         </section>
 
+        <section id="page_steps" class="page text-left steps">
+            <div class="container">
+                <h1>Tylko 4 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
+                </h1>
+
+                <div class="container circles no-margin-mobile">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="circle aligner all bgded bgcolor_transparent">
+                            <div>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="numeration"><p><span class="downlight color_four">1.</span> Wniosek</p></div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="circle aligner all bgded bgcolor_transparent">
+                            <div>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="numeration"><p><span class="downlight color_four">2.</span> Weryfikacja</p></div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="circle aligner all bgded bgcolor_transparent">
+                            <div>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="numeration"><p><span class="downlight color_four">3.</span> Oferta</p></div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="circle aligner all bgded bgcolor_transparent">
+                            <div>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="numeration"><p><span class="downlight color_four">4.</span> Gotówka</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="page_tiles" class="page">
             <div class="container-fluid no-padding">
                 <div class="row no-margin">
@@ -288,10 +333,10 @@
                             Podpowiemy Ci w kilku krokach co zrobić, by spać spokojnie.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 tile tile_color_3">
+                    <div class="col-sm-12 col-md-4 tile tile_color_1">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/INTERNET_b.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two">Abonament</span> <span class="one-line">za Internet</span>
@@ -307,13 +352,13 @@
                 </div>
                 <!-- two -->
                 <div class="row no-margin">
-                    <div class="col-sm-12 col-md-4 tile tile_color_2">
+                    <div class="col-sm-12 col-md-4 tile tile_color_1">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
                                 <img src="{{asset('images/demo/KREDYTY_w.png')}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
-                                <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
+                                <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
                             </div>
                         </div>
                         <div class="separator"></div>
@@ -356,46 +401,46 @@
             </div>
         </section>
 
-        <section id="page_steps" class="page text-left steps">
+        <section id="page_opinions" class="page">
             <div class="container">
-                <h1>Tylko 4 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
-                </h1>
-
-                <div class="container circles no-margin-mobile">
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="circle aligner all bgded bgcolor_transparent">
-                            <div>
-                                <h2></h2>
+                <h1>Opinie</h1>
+            </div>
+            <div class="container-fluid opinions-bg">
+                <div class="container opinions">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 opinion">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-img">
+                                    <img src="{{asset('images/content/avatar1.jpeg')}}" alt="img"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-content">
+                                    <p class="header">Lorem<span class="smaller">, ipsum</span></p>
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <p>Lorem ipsum dolor sit amet <a href="https://negocjujemypromocje.pl/">negocjujemypromocje.pl</a>.
+                                        Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi pretium a
+                                        lectus at viverra. Fusce ac justo libero.</p>
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="numeration"><p><span class="downlight color_four">1.</span> Wniosek</p></div>
-                    </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="circle aligner all bgded bgcolor_transparent">
-                            <div>
-                                <h2></h2>
+                        <div class="col-xs-12 col-sm-6 col-md-6 opinion">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-img">
+                                    <img src="{{asset('images/content/avatar2.jpeg')}}" alt="img"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-content">
+                                    <p class="header">Mauris<span class="smaller">, pharetra</span></p>
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <p>In ultrices elementum eros a lacinia.
+                                        Mauris suscipit finibus ipsum vitae tempor. Aliquam id neque tellus. Aliquam
+                                        tortor metus, dapibus non rutrum in, pharetra ut tellus. <a
+                                                href="https://negocjujemypromocje.pl/">negocjujemypromocje.pl</a>
+                                    </p>
+                                    <i class="fa fa-quote-right float-right" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="numeration"><p><span class="downlight color_four">2.</span> Weryfikacja</p></div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="circle aligner all bgded bgcolor_transparent">
-                            <div>
-                                <h2></h2>
-                            </div>
-                        </div>
-                        <div class="numeration"><p><span class="downlight color_four">3.</span> Oferta</p></div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="circle aligner all bgded bgcolor_transparent">
-                            <div>
-                                <h2></h2>
-                            </div>
-                        </div>
-                        <div class="numeration"><p><span class="downlight color_four">4.</span> Gotówka</p></div>
                     </div>
                 </div>
             </div>

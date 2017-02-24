@@ -1,8 +1,7 @@
 @charset "utf-8";
 
 body, input, textarea, select {
-    /*font-family: Verdana, Geneva, sans-serif;*/
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1.6em;
 }
@@ -567,6 +566,91 @@ div.background {
 }
 
 /* -------------------------------------- /CIRCLES -------------------------------------- */
+
+/* OPINIONS ---------------------------------------------------- */
+
+/* -------------------------------------- OPINIONS -------------------------------------- */
+
+.opinions-bg {
+    background-color: #ff9c10;
+}
+
+.opinions {
+    max-width: 1100px;
+    padding: 70px 0;
+}
+.opinions .opinion-img img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+.opinions .opinion-content {
+    padding: 0;
+}
+.opinions .opinion-content p {
+    color: #fff;
+}
+.opinions .opinion-content p.header {
+    font-size: 150%;
+    margin-bottom: 12px;
+    font-weight: bold;
+    margin-top: 17px;
+}
+.opinions .opinion-content p {
+    font-size: 90%;
+    font-weight: lighter;
+    padding: 0 25px;
+    text-align: justify;
+}
+.opinions .opinion-content a {
+    color: #fff;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.opinions i.fa.fa-quote-right, .opinions i.fa.fa-quote-left {
+    font-size: 250%;
+    opacity: 0.4;
+    position: absolute;
+    color: #fff;
+}
+.opinions i.fa.fa-quote-left {
+    top: 0;
+}
+.opinions i.fa.fa-quote-right {
+    float: right;
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width: 1200px) {
+    .opinions .opinion {
+        padding-right: 100px;
+    }
+    .opinions .opinion:last-child {
+        padding-right: 0;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .opinions .opinion {
+        margin-bottom: 35px;
+    }
+}
+@media (max-width: 767px) {
+    .opinions .opinion {
+        padding: 0 6%;
+    }
+    .opinions .opinion .opinion-img img {
+        max-width:200px;
+        margin: 0 auto;
+
+    }
+}
+
+/* -------------------------------------- /OPINIONS -------------------------------------- */
+
+/* /OPINIONS --------------------------------------------------- */
 
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */

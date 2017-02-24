@@ -237,6 +237,7 @@ span.header_one.normal-size, span.header_two.normal-size {
 @media screen and (max-width:1400px) {
     .tile {
         padding: 45px 6%;
+        min-height: 550px;
     }
     .tile h1 {
         font-size: 28px;
