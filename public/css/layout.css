@@ -512,6 +512,9 @@ div.background {
 }
 
 @media (min-width: 992px) {
+    .circles .circle h2 {
+        padding: 35px;
+    }
     .circles > div.arrowed .circle::after {
         content: '';
         height: 60px;

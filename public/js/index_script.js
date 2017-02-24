@@ -31,6 +31,8 @@ function initTableMobile() {
     $('.table-container .table-show-on-mobile-contents .table-mobile-contents').hide();
 }
 
+var circles = $('.circles .circle');
+
 $(document).ready(function (e) {
     initTableMobile();
     rescaleCircles();
@@ -45,9 +47,11 @@ tableHeaders.on('click', function(e){
     $(this).parent().find('.table-mobile-contents').slideToggle();
 });
 
-var circles = $('.circles .circle');
 function rescaleCircles() {
     circles.each(function(){
-        $(this).css('width', $(this).height());
+        if($(this).height() > 120)
+            $(this).css('width', $(this).height());
+        else
+            $(this).css({'width': 120 + 'px', 'height': 120 + 'px'});
     });
 }

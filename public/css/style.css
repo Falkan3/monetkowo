@@ -387,3 +387,13 @@ span.header_one.normal-size, span.header_two.normal-size {
         font-size: 26px;
     }
 }
+
+h1 {
+    display: none;
+}
+section {
+    padding: 70px 0;
+}
+#page_tiles {
+    padding: 0;
+}
