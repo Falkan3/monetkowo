@@ -19,6 +19,8 @@ Route::get('/kontakt', function () {
     return view('main.contact');
 });
 
+Route::post('/sendForm', 'ContactController@SendMail');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

@@ -39,7 +39,8 @@
                     <img src="{{ URL::asset('images/demo/backgrounds/slider2.jpg')}}" alt="slajd1">
                     <div class="carousel-caption">
                         <h3>Skorzystaj z rad doradców</h3>
-                        <h3>negocjuj kwoty swoich rachunków</h3>
+                        <h3 class="highlight_lower">negocjuj kwoty</h3>
+                        <h3 class="highlight_lower">swoich rachunków</h3>
                         <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
@@ -48,7 +49,7 @@
                     <img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg')}}" alt="slajd2">
                     <div class="carousel-caption">
                         <h3>Przełącz się z nami</h3>
-                        <h3>na wyższy poziom oszczędzania</h3>
+                        <h3 class="highlight_lower">na wyższy poziom oszczędzania</h3>
                         <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
@@ -75,7 +76,7 @@
                     <img src="{{ URL::asset('images/demo/backgrounds/slider6.jpg')}}" alt="slajd3">
                     <div class="carousel-caption">
                         <h3>Minimalizuj koszty</h3>
-                        <h3>swojego domowego budżetu</h3>
+                        <h3 class="highlight_lower">swojego domowego budżetu</h3>
                         <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
@@ -148,6 +149,67 @@
                                         <p>Lorem</p>
                                     </div>
                                 </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>Lorem</p>
+                                    </div>
+                                </div>
+
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -244,6 +306,154 @@
                                     </div>
                                     <?php //ONE NAME ELEMENT ?>
 
+                                    <?php //ONE NAME ELEMENT ?>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 name">
+                                            <p>abc</p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="container-fluid table-mobile-contents">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 1</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 1</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 2</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 2</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 3</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php //ONE NAME ELEMENT ?>
+
+                                    <?php //ONE NAME ELEMENT ?>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 name">
+                                            <p>abc</p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="container-fluid table-mobile-contents">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 1</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 1</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 2</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 2</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 3</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php //ONE NAME ELEMENT ?>
+
+                                    <?php //ONE NAME ELEMENT ?>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 name">
+                                            <p>abc</p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="container-fluid table-mobile-contents">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 1</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 1</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 2</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 2</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 3</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php //ONE NAME ELEMENT ?>
+
+                                    <?php //ONE NAME ELEMENT ?>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 name">
+                                            <p>abc</p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="container-fluid table-mobile-contents">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 1</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 1</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 2</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 2</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content header 3</p>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <p>content 3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php //ONE NAME ELEMENT ?>
+
                                 </div>
                                 <?php //NAME ELEMENTS ?>
 
@@ -259,7 +469,7 @@
                 <h1>Tylko 4 proste kroki dzielą Cię, aby zupełnie <span class="new-line"><span class="header_one">za darmo obniżyć</span> swoje miesięczne wydatki!</span>
                 </h1>
 
-                <div class="container circles no-margin-mobile">
+                <div class="container-fluid circles no-margin-mobile">
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="circle aligner all bgded bgcolor_transparent">
                             <div>
@@ -408,10 +618,10 @@
             <div class="container-fluid opinions-bg">
                 <div class="container opinions">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-6 opinion">
+                        <div class="col-xs-12 col-sm-12 col-md-4 opinion">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 col-md-6 opinion-img">
-                                    <img src="{{asset('images/content/avatar1.jpeg')}}" alt="img"/>
+                                    <img src="{{asset('images/demo/avatar1.jpeg')}}" alt="img"/>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 opinion-content">
                                     <p class="header">Lorem<span class="smaller">, ipsum</span></p>
@@ -424,10 +634,28 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-6 col-md-6 opinion">
+                        <div class="col-xs-12 col-sm-12 col-md-4 opinion">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 col-md-6 opinion-img">
-                                    <img src="{{asset('images/content/avatar2.jpeg')}}" alt="img"/>
+                                    <img src="{{asset('images/demo/avatar2.jpeg')}}" alt="img"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-content">
+                                    <p class="header">Mauris<span class="smaller">, pharetra</span></p>
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <p>In ultrices elementum eros a lacinia.
+                                        Mauris suscipit finibus ipsum vitae tempor. Aliquam id neque tellus. Aliquam
+                                        tortor metus, dapibus non rutrum in, pharetra ut tellus. <a
+                                                href="https://negocjujemypromocje.pl/">negocjujemypromocje.pl</a>
+                                    </p>
+                                    <i class="fa fa-quote-right float-right" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-4 opinion">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-img">
+                                    <img src="{{asset('images/demo/avatar1.jpeg')}}" alt="img"/>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 opinion-content">
                                     <p class="header">Mauris<span class="smaller">, pharetra</span></p>
@@ -570,7 +798,7 @@
                 <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
                 <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
                 <div class="container-fluid margin-vertical medium">
-                    {!! Form::open(['url' => 'contactform', 'id' => 'contact-form', 'class' => 'same-height']) !!}
+                    {!! Form::open(['url' => 'sendForm', 'id' => 'contact-form', 'class' => 'same-height contact-form']) !!}
                     <div class="col-xs-12 col-sm-6 scalable" style="height: 305px;">
                         {{Form::text('first_name', '', ['placeholder' => 'Twoje imię', 'maxlength' => 25, 'required'])}}
                         {{Form::text('email', '', ['placeholder' => 'E-mail', 'maxlength' => 50, 'required'])}}

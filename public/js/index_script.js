@@ -36,6 +36,10 @@ $(document).ready(function (e) {
     rescaleCircles();
 });
 
+$(window).on('resize', function(e) {
+    rescaleCircles();
+})
+
 tableHeaders.on('click', function(e){
     console.log('clicked ' + $(this).find('p').text());
     $(this).parent().find('.table-mobile-contents').slideToggle();

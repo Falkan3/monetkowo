@@ -70,6 +70,8 @@ $('.navbar-collapse a').click(function (e) {
 
 var $item = $('.carousel .item');
 var $wHeight = $(window).height();
+if($wHeight > 1080)
+    $wHeight = 1080;
 
 $item.height($wHeight);
 $item.addClass('full-screen');
@@ -101,6 +103,8 @@ $('.carousel img').each(function () {
 function resizeContents() {
     if ($(window).width() > 768) {
         $wHeight = $(window).height();
+        if($wHeight > 1080)
+            $wHeight = 1080;
         $item.height($wHeight);
         resize_boxes();
     }

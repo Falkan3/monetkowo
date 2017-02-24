@@ -24,7 +24,7 @@
                 <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
                 <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
                 <div class="container-fluid margin-vertical medium">
-                    {!! Form::open(['url' => 'contactform', 'id' => 'contact-form', 'class' => 'same-height']) !!}
+                    {!! Form::open(['url' => 'sendForm', 'id' => 'contact-form', 'class' => 'same-height contact-form']) !!}
                     <div class="col-xs-12 col-sm-6 scalable" style="height: 305px;">
                         {{Form::text('first_name', '', ['placeholder' => 'Twoje imię', 'maxlength' => 25, 'required'])}}
                         {{Form::text('email', '', ['placeholder' => 'E-mail', 'maxlength' => 50, 'required'])}}

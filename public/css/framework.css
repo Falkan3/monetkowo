@@ -96,7 +96,7 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 
 /* FULL HEIGHT SECTIONS */
 
-div.screen-height, section.screen-height {min-height: 100vh; height: calc(100%); height: 100%}
+div.screen-height, section.screen-height {height: calc(100%); height: 100%; max-height: 1080px;}
 div.tri-screen-height {height: 75%;}
 div.duo-screen-height {height: 50%;}
 div.pri-screen-height {height: 25%;}

@@ -11,6 +11,10 @@
     box-shadow: 0px 4px 5px #ddd, 0px -4px 5px #ddd;
 }
 
+.carousel-inner .item {
+    max-height: 1080px;
+}
+
 .number-column-vertical-center h2 {
     padding: 70px 0 20px 0;
     margin: 0;
@@ -235,20 +239,20 @@ span.header_one.normal-size, span.header_two.normal-size {
 /* Media --------------------------------------------------------------------------------------- */
 
 @media screen and (max-width:1400px) {
-    .tile {
+    .content .tile {
         padding: 45px 6%;
         min-height: 550px;
     }
-    .tile h1 {
+    .content .tile h1 {
         font-size: 28px;
     }
 }
 
 @media screen and (max-width:1300px) {
-    .tile {
+    .content .tile {
         padding: 45px 4%;
     }
-    .tile h1 {
+    .content .tile h1 {
         font-size: 26px;
     }
 }
@@ -258,7 +262,7 @@ span.header_one.normal-size, span.header_two.normal-size {
         height: 175px;
     }
 
-    .steps h2 {
+    .content .steps h2 {
         font-size: 32px;
     }
 
@@ -266,30 +270,34 @@ span.header_one.normal-size, span.header_two.normal-size {
         font-size: 42px;
     }
 
-    .tile {
+    .content .tile {
         padding: 45px 60px;
         min-height: 550px;
     }
-    .tile p {
+    .content .tile p {
         font-size: 18px;
     }
-    .tile h1 {
-        font-size: 24px;
+    .content .tile h1 {
+        font-size: 22px;
     }
-    .tile .icon {
+    .content .tile .icon {
         margin-right: 40px;
     }
 }
 
 @media screen and (max-width:1024px) {
+    .content .content h1 {
+        font-size: 26px;
+    }
+
     .number-column svg {
         height: 150px;
     }
-    .steps h2 {
+    .content .steps h2 {
         padding: 20px 0 20px 0;
     }
 
-    .steps h2 {
+    .content .steps h2 {
         font-size: 26px;
     }
 
@@ -299,10 +307,10 @@ span.header_one.normal-size, span.header_two.normal-size {
 }
 
 @media screen and (max-width:991px) {
-    .steps h2 {
+    .content .steps h2 {
         padding: 20px 0 20px 0;
     }
-    .steps h2 {
+    .content .steps h2 {
         font-size: 24px;
     }
 
@@ -314,22 +322,22 @@ span.header_one.normal-size, span.header_two.normal-size {
         text-align: center;
     }
 
-    .tile {
+    .content .tile {
         min-height: 450px;
     }
-    .tile p {
+    .content .tile p {
         font-size: 20px;
     }
-    .tile h1 {
+    .content .tile h1 {
         font-size: 36px;
     }
-    .tile .icon {
+    .content .tile .icon {
         margin-right: 40px;
     }
-    .steps .no-margin-mobile {
+    .content .steps .no-margin-mobile {
         margin: 0 !important;
     }
-    .tile {
+    .content .tile {
         padding: 35px 50px;
     }
 
@@ -355,23 +363,23 @@ span.header_one.normal-size, span.header_two.normal-size {
         height: auto;
         min-height: 660px;
     }
-    .tile h1 {
+    .content .tile h1 {
         height: auto;
         padding-top: 10px;
     }
-    .tile p {
+    .content .tile p {
         font-size: 16px;
     }
-    .tile h1 {
+    .content .tile h1 {
         font-size: 30px;
     }
-    .tile .icon {
+    .content .tile .icon {
         margin-right: 0;
         max-height: 70px;
         display: block;
         float: none;
     }
-    .tile {
+    .content .tile {
         padding: 25px 35px;
     }
 
