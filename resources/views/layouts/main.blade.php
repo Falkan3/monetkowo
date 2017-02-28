@@ -23,6 +23,7 @@
     <!-- Scripts -->
     <script src="{{ URL::asset('js/jquery-3.1.1.min.js') }}"></script>
     <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ URL::asset('js/jquery-inputmask.js') }}"></script>
     <script>
         window.Laravel = <?php echo json_encode([
                 'csrfToken' => csrf_token(),
@@ -43,6 +44,7 @@
 <script src="{{ URL::asset('js/jquery.mobilemenu.js') }}"></script>
 <script src="{{ URL::asset('js/script.js') }}"></script>
 <script src="{{ URL::asset('js/index_script.js') }}"></script>
-
+<script src="{{ URL::asset('js/form_js.js') }}"></script>
+<script src="{{ URL::asset('js/sendform.js') }}"></script>
 </body>
 </html>

@@ -121,6 +121,9 @@ $(window).on('resize', function () {
     resizeContents();
 });
 
+var same_height_container = $('.same-height');
+var boxes;
+
 $(window).on("load", function () {
     setTimeout(function(){
         loadings.hide();
@@ -135,9 +138,6 @@ $(window).on("load", function () {
     }, 500);
 
 });
-
-var same_height_container = $('.same-height');
-var boxes;
 
 function boxes_init() {
     boxes = $('div.scalable');

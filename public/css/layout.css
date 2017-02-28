@@ -8,7 +8,7 @@ body, input, textarea, select {
 
 .page {
     overflow: auto;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .page:last-child {
@@ -438,6 +438,13 @@ div.background {
     border: 2px solid #c5c3c6;
     padding: 15px;
     margin-bottom: 15px;
+    transition: 1s;
+}
+#contact-form input[type="text"].wrong-input, #contact-form textarea.wrong-input, #contact-form select.wrong-input {
+    border-color: #ce0000;
+}
+#contact-form input[type="text"].right-input, #contact-form textarea.right-input, #contact-form select.right-input {
+    border-color: #007cc3;
 }
 #contact-form select option {
     color: #000;
@@ -529,18 +536,18 @@ div.background {
         background-repeat: no-repeat;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1199px) {
     .circles > div.arrowed .circle::after {
         right: -70%;
     }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1599px) {
     .circles > div.arrowed .circle::after {
         right: -83%;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .circles div.numeration p {
         font-size: 150%;
     }
@@ -640,6 +647,10 @@ div.background {
     right: 0;
 }
 
+.row {
+    margin: 0 !important;
+}
+
 @media (min-width: 1200px) {
     .opinions .opinion {
         padding-right: 20px;
@@ -652,7 +663,11 @@ div.background {
 
 @media (max-width: 991px) {
     .opinions .opinion {
-        margin-bottom: 35px;
+        margin-bottom: 40px;
+        max-width: 500px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media (max-width: 767px) {
@@ -669,6 +684,23 @@ div.background {
 /* -------------------------------------- /OPINIONS -------------------------------------- */
 
 /* /OPINIONS --------------------------------------------------- */
+
+.errormsg {
+    color: #ce0000;
+}
+
+.form-thank-you {
+    display: none;
+}
+.form-thank-you p {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.loading_ajax {
+    display: block;
+    margin: 10px auto;
+}
 
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */

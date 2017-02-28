@@ -259,7 +259,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 3</p>
+                                                    <p>Oszczędności</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 3</p>
@@ -296,7 +296,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 3</p>
+                                                    <p>Oszczędności</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 3</p>
@@ -333,7 +333,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 3</p>
+                                                    <p>Oszczędności</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 3</p>
@@ -370,7 +370,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 3</p>
+                                                    <p>Oszczędności</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 3</p>
@@ -407,7 +407,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 3</p>
+                                                    <p>Oszczędności</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 3</p>
@@ -444,7 +444,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 3</p>
+                                                    <p>Oszczędności</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 3</p>
@@ -618,12 +618,12 @@
             <div class="container-fluid opinions-bg">
                 <div class="container opinions">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-4 opinion">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 opinion">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-img">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 opinion-img">
                                     <img src="{{asset('images/demo/avatar1.jpeg')}}" alt="img"/>
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-content">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 opinion-content">
                                     <p class="header">Lorem<span class="smaller">, ipsum</span></p>
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                     <p>Lorem ipsum dolor sit amet <a href="https://negocjujemypromocje.pl/">negocjujemypromocje.pl</a>.
@@ -634,12 +634,12 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-4 opinion">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 opinion">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-img">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 opinion-img">
                                     <img src="{{asset('images/demo/avatar2.jpeg')}}" alt="img"/>
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-content">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 opinion-content">
                                     <p class="header">Mauris<span class="smaller">, pharetra</span></p>
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                     <p>In ultrices elementum eros a lacinia.
@@ -652,12 +652,12 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-4 opinion">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 opinion">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-img">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 opinion-img">
                                     <img src="{{asset('images/demo/avatar1.jpeg')}}" alt="img"/>
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 opinion-content">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 opinion-content">
                                     <p class="header">Mauris<span class="smaller">, pharetra</span></p>
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                     <p>In ultrices elementum eros a lacinia.
@@ -800,9 +800,9 @@
                 <div class="container-fluid margin-vertical medium">
                     {!! Form::open(['url' => 'sendForm', 'id' => 'contact-form', 'class' => 'same-height contact-form']) !!}
                     <div class="col-xs-12 col-sm-6 scalable" style="height: 305px;">
-                        {{Form::text('first_name', '', ['placeholder' => 'Twoje imię', 'maxlength' => 25, 'required'])}}
-                        {{Form::text('email', '', ['placeholder' => 'E-mail', 'maxlength' => 50, 'required'])}}
-                        {{Form::text('tel', '', ['placeholder' => 'Numer telefonu', 'maxlength' => 20, 'required'])}}
+                        {{Form::text('first_name', '', ['placeholder' => 'Twoje imię', 'maxlength' => 25, 'required', 'class' => 'name'])}}
+                        {{Form::text('email', '', ['placeholder' => 'E-mail', 'maxlength' => 50, 'required', 'class' => 'email'])}}
+                        {{Form::text('tel', '', ['placeholder' => 'Numer telefonu', 'maxlength' => 20, 'required', 'class' => 'telephone'])}}
                         {{Form::select('subject', [null=> 'Wybierz temat', 1=>'Chcę poznać szczegóły oferty', 2=>'Współpraca', 3=>'Reklama', 4=>'Program Partnerski', 5=>'Uwagi do strony', 6=>'Korespondencja ogólna'], null, ['required'])}}
                     </div>
                     <div class="col-xs-12 col-sm-6 scalable margin-on-mobile" style="height: 305px;">
@@ -811,7 +811,14 @@
                     <div class="col-xs-12 col-sm-6" style="float: right">
                         {{ Form::submit('Wyślij', ['class' => 'btn alternative'])}}
                     </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <img src="{{asset('images/ajax-loader.gif')}}" alt="loading..." class="hidden loading_ajax" />
+                        <div class="status"></div>
+                    </div>
                     {!! Form::close() !!}
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-thank-you">
+                    </div>
                 </div>
             </div>
         </section>
