@@ -524,9 +524,7 @@
                             </div>
                         </div>
                         <div class="separator"></div>
-                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj
-                            <span class="text-nowrap">z najkorzystniejszych</span>
-                            aktualnie promocji i obniż swój abonament za Internet.</p>
+                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj <span class="text-nowrap">z najkorzystniejszych</span> aktualnie promocji i obniż swój abonament za Internet.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
                     <div class="col-sm-12 col-md-4 tile tile_color_2">
@@ -540,9 +538,9 @@
                             </div>
                         </div>
                         <div class="separator"></div>
-                        <p>Czy Twój rachunek telefoniczny spędza Ci sen <span class="text-nowrap">z powiek?</span> Nie musi! Teraz to dziecinnie
-                            proste.
-                            Podpowiemy Ci w kilku krokach co zrobić, by spać spokojnie.</p>
+                        <p>Czy Twój rachunek telefoniczny spędza Ci sen <span class="text-nowrap">z powiek?</span> Nie
+                            musi! Teraz to dziecinnie proste. Podpowiemy Ci w kilku krokach co zrobić, by spać
+                            spokojnie.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
                     <div class="col-sm-12 col-md-4 tile tile_color_1">
@@ -556,9 +554,9 @@
                             </div>
                         </div>
                         <div class="separator"></div>
-                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj
-                            <span class="text-nowrap">z najkorzystniejszych</span>
-                            aktualnie promocji i obniż swój abonament za Internet.</p>
+                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj <span
+                                    class="text-nowrap">z najkorzystniejszych</span> aktualnie promocji i obniż swój
+                            abonament za Internet.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
                 </div>
