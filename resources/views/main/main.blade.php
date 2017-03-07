@@ -14,7 +14,7 @@
     </section>
  */ ?>
     <section id="page_intro" class="screen-height">
-        <img id="loading" src="{{asset('images/ajax-loader.gif')}}" alt="loading..."/>
+        <img id="loading" src="{{asset('images/ajax-loader.gif', env('HTTPS'))}}" alt="loading..."/>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -36,7 +36,7 @@
                 */ ?>
 
                 <div class="item active bgded overlay">
-                    <img src="{{ URL::asset('images/demo/backgrounds/slider2.jpg')}}" alt="slajd1">
+                    <img src="{{ asset('images/demo/backgrounds/slider2.jpg', env('HTTPS'))}}" alt="slajd1">
                     <div class="carousel-caption">
                         <h3>Skorzystaj z rad doradców</h3>
                         <h3 class="highlight_lower">negocjuj kwoty</h3>
@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="item bgded overlay">
-                    <img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg')}}" alt="slajd2">
+                    <img src="{{ asset('images/demo/backgrounds/slider3.jpg', env('HTTPS'))}}" alt="slajd2">
                     <div class="carousel-caption">
                         <h3>Przełącz się z nami</h3>
                         <h3 class="highlight_lower">na wyższy poziom oszczędzania</h3>
@@ -73,7 +73,7 @@
                 */ ?>
 
                 <div class="item bgded overlay">
-                    <img src="{{ URL::asset('images/demo/backgrounds/slider6.jpg')}}" alt="slajd3">
+                    <img src="{{ asset('images/demo/backgrounds/slider6.jpg', env('HTTPS'))}}" alt="slajd3">
                     <div class="carousel-caption">
                         <h3>Minimalizuj koszty</h3>
                         <h3 class="highlight_lower">swojego domowego budżetu</h3>
@@ -137,7 +137,7 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -152,7 +152,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -167,7 +167,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -182,7 +182,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -197,7 +197,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -212,7 +212,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -241,7 +241,7 @@
                                         <div class="container-fluid table-mobile-contents">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 1</p>
+                                                    <p>Promocje standardowe</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 1</p>
@@ -250,7 +250,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 2</p>
+                                                    <p>Super promocje</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 2</p>
@@ -278,7 +278,7 @@
                                         <div class="container-fluid table-mobile-contents">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 1</p>
+                                                    <p>Promocje standardowe</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 1</p>
@@ -287,7 +287,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 2</p>
+                                                    <p>Super promocje</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 2</p>
@@ -315,7 +315,7 @@
                                         <div class="container-fluid table-mobile-contents">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 1</p>
+                                                    <p>Promocje standardowe</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 1</p>
@@ -324,7 +324,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 2</p>
+                                                    <p>Super promocje</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 2</p>
@@ -352,7 +352,7 @@
                                         <div class="container-fluid table-mobile-contents">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 1</p>
+                                                    <p>Promocje standardowe</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 1</p>
@@ -361,7 +361,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 2</p>
+                                                    <p>Super promocje</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 2</p>
@@ -389,7 +389,7 @@
                                         <div class="container-fluid table-mobile-contents">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 1</p>
+                                                    <p>Promocje standardowe</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 1</p>
@@ -398,7 +398,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 2</p>
+                                                    <p>Super promocje</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 2</p>
@@ -426,7 +426,7 @@
                                         <div class="container-fluid table-mobile-contents">
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 1</p>
+                                                    <p>Promocje standardowe</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 1</p>
@@ -435,7 +435,7 @@
 
                                             <div class="row">
                                                 <div class="col-xs-12 col-sm-12">
-                                                    <p>content header 2</p>
+                                                    <p>Super promocje</p>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12">
                                                     <p>content 2</p>
@@ -515,7 +515,7 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_3">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/INTERNET_b.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/INTERNET_b.png', env('HTTPS'))}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two">Abonament</span> <span class="one-line">za Internet</span>
@@ -531,7 +531,7 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_2">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/TELEFON_w.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/TELEFON_w.png', env('HTTPS'))}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_one">Rachunek</span> telefoniczny</h1>
@@ -546,7 +546,7 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_1">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/INTERNET.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/INTERNET.png', env('HTTPS'))}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two">Abonament</span> <span class="one-line">za Internet</span>
@@ -565,7 +565,7 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_1">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KREDYTY_w.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KREDYTY_w.png', env('HTTPS'))}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
@@ -581,7 +581,7 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_3">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KONTO-BANKOWE_b.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KONTO-BANKOWE_b.png', env('HTTPS'))}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two new-line">Konto</span> bankowe</h1>
@@ -596,7 +596,7 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_2">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KREDYTY_w.png')}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KREDYTY_w.png', env('HTTPS'))}}" alt="icon" class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
@@ -621,7 +621,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 opinion">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 opinion-img">
-                                    <img src="{{asset('images/demo/avatar1.jpeg')}}" alt="img"/>
+                                    <img src="{{asset('images/demo/avatar1.jpeg', env('HTTPS'))}}" alt="img"/>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 opinion-content">
                                     <p class="header">Lorem<span class="smaller">, ipsum</span></p>
@@ -637,7 +637,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 opinion">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 opinion-img">
-                                    <img src="{{asset('images/demo/avatar2.jpeg')}}" alt="img"/>
+                                    <img src="{{asset('images/demo/avatar2.jpeg', env('HTTPS'))}}" alt="img"/>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 opinion-content">
                                     <p class="header">Mauris<span class="smaller">, pharetra</span></p>
@@ -655,7 +655,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 opinion">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 opinion-img">
-                                    <img src="{{asset('images/demo/avatar1.jpeg')}}" alt="img"/>
+                                    <img src="{{asset('images/demo/avatar1.jpeg', env('HTTPS'))}}" alt="img"/>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 opinion-content">
                                     <p class="header">Mauris<span class="smaller">, pharetra</span></p>
@@ -702,7 +702,7 @@
                                             <p class="flex-center">Lorem Ipsum</p>
                                         </div>
                                         <div class="back"
-                                             style="background: url({{asset('images/demo/tiles/tile2.jpg')}}); background-size: 100% 100%;">
+                                             style="background: url({{asset('images/demo/tiles/tile2.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
                                         </div>
                                     </div>
@@ -812,7 +812,7 @@
                         {{ Form::submit('Wyślij', ['class' => 'btn alternative'])}}
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12">
-                        <img src="{{asset('images/ajax-loader.gif')}}" alt="loading..." class="hidden loading_ajax" />
+                        <img src="{{asset('images/ajax-loader.gif', env('HTTPS'))}}" alt="loading..." class="hidden loading_ajax" />
                         <div class="status"></div>
                     </div>
                     {!! Form::close() !!}
