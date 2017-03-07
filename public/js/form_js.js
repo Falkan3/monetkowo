@@ -32,7 +32,7 @@ var email_fields;
 var telephone_fields;
 var agreement_fields;
 
-var all_telephone_fields = $('input[type="text"].telephone');
+var all_telephone_fields = $('input[type="text"].telephone, input[type="tel"].telephone');
 var phones = [{"mask": "###-###-###"}, {"mask": "## ###-##-##"}];
 all_telephone_fields.inputmask({
     mask: phones,
@@ -53,7 +53,7 @@ function validateFields() {
 
     name_fields = validateForm.find('input[type="text"].name');
     email_fields = validateForm.find('input[type="text"].email');
-    telephone_fields = validateForm.find('input[type="text"].telephone');
+    telephone_fields = validateForm.find('input[type="text"].telephone, input[type="tel"].telephone');
     agreement_fields = validateForm.find('.agreements input[type="checkbox"]');
     var error = false;
     var wrong_inputs = [];
@@ -98,7 +98,7 @@ inputs.blur(function(e) {
 
 name_fields = $('input[type="text"].name');
 email_fields = $('input[type="text"].email');
-telephone_fields = $('input[type="text"].telephone');
+telephone_fields = $('input[type="text"].telephone, input[type="tel"].telephone');
 
 name_fields.blur(function(e) {
     if(validate_name($(this).val())==true)

@@ -28,7 +28,7 @@
                     <div class="col-xs-12 col-sm-6 scalable" style="height: 305px;">
                         {{Form::text('first_name', '', ['placeholder' => 'Twoje imię', 'maxlength' => 25, 'required'])}}
                         {{Form::text('email', '', ['placeholder' => 'E-mail', 'maxlength' => 50, 'required'])}}
-                        {{Form::text('tel', '', ['placeholder' => 'Numer telefonu', 'maxlength' => 20, 'required'])}}
+                        {{Form::tel('tel', '', ['placeholder' => 'Numer telefonu', 'maxlength' => 20, 'required'])}}
                         {{Form::select('subject', [null=> 'Wybierz temat', 1=>'Chcę poznać szczegóły oferty', 2=>'Współpraca', 3=>'Reklama', 4=>'Program Partnerski', 5=>'Uwagi do strony', 6=>'Korespondencja ogólna'], null, ['required'])}}
                     </div>
                     <div class="col-xs-12 col-sm-6 scalable margin-on-mobile" style="height: 305px;">
