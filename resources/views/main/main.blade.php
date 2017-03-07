@@ -137,7 +137,7 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -152,7 +152,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -167,7 +167,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -182,7 +182,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -197,7 +197,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -212,7 +212,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo" />
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
                                         <p>Lorem</p>
@@ -515,7 +515,8 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_3">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/INTERNET_b.png', env('HTTPS'))}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/INTERNET_b.png', env('HTTPS'))}}" alt="icon"
+                                     class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two">Abonament</span> <span class="one-line">za Internet</span>
@@ -523,22 +524,23 @@
                             </div>
                         </div>
                         <div class="separator"></div>
-                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj z
-                            najkorzystniejszych
+                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj
+                            <span class="text-nowrap">z najkorzystniejszych</span>
                             aktualnie promocji i obniż swój abonament za Internet.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
                     <div class="col-sm-12 col-md-4 tile tile_color_2">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/TELEFON_w.png', env('HTTPS'))}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/TELEFON_w.png', env('HTTPS'))}}" alt="icon"
+                                     class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_one">Rachunek</span> telefoniczny</h1>
                             </div>
                         </div>
                         <div class="separator"></div>
-                        <p>Czy Twój rachunek telefoniczny spędza Ci sen z powiek? Nie musi! Teraz to dziecinnie
+                        <p>Czy Twój rachunek telefoniczny spędza Ci sen <span class="text-nowrap">z powiek?</span> Nie musi! Teraz to dziecinnie
                             proste.
                             Podpowiemy Ci w kilku krokach co zrobić, by spać spokojnie.</p>
                         <p class="btn">WIĘCEJ</p>
@@ -554,8 +556,8 @@
                             </div>
                         </div>
                         <div class="separator"></div>
-                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj z
-                            najkorzystniejszych
+                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj
+                            <span class="text-nowrap">z najkorzystniejszych</span>
                             aktualnie promocji i obniż swój abonament za Internet.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
@@ -565,7 +567,8 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_1">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KREDYTY_w.png', env('HTTPS'))}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KREDYTY_w.png', env('HTTPS'))}}" alt="icon"
+                                     class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
@@ -581,7 +584,8 @@
                     <div class="col-sm-12 col-md-4 tile tile_color_3">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KONTO-BANKOWE_b.png', env('HTTPS'))}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KONTO-BANKOWE_b.png', env('HTTPS'))}}" alt="icon"
+                                     class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_two new-line">Konto</span> bankowe</h1>
@@ -590,13 +594,14 @@
                         <div class="separator"></div>
                         <p>Czy wciąż płacisz za prowadzenie swojego konta? Zrezygnuj z opłat! Skorzystaj z wiedzy
                             naszych
-                            analityków i wybierz konto najlepsze na rynku.</p>
+                            analityków i wybierz konto najlepsze <span class="text-nowrap">na rynku.</span></p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
                     <div class="col-sm-12 col-md-4 tile tile_color_2">
                         <div class="container-fluid no-padding">
                             <div class="col-md-3 no-padding">
-                                <img src="{{asset('images/demo/KREDYTY_w.png', env('HTTPS'))}}" alt="icon" class="icon"/>
+                                <img src="{{asset('images/demo/KREDYTY_w.png', env('HTTPS'))}}" alt="icon"
+                                     class="icon"/>
                             </div>
                             <div class="col-md-9">
                                 <h1><span class="color_one">Kredyt</span> gotówkowy</h1>
@@ -812,7 +817,8 @@
                         {{ Form::submit('Wyślij', ['class' => 'btn alternative'])}}
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12">
-                        <img src="{{asset('images/ajax-loader.gif', env('HTTPS'))}}" alt="loading..." class="hidden loading_ajax" />
+                        <img src="{{asset('images/ajax-loader.gif', env('HTTPS'))}}" alt="loading..."
+                             class="hidden loading_ajax"/>
                         <div class="status"></div>
                     </div>
                     {!! Form::close() !!}
