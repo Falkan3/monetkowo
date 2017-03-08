@@ -36,7 +36,7 @@
                 */ ?>
 
                 <div class="item active bgded overlay">
-                    <img src="{{ asset('images/demo/backgrounds/slider2.jpg', env('HTTPS'))}}" alt="slajd1">
+                    <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}" alt="slajd1"> <?php //slider2.jpg ?>
                     <div class="carousel-caption">
                         <h3>Skorzystaj z rad doradców</h3>
                         <h3 class="highlight_lower">negocjuj kwoty</h3>
@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="item bgded overlay">
-                    <img src="{{ asset('images/demo/backgrounds/slider3.jpg', env('HTTPS'))}}" alt="slajd2">
+                    <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}" alt="slajd2"> <?php //slider3.jpg ?>
                     <div class="carousel-caption">
                         <h3>Przełącz się z nami</h3>
                         <h3 class="highlight_lower">na wyższy poziom oszczędzania</h3>
@@ -73,7 +73,7 @@
                 */ ?>
 
                 <div class="item bgded overlay">
-                    <img src="{{ asset('images/demo/backgrounds/slider6.jpg', env('HTTPS'))}}" alt="slajd3">
+                    <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}" alt="slajd3"> <?php //slider6.jpg ?>
                     <div class="carousel-caption">
                         <h3>Minimalizuj koszty</h3>
                         <h3 class="highlight_lower">swojego domowego budżetu</h3>
