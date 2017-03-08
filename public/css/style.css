@@ -222,13 +222,14 @@ span.header_one.normal-size, span.header_two.normal-size {
 
 .flipper p {
     color: #fff;
+    padding: 0 25px;
 }
 
 .flipper.color_1 {
     background: #ff9c10;
 }
 .flipper.color_1 p {
-    color: #000;
+    color: #fff;
 }
 .flipper.color_2 {
     background: #000;
@@ -286,6 +287,10 @@ span.header_one.normal-size, span.header_two.normal-size {
     }
     .content .tile .icon {
         margin-right: 40px;
+    }
+
+    .flipper p {
+        padding: 0 18px;
     }
 }
 

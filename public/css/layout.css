@@ -78,6 +78,8 @@ nav .navbar-brand img {
 
 .carousel-caption {
     text-align: left;
+    top: 35%;
+    bottom: auto;
 }
 .carousel-caption .btn {
     float: left;
@@ -114,8 +116,8 @@ nav .navbar-brand img {
 .carousel-caption a.btn-block {
     margin-bottom: 50px;
     margin-top: 20px;
+    overflow: auto;
 }
-
 /* RESPONSIVE TABLE */
 
 .table-container p {
@@ -126,6 +128,10 @@ nav .navbar-brand img {
 }
 .table-container .table-header > div:last-child {
     background-color: #ff9c10;
+}
+.table-container .table-header > div:last-child p {
+    font-weight: 900;
+    font-size: 240%;
 }
 .table-container .table-header > div {
     -webkit-box-flex: 1;
@@ -143,8 +149,9 @@ nav .navbar-brand img {
 }
 .table-container .table-header p {
     color: #fff;
-    font-size: 175%;
+    font-size: 150%;
     text-transform: uppercase;
+    font-weight: 700;
 }
 .table-container .table-body {
     padding: 0;
@@ -174,7 +181,9 @@ nav .navbar-brand img {
 .table-container .table-body > div img {
     width: auto;
     max-width: 70%;
-    min-width: 100px;
+    min-width: 75px;
+    max-height: 55px;
+    padding: 10px;
 }
 .table-container .table-body > div > .row:nth-child(even) {
     background-color: #f6f6f6;

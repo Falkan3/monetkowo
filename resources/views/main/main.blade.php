@@ -35,18 +35,21 @@
                 </div>
                 */ ?>
 
-                <div class="item active bgded overlay">
-                    <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}" alt="slajd1"> <?php //slider2.jpg ?>
-                    <div class="carousel-caption">
-                        <h3>Skorzystaj z rad doradców</h3>
-                        <h3 class="highlight_lower">negocjuj kwoty</h3>
-                        <h3 class="highlight_lower">swoich rachunków</h3>
-                        <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
+                <div class="item active bgded">
+                    <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}"
+                         alt="slajd1"> <?php //slider2.jpg ?>
+                    <div class="aligner">
+                        <div class="carousel-caption">
+                            <h3>Skorzystaj z rad doradców</h3>
+                            <h3 class="highlight_lower">negocjuj kwoty</h3>
+                            <h3 class="highlight_lower">swoich rachunków</h3>
+                            <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="item bgded overlay">
-                    <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}" alt="slajd2"> <?php //slider3.jpg ?>
+                <div class="item bgded">
+                    <img src="https://prostazmiana.pl/img/lp_4/bg.jpg" alt="slajd2"> <?php //slider3.jpg ?>
                     <div class="carousel-caption">
                         <h3>Przełącz się z nami</h3>
                         <h3 class="highlight_lower">na wyższy poziom oszczędzania</h3>
@@ -72,8 +75,9 @@
                 </div>
                 */ ?>
 
-                <div class="item bgded overlay">
-                    <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}" alt="slajd3"> <?php //slider6.jpg ?>
+                <div class="item bgded">
+                    <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}"
+                         alt="slajd3"> <?php //slider6.jpg ?>
                     <div class="carousel-caption">
                         <h3>Minimalizuj koszty</h3>
                         <h3 class="highlight_lower">swojego domowego budżetu</h3>
@@ -140,28 +144,13 @@
                                         <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>pierwotne oprocentowanie kredytu 5,2%</p>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>aktualne oprocentowanie kredytu 0,6%</p>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>oprocentowanie kredytu zmniejszone o 0,6%</p>
                                     </div>
                                 </div>
 
@@ -170,28 +159,13 @@
                                         <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>początkowa wysokość abonamentu <span class="text-nowrap">50 zł</span></p>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>wynegocjowany abonament <span class="text-nowrap">20 zł</span></p>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>oszczędzasz <span class="text-nowrap">360 zł</span> w skali roku</p>
                                     </div>
                                 </div>
 
@@ -200,13 +174,44 @@
                                         <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>koszty związane z prowadzeniem konta
+                                            30 zł</p>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>darmowe konto bankowe</p>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
+                                        <p>oszczedzasz 360 zł <span class="text-nowrap">w skali</span> roku</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>abonament internetowy - 55 zł z umową na <span class="text-nowrap">2 lata</span></p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>szybszy internet i niższy abonament za 30 zł <span class="text-nowrap">z umową</span> na 2 lata</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>oszczędności w trakcie trwania umowy <span class="text-nowrap">600 zł</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>oprocentowanie lokaty 2%</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>wynegocjowane oprocentowanie 3%</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3">
+                                        <p>duże</p>
                                     </div>
                                 </div>
 
@@ -524,7 +529,9 @@
                             </div>
                         </div>
                         <div class="separator"></div>
-                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj <span class="text-nowrap">z najkorzystniejszych</span> aktualnie promocji i obniż swój abonament za Internet.</p>
+                        <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj <span
+                                    class="text-nowrap">z najkorzystniejszych</span> aktualnie promocji i obniż swój
+                            abonament za Internet.</p>
                         <p class="btn">WIĘCEJ</p>
                     </div>
                     <div class="col-sm-12 col-md-4 tile tile_color_2">
@@ -682,12 +689,12 @@
                 <div class="col-xs-8 col-sm-12 center-no-float" style="overflow: hidden;">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_1">
                                         <div class="front flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Lorem Ipsum</p>
+                                            <p class="flex-center">Aktualne oprocentowanie lokaty <span class="bold text-bigger">2,05%</span></p>
                                         </div>
                                         <div class="back"
                                              style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
@@ -697,12 +704,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_3">
                                         <div class="front flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Lorem Ipsum</p>
+                                            <p class="flex-center">Zobacz jakie warunki możemy dla Ciebie <span class="bold text-bigger">wynegocjować</span></p>
                                         </div>
                                         <div class="back"
                                              style="background: url({{asset('images/demo/tiles/tile2.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
@@ -711,19 +718,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-6">
+                            <div class="hidden-sm col-md-6">
                                 <div class="flipper-height"
                                      style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12 col-sm-3 col-sm-offset-3">
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_2">
                                         <div class="front flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Lorem Ipsum</p>
+                                            <p class="flex-center">Oferta T-mobile dla firm. Abonament <span class="bold text-bigger">wysokości <span class="text-nowrap">60 zł</span></span></p>
                                         </div>
                                         <div class="back"
                                              style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
@@ -732,12 +739,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_1">
                                         <div class="front flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Lorem Ipsum</p>
+                                            <p class="flex-center">Sprawdź jak wynegocjować <span class="bold text-bigger">niższy abonament</span> telefoniczny</p>
                                         </div>
                                         <div class="back"
                                              style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
@@ -748,12 +755,12 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12 col-sm-3 col-sm-offset-6">
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-6">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_3">
                                         <div class="front flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Lorem Ipsum</p>
+                                            <p class="flex-center"><span class="bold text-bigger">Cena energii elektrycznej</span> w taryfie podstawowej 0,2969 zł</p>
                                         </div>
                                         <div class="back"
                                              style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
@@ -762,12 +769,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_2">
                                         <div class="front flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Lorem Ipsum</p>
+                                            <p class="flex-center">Zmień operatora i <span class="bold text-bigger">zyskaj dodatkowe usługi</span> dla domu</p>
                                         </div>
                                         <div class="back"
                                              style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
