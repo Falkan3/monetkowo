@@ -66,7 +66,6 @@ $(window).scroll(function () {
     else {
         backToTop.removeClass('visible');
     }
-    console.log($(window).scrollTop() + " " + boxesVars.initiator);
     if (boxesVars.active == false && $(window).scrollTop() > boxesVars.initiator) {
         boxesVars.active = true;
         rotateBoxesInit();
