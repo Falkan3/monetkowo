@@ -2,6 +2,7 @@ $('nav .navbar-brand img').addClass('logo-invisible');
 
 /* DRAWING SVG */
 
+/*
 $(".number-column").each(function (e) {
     var svg = '<svg version="1.1" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="250px" viewBox="0 0 255 296" enable-background="new 0 0 255 296" xml:space="preserve">';
     var data = $(this).attr('number-data');
@@ -22,6 +23,7 @@ $(".number-column").each(function (e) {
 
     $(this).html(svg);
 });
+*/
 
 //----------------------------------------
 

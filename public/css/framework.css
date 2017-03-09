@@ -212,7 +212,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 
 .flip-container, .flipper .front, .flipper .back {
     width: 100%;
-    height: 480px;
+    height: 240px;
 }
 
 /* flip speed goes here */

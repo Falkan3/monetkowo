@@ -692,13 +692,13 @@
                             <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_1">
-                                        <div class="front flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center">Aktualne oprocentowanie lokaty <span class="bold text-bigger">2,05%</span></p>
-                                        </div>
-                                        <div class="back" style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
+                                        <div class="front" style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
                                             <a href="http://www.google.pl"><span class="filler"></span></a>
+                                        </div>
+                                        <div class="back flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Aktualne oprocentowanie lokaty <span class="bold text-bigger">2,05%</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -706,13 +706,13 @@
                             <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_3">
-                                        <div class="front flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center">Zobacz jakie warunki możemy dla Ciebie <span class="bold text-bigger">wynegocjować</span></p>
-                                        </div>
-                                        <div class="back"
+                                        <div class="front"
                                              style="background: url({{asset('images/demo/tiles/tile2.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
+                                        </div>
+                                        <div class="back flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Zobacz jakie warunki możemy dla Ciebie <span class="bold text-bigger">wynegocjować</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -727,13 +727,13 @@
                             <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_2">
-                                        <div class="front flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center">Oferta T-mobile dla firm. Abonament <span class="bold text-bigger">wysokości <span class="text-nowrap">60 zł</span></span></p>
-                                        </div>
-                                        <div class="back"
+                                        <div class="front"
                                              style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
+                                        </div>
+                                        <div class="back flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Oferta T-mobile dla firm. Abonament <span class="bold text-bigger">wysokości <span class="text-nowrap">60 zł</span></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -741,13 +741,13 @@
                             <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_1">
-                                        <div class="front flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center">Sprawdź jak wynegocjować <span class="bold text-bigger">niższy abonament</span> telefoniczny</p>
-                                        </div>
-                                        <div class="back"
+                                        <div class="front"
                                              style="background: url({{asset('images/demo/tiles/tile4.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
+                                        </div>
+                                        <div class="back flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Sprawdź jak wynegocjować <span class="bold text-bigger">niższy abonament</span> telefoniczny</p>
                                         </div>
                                     </div>
                                 </div>
@@ -757,13 +757,13 @@
                             <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-6">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_3">
-                                        <div class="front flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center"><span class="bold text-bigger">Cena energii elektrycznej</span> w taryfie podstawowej 0,2969 zł</p>
-                                        </div>
-                                        <div class="back"
+                                        <div class="front"
                                              style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
+                                        </div>
+                                        <div class="back flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center"><span class="bold text-bigger">Cena energii elektrycznej</span> w taryfie podstawowej 0,2969 zł</p>
                                         </div>
                                     </div>
                                 </div>
@@ -771,13 +771,13 @@
                             <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_2">
-                                        <div class="front flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center">Zmień operatora i <span class="bold text-bigger">zyskaj dodatkowe usługi</span> dla domu</p>
-                                        </div>
-                                        <div class="back"
+                                        <div class="front"
                                              style="background: url({{asset('images/demo/tiles/tile4.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
+                                        </div>
+                                        <div class="back flex-container-always">
+                                            <!-- front content -->
+                                            <p class="flex-center">Zmień operatora i <span class="bold text-bigger">zyskaj dodatkowe usługi</span> dla domu</p>
                                         </div>
                                     </div>
                                 </div>
