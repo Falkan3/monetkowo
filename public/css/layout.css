@@ -142,6 +142,17 @@ nav .navbar-brand img {
     font-weight: 900;
     font-size: 240%;
 }
+@media screen and (max-width: 1300px) {
+    .table-container .table-header > div:last-child p {
+        font-size: 200%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .table-container .table-header > div:last-child p {
+        font-size: 175%;
+    }
+}
+
 .table-container .table-header > div {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
