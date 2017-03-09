@@ -144,12 +144,12 @@ nav .navbar-brand img {
 }
 @media screen and (max-width: 1300px) {
     .table-container .table-header > div:last-child p {
-        font-size: 200%;
+        font-size: 210%;
     }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
     .table-container .table-header > div:last-child p {
-        font-size: 175%;
+        font-size: 190%;
     }
 }
 
