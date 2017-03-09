@@ -21,6 +21,7 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -40,9 +41,10 @@
                          alt="slajd1"> <?php //slider2.jpg ?>
                     <div class="aligner">
                         <div class="carousel-caption">
-                            <h3>Skorzystaj z rad doradców</h3>
-                            <h3 class="highlight_lower">negocjuj kwoty</h3>
-                            <h3 class="highlight_lower">swoich rachunków</h3>
+                            <h3>Oszczędzaj i zarabiaj</h3>
+                            <h3 class="highlight_lower">na wynegocjowanych</h3>
+                            <h3 class="highlight_lower">specjalnych promocjach</h3>
+                            </h3>
                             <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                         </div>
                     </div>
@@ -51,8 +53,9 @@
                 <div class="item bgded">
                     <img src="https://prostazmiana.pl/img/lp_4/bg.jpg" alt="slajd2"> <?php //slider3.jpg ?>
                     <div class="carousel-caption">
-                        <h3>Przełącz się z nami</h3>
-                        <h3 class="highlight_lower">na wyższy poziom oszczędzania</h3>
+                        <h3>Negocjujemy dla Ciebie</h3>
+                        <h3 class="highlight_lower">dodatkowe korzyści</h3>
+                        <h3 class="highlight_lower">z oficjalnych promocji</h3>
                         <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
@@ -79,8 +82,19 @@
                     <img src="{{ asset('images/demo/backgrounds/outlet.jpg', env('HTTPS'))}}"
                          alt="slajd3"> <?php //slider6.jpg ?>
                     <div class="carousel-caption">
-                        <h3>Minimalizuj koszty</h3>
-                        <h3 class="highlight_lower">swojego domowego budżetu</h3>
+                        <h3>Bonusy i zniżki</h3>
+                        <h3 class="highlight_lower">których nie otrzymasz</h3>
+                        <h3 class="highlight_lower">w standardowej promocji</h3>
+                        <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
+                    </div>
+                </div>
+
+                <div class="item bgded">
+                    <img src="https://prostazmiana.pl/img/lp_4/bg.jpg" alt="slajd4"> <?php //slider3.jpg ?>
+                    <div class="carousel-caption">
+                        <h3>Negocjujemy dla Ciebie</h3>
+                        <h3 class="highlight_lower">promocje dostępne</h3>
+                        <h3 class="highlight_lower">tyko dla wybranych klientów</h3>
                         <a href="{{url('kontakt')}}" class="btn-block"><p class="btn">Dowiedz się więcej</p></a>
                     </div>
                 </div>
@@ -190,13 +204,16 @@
                                         <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>abonament internetowy - 55 zł z umową na <span class="text-nowrap">2 lata</span></p>
+                                        <p>abonament internetowy - 55 zł z umową na <span
+                                                    class="text-nowrap">2 lata</span></p>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>szybszy internet i niższy abonament za 30 zł <span class="text-nowrap">z umową</span> na 2 lata</p>
+                                        <p>szybszy internet i niższy abonament za 30 zł <span class="text-nowrap">z umową</span>
+                                            na 2 lata</p>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>oszczędności w trakcie trwania umowy <span class="text-nowrap">600 zł</span></p>
+                                        <p>oszczędności w trakcie trwania umowy <span class="text-nowrap">600 zł</span>
+                                        </p>
                                     </div>
                                 </div>
 
@@ -692,13 +709,15 @@
                             <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_1">
-                                        <div class="front" style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
+                                        <div class="front"
+                                             style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
                                             <a href="http://www.google.pl"><span class="filler"></span></a>
                                         </div>
                                         <div class="back flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Aktualne oprocentowanie lokaty <span class="bold text-bigger">2,05%</span></p>
+                                            <p class="flex-center">Aktualne oprocentowanie lokaty <span
+                                                        class="bold text-bigger">2,05%</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -712,7 +731,8 @@
                                         </div>
                                         <div class="back flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Zobacz jakie warunki możemy dla Ciebie <span class="bold text-bigger">wynegocjować</span></p>
+                                            <p class="flex-center">Zobacz jakie warunki możemy dla Ciebie <span
+                                                        class="bold text-bigger">wynegocjować</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -733,7 +753,9 @@
                                         </div>
                                         <div class="back flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Oferta T-mobile dla firm. Abonament <span class="bold text-bigger">wysokości <span class="text-nowrap">60 zł</span></span></p>
+                                            <p class="flex-center">Oferta T-mobile dla firm. Abonament <span
+                                                        class="bold text-bigger">wysokości <span class="text-nowrap">60 zł</span></span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -747,7 +769,9 @@
                                         </div>
                                         <div class="back flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Sprawdź jak wynegocjować <span class="bold text-bigger">niższy abonament</span> telefoniczny</p>
+                                            <p class="flex-center">Sprawdź jak wynegocjować <span
+                                                        class="bold text-bigger">niższy abonament</span> telefoniczny
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -763,7 +787,8 @@
                                         </div>
                                         <div class="back flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center"><span class="bold text-bigger">Cena energii elektrycznej</span> w taryfie podstawowej 0,2969 zł</p>
+                                            <p class="flex-center"><span class="bold text-bigger">Cena energii elektrycznej</span>
+                                                w taryfie podstawowej 0,2969 zł</p>
                                         </div>
                                     </div>
                                 </div>
@@ -777,7 +802,8 @@
                                         </div>
                                         <div class="back flex-container-always">
                                             <!-- front content -->
-                                            <p class="flex-center">Zmień operatora i <span class="bold text-bigger">zyskaj dodatkowe usługi</span> dla domu</p>
+                                            <p class="flex-center">Zmień operatora i <span class="bold text-bigger">zyskaj dodatkowe usługi</span>
+                                                dla domu</p>
                                         </div>
                                     </div>
                                 </div>
