@@ -696,8 +696,7 @@
                                             <!-- front content -->
                                             <p class="flex-center">Aktualne oprocentowanie lokaty <span class="bold text-bigger">2,05%</span></p>
                                         </div>
-                                        <div class="back"
-                                             style="background: url({{asset('images/demo/tiles/tile1.jpg')}}); background-size: 100% 100%;">
+                                        <div class="back" style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
                                             <a href="http://www.google.pl"><span class="filler"></span></a>
                                         </div>
@@ -720,7 +719,7 @@
                             </div>
                             <div class="hidden-sm col-md-6">
                                 <div class="flipper-height"
-                                     style="background: url({{asset(url('images/demo/backgrounds/slider1.jpg'))}}); background-size: cover;">
+                                     style="background: url({{asset('images/demo/backgrounds/slider1.jpg', env('HTTPS'))}}); background-size: cover;">
                                 </div>
                             </div>
                         </div>
@@ -733,7 +732,7 @@
                                             <p class="flex-center">Oferta T-mobile dla firm. Abonament <span class="bold text-bigger">wysokości <span class="text-nowrap">60 zł</span></span></p>
                                         </div>
                                         <div class="back"
-                                             style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
+                                             style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
                                         </div>
                                     </div>
@@ -747,7 +746,7 @@
                                             <p class="flex-center">Sprawdź jak wynegocjować <span class="bold text-bigger">niższy abonament</span> telefoniczny</p>
                                         </div>
                                         <div class="back"
-                                             style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                             style="background: url({{asset('images/demo/tiles/tile4.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
                                         </div>
                                     </div>
@@ -763,7 +762,7 @@
                                             <p class="flex-center"><span class="bold text-bigger">Cena energii elektrycznej</span> w taryfie podstawowej 0,2969 zł</p>
                                         </div>
                                         <div class="back"
-                                             style="background: url({{asset('images/demo/tiles/tile3.jpg')}}); background-size: 100% 100%;">
+                                             style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
                                         </div>
                                     </div>
@@ -777,7 +776,7 @@
                                             <p class="flex-center">Zmień operatora i <span class="bold text-bigger">zyskaj dodatkowe usługi</span> dla domu</p>
                                         </div>
                                         <div class="back"
-                                             style="background: url({{asset('images/demo/tiles/tile4.jpg')}}); background-size: 100% 100%;">
+                                             style="background: url({{asset('images/demo/tiles/tile4.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
                                             <!-- back content -->
                                         </div>
                                     </div>

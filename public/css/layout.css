@@ -84,6 +84,15 @@ nav .navbar-brand img {
 .carousel-caption .btn {
     float: left;
     clear: left;
+    background-color: #000;
+    border: solid 1px #000;
+    font-weight: 700;
+}
+.carousel-caption .btn:hover {
+    background-color: #fff;
+    background-color: transparent;
+    border: solid 1px #000;
+    color: #000;
 }
 
 .carousel-caption h3 {
