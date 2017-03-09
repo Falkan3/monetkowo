@@ -7,7 +7,6 @@ $(document).ready(function (e) {
     centerLoadings();
     loadings.show();
     resize_flippers();
-    rotateBoxesInit();
 });
 
 function centerLoadings() {
@@ -66,6 +65,11 @@ $(window).scroll(function () {
     }
     else {
         backToTop.removeClass('visible');
+    }
+    console.log($(window).scrollTop() + " " + boxesVars.initiator);
+    if (boxesVars.active == false && $(window).scrollTop() > boxesVars.initiator) {
+        boxesVars.active = true;
+        rotateBoxesInit();
     }
 });
 
@@ -191,8 +195,9 @@ flippers.mouseleave(function (e) {
 });
 */
 
-var boxesVars = {
-    'initiator': $('#page_cards'),
+boxesVars = {
+    'active': false,
+    'initiator': $('#page_cards').offset().top-$('#page_cards').outerHeight()*0.8,
     'boxes': flippers,
     'timer': null,
     'activeBoxIndex': 0,
@@ -205,7 +210,8 @@ function rotateBoxesInit() {
     });
     boxesVars.activeBoxIndex = 0;
     boxesVars.timer = new Interval(rotateBoxes, 3000);
-    boxesVars.timer.start();
+    boxesVars.timer.reset();
+    rotateBoxes();
 }
 function rotateBoxes() {
     boxesVars.boxes.removeClass('hover');
