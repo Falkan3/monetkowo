@@ -718,7 +718,7 @@
                                             <!-- front content -->
                                             <p class="flex-center">Aktualne oprocentowanie lokaty <span
                                                         class="bold text-bigger">2,05%</span></p>
-                                            <a class="flex-center flipper-button">Lorem ipsum</a>
+                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
                                         </div>
                                     </div>
                                 </div>
@@ -734,7 +734,7 @@
                                             <!-- front content -->
                                             <p class="flex-center">Zobacz jakie warunki możemy dla Ciebie <span
                                                         class="bold text-bigger">wynegocjować</span></p>
-                                            <a class="flex-center flipper-button">Lorem ipsum</a>
+                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
                                         </div>
                                     </div>
                                 </div>
@@ -758,7 +758,7 @@
                                             <p class="flex-center">Oferta T-mobile dla firm. Abonament <span
                                                         class="bold text-bigger">wysokości <span class="text-nowrap">60 zł</span></span>
                                             </p>
-                                            <a class="flex-center flipper-button">Lorem ipsum</a>
+                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
                                         </div>
                                     </div>
                                 </div>
@@ -775,7 +775,7 @@
                                             <p class="flex-center">Sprawdź jak wynegocjować <span
                                                         class="bold text-bigger">niższy abonament</span> telefoniczny
                                             </p>
-                                            <a class="flex-center flipper-button">Lorem ipsum</a>
+                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
                                         </div>
                                     </div>
                                 </div>
@@ -793,7 +793,7 @@
                                             <!-- front content -->
                                             <p class="flex-center"><span class="bold text-bigger">Cena energii elektrycznej</span>
                                                 w taryfie podstawowej 0,2969 zł</p>
-                                            <a class="flex-center flipper-button">Lorem ipsum</a>
+                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
                                         </div>
                                     </div>
                                 </div>
@@ -809,7 +809,7 @@
                                             <!-- front content -->
                                             <p class="flex-center">Zmień operatora i <span class="bold text-bigger">zyskaj dodatkowe usługi</span>
                                                 dla domu</p>
-                                            <a class="flex-center flipper-button">Lorem ipsum</a>
+                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
                                         </div>
                                     </div>
                                 </div>
