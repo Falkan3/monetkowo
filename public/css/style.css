@@ -243,7 +243,7 @@ span.header_one.normal-size, span.header_two.normal-size {
 
 /* Media --------------------------------------------------------------------------------------- */
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
     .content .tile {
         padding: 45px 6%;
         min-height: 550px;
@@ -253,7 +253,7 @@ span.header_one.normal-size, span.header_two.normal-size {
     }
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1299px) {
     .content .tile {
         padding: 45px 4%;
     }
@@ -262,7 +262,7 @@ span.header_one.normal-size, span.header_two.normal-size {
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1199px) {
     .number-column svg {
         height: 175px;
     }
@@ -291,6 +291,7 @@ span.header_one.normal-size, span.header_two.normal-size {
 
     .flipper p {
         padding: 0 18px;
+        font-size: 90%;
     }
 }
 
@@ -349,9 +350,13 @@ span.header_one.normal-size, span.header_two.normal-size {
     .content .tile {
         padding: 35px 50px;
     }
-
     .content h1 {
         font-size: 32px;
+    }
+
+    .flipper p {
+        padding: 0 18px;
+        font-size: 140%;
     }
 }
 

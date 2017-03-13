@@ -246,6 +246,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 /* back, initially hidden pane */
 .flipper .back {
     transform: rotateY(180deg);
+    flex-flow: column;
 }
 .flipper .back span.filler {
     position: absolute;
@@ -253,6 +254,30 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
     height: 100%;
     left: 0;
     top: 0;
+}
+
+.flipper.color_1 .flipper-button {
+    padding: 5px 15px;
+    background-color: #000;
+    border: solid 2px #000;
+    color: #fff;
+    margin: 5px 20px;
+}
+
+.flipper.color_2 .flipper-button {
+    padding: 5px 15px;
+    background-color: #ff9c10;
+    border: solid 2px #ff9c10;
+    color: #fff;
+    margin: 5px 20px;
+}
+
+.flipper.color_3 .flipper-button {
+    padding: 5px 15px;
+    background-color: #ff9c10;
+    border: solid 2px #ff9c10;
+    color: #fff;
+    margin: 5px 20px;
 }
 
 /* FLIPPER ///////////////////////////////////////////////// */
