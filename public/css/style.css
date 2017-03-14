@@ -202,6 +202,12 @@ span.header_one.normal-size, span.header_two.normal-size {
     font-size: inherit;
 }
 
+.flipper-main-container > .row  {
+    margin-bottom: 20px;
+}
+.flipper-main-container > .row:last-child  {
+    margin-bottom: 0;
+}
 .flipper-main-container > .row > div {
     padding: 0;
 }

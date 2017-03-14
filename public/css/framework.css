@@ -208,7 +208,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 /* .flip-container:hover .flipper, */
 .flip-container.hover .flipper {
     transform: rotateX(180deg);
-    transition-delay:0.6s;
+    transition-delay:0s;
 }
 
 .flip-container, .flipper .front, .flipper .back {
@@ -219,6 +219,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 /* flip speed goes here */
 .flipper {
     transition: 0.6s;
+    transition-delay:0.6s;
     transform-style: preserve-3d;
 
     position: relative;
