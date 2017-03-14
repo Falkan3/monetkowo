@@ -704,19 +704,21 @@
         <section id="page_cards" class="page">
             <div class="container">
                 <div class="col-xs-8 col-sm-12 center-no-float" style="overflow: hidden;">
-                    <div class="container-fluid">
+                    <div class="container-fluid flipper-main-container">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_1">
                                         <div class="front">
                                             <div class="container-fluid">
-                                                <div class="col-xs-12 col-sm-12 col-md-6"
-                                                     style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-12 col-sm-12 col-md-6"
+                                                         style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
+                                                    </div>
 
-                                                <div class="hidden-xs hidden-sm col-md-6">
-                                                    <a href="http://www.google.pl"><span class="filler"></span></a>
+                                                    <div class="hidden-xs hidden-sm col-md-6">
+                                                        <a href="http://www.google.pl"><span class="filler"></span></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -735,16 +737,20 @@
                                      style="background: url({{asset('images/demo/backgrounds/slider1.jpg', env('HTTPS'))}}); background-size: cover;">
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_3">
                                         <div class="front">
                                             <div class="container-fluid">
-                                                <div class="col-xs-12 col-sm-12 col-md-6"
-                                                     style="background: url({{asset('images/demo/tiles/tile2.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-12 col-sm-12 col-md-6"
+                                                         style="background: url({{asset('images/demo/tiles/tile2.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
+                                                    </div>
 
-                                                <div class="hidden-xs hidden-sm col-md-6">
+                                                    <div class="hidden-xs hidden-sm col-md-6">
+                                                    </div>
                                                 </div>
                                                 <!-- back content -->
                                             </div>
@@ -765,11 +771,13 @@
                                     <div class="flipper color_2">
                                         <div class="front">
                                             <div class="container-fluid">
-                                                <div class="col-xs-12 col-sm-12 col-md-6"
-                                                     style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-12 col-sm-12 col-md-6"
+                                                         style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
+                                                    </div>
 
-                                                <div class="hidden-xs hidden-sm col-md-6"></div>
+                                                    <div class="hidden-xs hidden-sm col-md-6"></div>
+                                                </div>
                                                 <!-- back content -->
                                             </div>
                                         </div>
@@ -808,7 +816,7 @@
             <div class="container">
                 <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
                 <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
-                <div class="container-fluid margin-vertical medium">
+                <div class="container-fluid margin-vertical medium no-padding">
                     {!! Form::open(['url' => 'sendForm', 'id' => 'contact-form', 'class' => 'same-height contact-form']) !!}
                     <div class="col-xs-12 col-sm-6 scalable" style="height: 305px;">
                         {{Form::text('first_name', '', ['placeholder' => 'Twoje imię', 'maxlength' => 25, 'required', 'class' => 'name'])}}

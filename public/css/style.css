@@ -202,12 +202,10 @@ span.header_one.normal-size, span.header_two.normal-size {
     font-size: inherit;
 }
 
-#page_cards div {
+.flipper-main-container > .row > div {
     padding: 0;
 }
-#page_cards .row {
-    margin: 0;
-}
+
 .flipper {
     background-size: cover;
 }

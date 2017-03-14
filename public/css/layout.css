@@ -705,10 +705,6 @@ div.background {
     right: 0;
 }
 
-.row {
-    margin: 0 !important;
-}
-
 @media (min-width: 1200px) {
     .opinions .opinion {
         padding-right: 20px;
