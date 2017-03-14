@@ -6,7 +6,6 @@ $(document).ready(function (e) {
     carousel.css('visibility', 'hidden');
     centerLoadings();
     loadings.show();
-    resize_flippers();
 });
 
 function centerLoadings() {
@@ -109,25 +108,8 @@ $('.carousel img').each(function () {
     $(this).remove();
 });
 
-function resizeContents() {
-    if ($(window).width() > 768) {
-        $wHeight = $(window).height();
-        if ($wHeight > 1080)
-            $wHeight = 1080;
-        $item.height($wHeight);
-        resize_boxes();
-    }
-    else {
-        $wHeight = 662;
-        $item.height($wHeight);
-        reset_boxes();
-    }
-    resize_flippers();
-}
-
 $(window).on('resize', function () {
     centerLoadings();
-    resizeContents();
 });
 
 var same_height_container = $('.same-height');
@@ -141,87 +123,8 @@ $(window).on("load", function () {
             pause: "false"
         });
         carousel.css('visibility', 'visible');
-
-        boxes_init();
-        resizeContents();
     }, 500);
-
 });
-
-function boxes_init() {
-    boxes = $('div.scalable');
-}
-
-function resize_boxes() {
-    var biggest = 0;
-    boxes.each(function (e) {
-        if ($(this).height() > biggest) {
-            biggest = $(this).height();
-        }
-    });
-    boxes.height(biggest);
-}
-
-function reset_boxes() {
-    same_height_container.each(function (e) {
-        var boxes = $(this).find('div.scalable');
-        boxes.height('auto');
-    });
-}
-
-var flippers = $('.flip-container');
-var flipper_height_items = $('.flipper-height');
-//var flippers_cards = flippers.find('.flipper');
-
-function resize_flippers() {
-    var modifier = 0.5;
-    if(viewport().width < 992) {
-        modifier = 1;
-    }
-    flippers.each(function (e) {
-        $(this).height($(this).width() * modifier * 0.833);
-    });
-    flipper_height_items.each(function (e) {
-        $(this).height(flippers.eq(0).height());
-    });
-}
-
-flippers.hover(function (e) {
-    flippers.removeClass('hover');
-    $(this).addClass('hover');
-    boxesVars.activeBoxIndex = $(this).attr('data-box-index');
-});
-/*
-flippers.mouseleave(function (e) {
-    $(this).removeClass('hover');
-});
-*/
-
-boxesVars = {
-    'active': false,
-    'initiator': $('#page_cards').offset().top-$('#page_cards').outerHeight()*0.8,
-    'boxes': flippers,
-    'timer': null,
-    'activeBoxIndex': 0,
-    'maxBoxIndex': flippers.length - 1
-};
-function rotateBoxesInit() {
-    var x = 0;
-    boxesVars.boxes.each(function () {
-        $(this).attr('data-box-index', x++);
-    });
-    boxesVars.activeBoxIndex = 0;
-    boxesVars.timer = new Interval(rotateBoxes, 3000);
-    boxesVars.timer.reset();
-    rotateBoxes();
-}
-function rotateBoxes() {
-    boxesVars.boxes.removeClass('hover');
-    boxesVars.boxes.eq(boxesVars.activeBoxIndex).addClass('hover');
-    boxesVars.activeBoxIndex++;
-    if (boxesVars.activeBoxIndex > boxesVars.maxBoxIndex)
-        boxesVars.activeBoxIndex = 0;
-}
 
 /* Timer */
 function Interval(fn, time) {

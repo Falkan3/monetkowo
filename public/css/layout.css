@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+html.sticked-layout {
+    position: relative;
+}
+html.sticked-layout body {
+    background-color: #ff9c10;
+}
+
 body, input, textarea, select {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -534,6 +541,14 @@ div.background {
     width: 100%;
     padding: 15px 35px;
     font-size: 200%;
+}
+
+html.sticked-layout footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 .footer-container {
