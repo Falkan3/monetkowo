@@ -706,14 +706,21 @@
                 <div class="col-xs-8 col-sm-12 center-no-float" style="overflow: hidden;">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-3">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_1">
-                                        <div class="front"
-                                             style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                            <!-- back content -->
-                                            <a href="http://www.google.pl"><span class="filler"></span></a>
+                                        <div class="front">
+                                            <div class="container-fluid">
+                                                <div class="col-xs-12 col-sm-12 col-md-6"
+                                                     style="background: url({{asset('images/demo/tiles/tile1.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
+                                                </div>
+
+                                                <div class="hidden-xs hidden-sm col-md-6">
+                                                    <a href="http://www.google.pl"><span class="filler"></span></a>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <!-- back content -->
                                         <div class="back flex-container-always">
                                             <!-- front content -->
                                             <p class="flex-center">Aktualne oprocentowanie lokaty <span
@@ -723,12 +730,24 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
+                            <div class="hidden-xs hidden-sm col-md-6">
+                                <div class="flipper-height"
+                                     style="background: url({{asset('images/demo/backgrounds/slider1.jpg', env('HTTPS'))}}); background-size: cover;">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_3">
-                                        <div class="front"
-                                             style="background: url({{asset('images/demo/tiles/tile2.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                            <!-- back content -->
+                                        <div class="front">
+                                            <div class="container-fluid">
+                                                <div class="col-xs-12 col-sm-12 col-md-6"
+                                                     style="background: url({{asset('images/demo/tiles/tile2.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
+                                                </div>
+
+                                                <div class="hidden-xs hidden-sm col-md-6">
+                                                </div>
+                                                <!-- back content -->
+                                            </div>
                                         </div>
                                         <div class="back flex-container-always">
                                             <!-- front content -->
@@ -739,76 +758,27 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="hidden-sm col-md-6">
-                                <div class="flipper-height"
-                                     style="background: url({{asset('images/demo/backgrounds/slider1.jpg', env('HTTPS'))}}); background-size: cover;">
-                                </div>
-                            </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-3">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-6">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                     <div class="flipper color_2">
-                                        <div class="front"
-                                             style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                            <!-- back content -->
+                                        <div class="front">
+                                            <div class="container-fluid">
+                                                <div class="col-xs-12 col-sm-12 col-md-6"
+                                                     style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
+                                                </div>
+
+                                                <div class="hidden-xs hidden-sm col-md-6"></div>
+                                                <!-- back content -->
+                                            </div>
                                         </div>
                                         <div class="back flex-container-always">
                                             <!-- front content -->
                                             <p class="flex-center">Oferta T-mobile dla firm. Abonament <span
-                                                        class="bold text-bigger">wysokości <span class="text-nowrap">60 zł</span></span>
+                                                        class="bold text-bigger">wysokości <span
+                                                            class="text-nowrap">60 zł</span></span>
                                             </p>
-                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                    <div class="flipper color_1">
-                                        <div class="front"
-                                             style="background: url({{asset('images/demo/tiles/tile4.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                            <!-- back content -->
-                                        </div>
-                                        <div class="back flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center">Sprawdź jak wynegocjować <span
-                                                        class="bold text-bigger">niższy abonament</span> telefoniczny
-                                            </p>
-                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-6">
-                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                    <div class="flipper color_3">
-                                        <div class="front"
-                                             style="background: url({{asset('images/demo/tiles/tile3.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                            <!-- back content -->
-                                        </div>
-                                        <div class="back flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center"><span class="bold text-bigger">Cena energii elektrycznej</span>
-                                                w taryfie podstawowej 0,2969 zł</p>
-                                            <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                                    <div class="flipper color_2">
-                                        <div class="front"
-                                             style="background: url({{asset('images/demo/tiles/tile4.jpg', env('HTTPS'))}}); background-size: 100% 100%;">
-                                            <!-- back content -->
-                                        </div>
-                                        <div class="back flex-container-always">
-                                            <!-- front content -->
-                                            <p class="flex-center">Zmień operatora i <span class="bold text-bigger">zyskaj dodatkowe usługi</span>
-                                                dla domu</p>
                                             <a href="#" class="flex-center flipper-button">Lorem ipsum</a>
                                         </div>
                                     </div>

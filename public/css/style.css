@@ -211,6 +211,9 @@ span.header_one.normal-size, span.header_two.normal-size {
 .flipper {
     background-size: cover;
 }
+.flipper .front div {
+    height: 100%;
+}
 .flipper img {
     width: 100%;
     max-height: 300px;

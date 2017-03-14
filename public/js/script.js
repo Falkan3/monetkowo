@@ -175,8 +175,12 @@ var flipper_height_items = $('.flipper-height');
 //var flippers_cards = flippers.find('.flipper');
 
 function resize_flippers() {
+    var modifier = 0.5;
+    if($(window).width() < 991) {
+        modifier = 1;
+    }
     flippers.each(function (e) {
-        $(this).height($(this).width() * 0.833);
+        $(this).height($(this).width() * modifier * 0.833);
     });
     flipper_height_items.each(function (e) {
         $(this).height(flippers.eq(0).height());
