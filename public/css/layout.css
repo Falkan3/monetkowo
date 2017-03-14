@@ -328,13 +328,14 @@ nav .navbar-brand img {
 }
 
 .btn.alternative {
-    background-color: #ff9c10;
-    border: 1px solid #ff9c10;
+    background-color: #ff7e00;
+    border: 1px solid #ff7e00;
+    font-weight: 700;
 }
 .btn.alternative:hover {
-    background-color: #fff;
-    background-color: transparent;
-    color: #ff9c10;
+    background-color: #ff5800;
+    border: 1px solid #ff5800;
+    color: #fff;
 }
 
 .tile.tile_color_2 .btn {
@@ -489,19 +490,29 @@ div.background {
     min-height: 200px;
 }
 
+#page_contact {
+    background-color: #ff9c10;
+}
+#page_contact p {
+    color: #fff;
+    font-size: 200%;
+}
+
 #contact-form input[type="text"], #contact-form input[type="tel"], #contact-form textarea, #contact-form select {
     width: 100%;
     height: 65px;
-    border: 2px solid #c5c3c6;
+    border: 1px solid #da8a18;
     padding: 15px;
     margin-bottom: 15px;
     transition: 1s;
 }
 #contact-form input[type="text"].wrong-input, #contact-form input[type="tel"].wrong-input, #contact-form textarea.wrong-input, #contact-form select.wrong-input {
     border-color: #ce0000;
+    background-color: #e2bab1;
 }
 #contact-form input[type="text"].right-input, #contact-form input[type="tel"].right-input, #contact-form textarea.right-input, #contact-form select.right-input {
     border-color: #007cc3;
+    background-color: #cae0ec;
 }
 #contact-form select option {
     color: #000;
@@ -528,16 +539,14 @@ div.background {
 .footer-container {
     min-height: 80px;
     padding: 15px 0;
-    background-color: #fff;
-    border-top: solid 1px #e7e7e7;
-    box-shadow: 2px 0 4px 2px rgba(0, 0, 0, 0.2), 2px 0 6px 2px rgba(0, 0, 0, 0.19);
+    background-color: #211E1E;
 }
 
 .footer-container p {
     margin-bottom: 0;
     display: inline-block;
     margin-right: 25px;
-    color: #000;
+    color: #fff;
 }
 .footer-container a p:hover {
     color: #ff9c10;
@@ -652,10 +661,14 @@ div.background {
 .opinions-bg {
     border-top: solid 2px #ff9c10;
     border-bottom: solid 3px #ff9c10;
+    padding: 0;
 }
 
 .opinions {
     padding: 70px 0;
+}
+.opinions > .row {
+    margin: 0;
 }
 .opinions .opinion-img img {
     display: block;

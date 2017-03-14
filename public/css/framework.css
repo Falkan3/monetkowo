@@ -258,28 +258,26 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
     top: 0;
 }
 
-.flipper.color_1 .flipper-button {
+.flipper .flipper-button {
+    width: 70%;
     padding: 5px 15px;
-    background-color: #000;
-    border: solid 2px #000;
     color: #fff;
     margin: 5px 20px;
+}
+
+.flipper.color_1 .flipper-button {
+    background-color: #000;
+    border: solid 2px #000;
 }
 
 .flipper.color_2 .flipper-button {
-    padding: 5px 15px;
     background-color: #ff9c10;
     border: solid 2px #ff9c10;
-    color: #fff;
-    margin: 5px 20px;
 }
 
 .flipper.color_3 .flipper-button {
-    padding: 5px 15px;
     background-color: #ff9c10;
     border: solid 2px #ff9c10;
-    color: #fff;
-    margin: 5px 20px;
 }
 
 /* FLIPPER ///////////////////////////////////////////////// */

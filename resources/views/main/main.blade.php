@@ -577,7 +577,7 @@
                                 </h1>
                             </div>
                         </div>
-                        <div class="separator"></div>
+                        <div class="separator white"></div>
                         <p>Chcesz dowiedzieć się jak mieć Internet o 50% taniej? Już dziś skorzystaj <span
                                     class="text-nowrap">z najkorzystniejszych</span> aktualnie promocji i obniż swój
                             abonament za Internet.</p>
@@ -596,7 +596,7 @@
                                 <h1><span class="color_two">Kredyt</span> gotówkowy</h1>
                             </div>
                         </div>
-                        <div class="separator"></div>
+                        <div class="separator white"></div>
                         <p>Doradca monetkowo.pl pomoże Ci wybrać ofertę dopasowaną do Twoich potrzeb oraz podpowie
                             Ci
                             jak
@@ -654,7 +654,9 @@
                                     <p class="header">Lorem<span class="smaller">, ipsum</span></p>
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                     <p>Lorem ipsum dolor sit amet <a href="https://negocjujemypromocje.pl/">negocjujemypromocje.pl</a>.
-                                        Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi pretium a
+                                        Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi
+                                        pretium
+                                        a
                                         lectus at viverra. Fusce ac justo libero.</p>
                                     <i class="fa fa-quote-right" aria-hidden="true"></i>
                                 </div>
@@ -670,7 +672,8 @@
                                     <p class="header">Mauris<span class="smaller">, pharetra</span></p>
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                     <p>In ultrices elementum eros a lacinia.
-                                        Mauris suscipit finibus ipsum vitae tempor. Aliquam id neque tellus. Aliquam
+                                        Mauris suscipit finibus ipsum vitae tempor. Aliquam id neque tellus.
+                                        Aliquam
                                         tortor metus, dapibus non rutrum in, pharetra ut tellus. <a
                                                 href="https://negocjujemypromocje.pl/">negocjujemypromocje.pl</a>
                                     </p>
@@ -688,7 +691,8 @@
                                     <p class="header">Mauris<span class="smaller">, pharetra</span></p>
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                     <p>In ultrices elementum eros a lacinia.
-                                        Mauris suscipit finibus ipsum vitae tempor. Aliquam id neque tellus. Aliquam
+                                        Mauris suscipit finibus ipsum vitae tempor. Aliquam id neque tellus.
+                                        Aliquam
                                         tortor metus, dapibus non rutrum in, pharetra ut tellus. <a
                                                 href="https://negocjujemypromocje.pl/">negocjujemypromocje.pl</a>
                                     </p>
@@ -815,7 +819,7 @@
         <section id="page_contact" class="page">
             <div class="container">
                 <h1 style="margin-bottom: 30px;">Skontaktuj się z nami!</h1>
-                <p>Pomożemy Ci zminimalizować Twoje wydatki.</p>
+                <p>Pomożemy Ci zminimalizować <span class="bold text-bigger text-nowrap">Twoje wydatki.</span></p>
                 <div class="container-fluid margin-vertical medium no-padding">
                     {!! Form::open(['url' => 'sendForm', 'id' => 'contact-form', 'class' => 'same-height contact-form']) !!}
                     <div class="col-xs-12 col-sm-6 scalable" style="height: 305px;">

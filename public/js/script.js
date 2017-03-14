@@ -25,11 +25,10 @@ backToTop.click(function (e) {
     return false;
 });
 
-$("a.anchor").click(function (e) {
+$("a").click(function (e) {
     var dest = $(this).attr('href');
     console.log(dest)
     if (dest[0] == '\#') {
-        console.log('yes')
         e.preventDefault();
         if (dest == '\#top') {
             $("body,html").animate({
@@ -176,7 +175,7 @@ var flipper_height_items = $('.flipper-height');
 
 function resize_flippers() {
     var modifier = 0.5;
-    if($(window).width() < 991) {
+    if(viewport().width < 992) {
         modifier = 1;
     }
     flippers.each(function (e) {
@@ -262,6 +261,14 @@ selects_option_first.each(function () {
     $(this).attr('disabled', true);
 });
 
+function viewport() {
+    var e = window, a = 'inner';
+    if (!('innerWidth' in window )) {
+        a = 'client';
+        e = document.documentElement || document.body;
+    }
+    return { width : e[ a+'Width' ] , height : e[ a+'Height' ] };
+}
 
 /*
  flippers_cards.click(function(e) {
