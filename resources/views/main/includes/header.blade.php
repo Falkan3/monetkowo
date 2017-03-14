@@ -18,8 +18,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
                     <li><a href="#page_table" class="anchor">Lorem</a></li>
-                    <li><a href="#page_tiles" class="anchor">Kategorie</a></li>
                     <li><a href="#page_steps" class="anchor">Jak działamy</a></li>
+                    <li><a href="#page_tiles" class="anchor">Kategorie</a></li>
                     <li><a href="#page_cards" class="anchor">Ipsum</a></li>
                     <li><a href="#page_contact" class="anchor">Kontakt</a></li>
                 </ul>
