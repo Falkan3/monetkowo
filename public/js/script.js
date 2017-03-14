@@ -64,10 +64,6 @@ $(window).scroll(function () {
     else {
         backToTop.removeClass('visible');
     }
-    if (boxesVars.active == false && $(window).scrollTop() > boxesVars.initiator) {
-        boxesVars.active = true;
-        rotateBoxesInit();
-    }
 });
 
 $('.navbar-collapse a').click(function (e) {

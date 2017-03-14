@@ -51,6 +51,13 @@ $(window).on('resize', function (e) {
     resizeContents();
 });
 
+$(window).scroll(function () {
+    if (boxesVars.active == false && $(window).scrollTop() > boxesVars.initiator) {
+        boxesVars.active = true;
+        rotateBoxesInit();
+    }
+});
+
 tableHeaders.on('click', function (e) {
     console.log('clicked ' + $(this).find('p').text());
     $(this).parent().find('.table-mobile-contents').slideToggle();
@@ -144,8 +151,9 @@ function rotateBoxesInit() {
         $(this).attr('data-box-index', x++);
     });
     boxesVars.activeBoxIndex = 0;
+    boxesVars.timer.stop();
     boxesVars.timer = new Interval(rotateBoxes, 3000);
-    boxesVars.timer.reset();
+    boxesVars.timer.start();
     rotateBoxes();
 }
 function rotateBoxes() {
