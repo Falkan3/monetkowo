@@ -155,11 +155,16 @@ nav .navbar-brand img {
     border: solid 1px #ddd;
     padding-bottom: 120px;
 
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+
     transition: ease-in-out 0.3s;
 }
 .table-item p {
     text-transform: uppercase;
-    transition: ease-in-out 0.3s;
 }
 .table-item .table-logo img {
     max-width: 70%;
@@ -195,18 +200,21 @@ nav .navbar-brand img {
     color: #bbb;
     padding: 15px 0;
     margin-bottom: 60px;
+    text-transform: lowercase;
 }
 .table-item .table-content p.table-offert-new {
     color: #ff9c10;
     padding: 15px 0;
     margin-bottom: 0;
+    text-transform: lowercase;
 }
 .table-item .table-content p.offert-title {
     font-weight: 700;
-    border-bottom: solid 1px #000;
+    border-bottom: solid 1px #555;
     max-width: 90%;
     padding: 0 0 6px 0;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .table-item span.text-currency {
@@ -236,7 +244,7 @@ nav .navbar-brand img {
     color:#fff;
 }
 
-.table-item.hover {
+.table-div.hover .table-item {
     background-color: #ff9c10;
     border: none;
 
@@ -245,23 +253,23 @@ nav .navbar-brand img {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
-    -webkit-transition: ease-in-out 0.3s;
-    -moz-transition: ease-in-out 0.3s;
-    -ms-transition: ease-in-out 0.3s;
-    -o-transition: ease-in-out 0.3s;
 }
-.table-item.hover p {
+.table-div.hover .table-item p {
     color: #fff !important;
 }
-.table-item.hover .table-header {
+.table-div.hover .table-item .table-header {
     background-color: #000;
 }
-.table-item.hover a.btn {
+.table-div.hover .table-item .table-content p.offert-title {
+    border-color: #fff;
+    font-size: 200%;
+}
+.table-div.hover .table-item a.btn {
     color: #000;
     background-color: #fff;
     border-color: #fff;
 }
-.table-item.hover a.btn:hover, .table-item.hover a.btn:focus {
+.table-div.hover .table-item a.btn:hover, .table-div.hover .table-item a.btn:focus {
     background-color: #000;
     border-color: #000;
     color:#fff;

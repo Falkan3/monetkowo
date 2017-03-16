@@ -167,11 +167,13 @@ function rotateBoxes() {
 
 /* Tables */
 
-var tables = $('.table-item');
+var tables = $('.table-div');
 
 tables.hover(function (e) {
+    tables.removeClass('hover');
     $(this).addClass('hover');
     //boxesVars.activeBoxIndex = $(this).attr('data-box-index');
 }, function() {
     $(this).removeClass('hover');
+    tables.eq(1).addClass('hover');
 });

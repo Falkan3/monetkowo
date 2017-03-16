@@ -134,65 +134,70 @@
                     </div>
 
                     <div class="container-fluid table-item-container">
-                        <div class="col-xs-12 col-sm-12 col-md-4">
-                            <div class="table-item">
-                                <div class="table-logo">
-                                    <img src="{{asset('images/logo.png')}}" alt="logo" />
-                                </div>
-                                <div class="table-header">
-                                    <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span></p>
-                                </div>
-                                <div class="table-content">
-                                    <p class="title">Abonament telefoniczny</p>
-                                    <p class="table-offert-old offert-title">Podstawowa oferta</p>
-                                    <p class="table-offert-old">0.2850 zł/kWh</p>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4 table-div">
+                                <div class="table-item">
+                                    <div class="table-logo">
+                                        <img src="{{asset('images/logo.png')}}" alt="logo"/>
+                                    </div>
+                                    <div class="table-header">
+                                        <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span>
+                                        </p>
+                                    </div>
+                                    <div class="table-content">
+                                        <p class="title">Abonament telefoniczny</p>
+                                        <p class="table-offert-old offert-title">Podstawowa oferta</p>
+                                        <p class="table-offert-old">0.2850 zł/kWh</p>
 
-                                    <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
-                                    <p class="table-offert-new">0.2111 zł/kWh</p>
+                                        <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
+                                        <p class="table-offert-new">0.2111 zł/kWh</p>
 
-                                    <a href="#" class="btn">Korzystam</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-4">
-                            <div class="table-item">
-                                <div class="table-logo">
-                                    <img src="{{asset('images/logo.png')}}" alt="logo" />
-                                </div>
-                                <div class="table-header">
-                                    <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span></p>
-                                </div>
-                                <div class="table-content">
-                                    <p class="title">Prąd</p>
-                                    <p class="table-offert-old offert-title">Podstawowa oferta</p>
-                                    <p class="table-offert-old">0.2850 zł/kWh</p>
-
-                                    <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
-                                    <p class="table-offert-new">0.2111 zł/kWh</p>
-
-                                    <a href="#" class="btn">Korzystam</a>
+                                        <a href="#" class="btn">Korzystam</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-4">
-                            <div class="table-item">
-                                <div class="table-logo">
-                                    <img src="{{asset('images/logo.png')}}" alt="logo" />
+                            <div class="col-xs-12 col-sm-12 col-md-4 table-div hover">
+                                <div class="table-item">
+                                    <div class="table-logo">
+                                        <img src="{{asset('images/logo.png')}}" alt="logo"/>
+                                    </div>
+                                    <div class="table-header">
+                                        <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span>
+                                        </p>
+                                    </div>
+                                    <div class="table-content">
+                                        <p class="title">Prąd</p>
+                                        <p class="table-offert-old offert-title">Podstawowa oferta</p>
+                                        <p class="table-offert-old">0.2850 zł/kWh</p>
+
+                                        <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
+                                        <p class="table-offert-new">0.2111 zł/kWh</p>
+
+                                        <a href="#" class="btn">Korzystam</a>
+                                    </div>
                                 </div>
-                                <div class="table-header">
-                                    <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span></p>
-                                </div>
-                                <div class="table-content">
-                                    <p class="title">Abonament telefoniczny</p>
-                                    <p class="table-offert-old offert-title">Podstawowa oferta</p>
-                                    <p class="table-offert-old">0.2850 zł/kWh</p>
+                            </div>
 
-                                    <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
-                                    <p class="table-offert-new">0.2111 zł/kWh</p>
+                            <div class="col-xs-12 col-sm-12 col-md-4 table-div">
+                                <div class="table-item">
+                                    <div class="table-logo">
+                                        <img src="{{asset('images/logo.png')}}" alt="logo"/>
+                                    </div>
+                                    <div class="table-header">
+                                        <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span>
+                                        </p>
+                                    </div>
+                                    <div class="table-content">
+                                        <p class="title">Abonament telefoniczny</p>
+                                        <p class="table-offert-old offert-title">Podstawowa oferta</p>
+                                        <p class="table-offert-old">0.2850 zł/kWh</p>
 
-                                    <a href="#" class="btn">Korzystam</a>
+                                        <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
+                                        <p class="table-offert-new">0.2111 zł/kWh</p>
+
+                                        <a href="#" class="btn">Korzystam</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
