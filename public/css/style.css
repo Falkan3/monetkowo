@@ -3,20 +3,30 @@
     padding: 0;
 }
 
-#page_intro .heading h1:nth-child(2){
-    color: #11a89e;
+h1 {
+    display: none;
+}
+
+section {
+    padding: 70px 0;
 }
 
 #page_intro {
     padding: 0;
 }
 
-#page_tiles {
-    box-shadow: 0px 4px 5px #ddd, 0px -4px 5px #ddd;
+#page_intro .heading h1:nth-child(2){
+    color: #11a89e;
 }
 
 #page_steps {
     padding: 100px 0 60px 0;
+}
+
+#page_tiles {
+    padding: 0;
+    margin: 130px 0;
+    box-shadow: 0px 4px 5px #ddd, 0px -4px 5px #ddd;
 }
 
 .carousel-inner .item {
@@ -411,15 +421,4 @@ span.header_one.normal-size, span.header_two.normal-size {
     .content h1 {
         font-size: 26px;
     }
-}
-
-h1 {
-    display: none;
-}
-section {
-    padding: 70px 0;
-}
-#page_tiles {
-    padding: 0;
-    margin: 130px 0;
 }
