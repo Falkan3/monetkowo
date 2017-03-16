@@ -264,6 +264,10 @@ nav .navbar-brand img {
     border-color: #fff;
     font-size: 200%;
 }
+.table-div.hover .table-item .table-content p.table-offert-old.offert-title {
+    border-color: #fff;
+    font-size: 160%;
+}
 .table-div.hover .table-item a.btn {
     color: #000;
     background-color: #fff;
