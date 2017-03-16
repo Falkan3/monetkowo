@@ -140,11 +140,15 @@ nav .navbar-brand img {
 }
 /* RESPONSIVE TABLE */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     .table-item-container {
         display: flex;
         justify-content: space-between;
     }
+}
+
+.table-div {
+    padding: 0 40px;
 }
 
 .table-item {
@@ -155,16 +159,11 @@ nav .navbar-brand img {
     border: solid 1px #ddd;
     padding-bottom: 120px;
 
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    transform: scale(0.9);
-
     transition: ease-in-out 0.3s;
 }
 .table-item p {
     text-transform: uppercase;
+    line-height: 120%;
 }
 .table-item .table-logo img {
     max-width: 70%;
@@ -211,7 +210,7 @@ nav .navbar-brand img {
 .table-item .table-content p.offert-title {
     font-weight: 700;
     border-bottom: solid 1px #555;
-    max-width: 90%;
+    max-width: 80%;
     padding: 0 0 6px 0;
     margin: 0 auto;
     text-transform: uppercase;
@@ -224,7 +223,7 @@ nav .navbar-brand img {
 .table-item a.btn {
     position: absolute;
     left: 10%;
-    bottom: 0;
+    bottom: 20px;
     background-color: #000;
     border-color: #000;
     font-size: 250%;
@@ -244,39 +243,68 @@ nav .navbar-brand img {
     color:#fff;
 }
 
-.table-div.hover .table-item {
-    background-color: #ff9c10;
-    border: none;
+@media screen and (min-width: 1200px) {
+    .table-div.hover .table-item {
+        background-color: #ff9c10;
+        border: none;
 
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .table-div.hover .table-item p {
+        color: #fff !important;
+    }
+
+    .table-div.hover .table-item .table-header {
+        background-color: #000;
+    }
+
+    .table-div.hover .table-item .table-content p.offert-title {
+        border-color: #fff;
+        font-size: 200%;
+    }
+
+    .table-div.hover .table-item .table-content p.table-offert-old.offert-title {
+        border-color: #fff;
+        font-size: 160%;
+    }
+
+    .table-div.hover .table-item a.btn {
+        color: #000;
+        background-color: #fff;
+        border-color: #fff;
+    }
+
+    .table-div.hover .table-item a.btn:hover, .table-div.hover .table-item a.btn:focus {
+        background-color: #000;
+        border-color: #000;
+        color: #fff;
+    }
 }
-.table-div.hover .table-item p {
-    color: #fff !important;
+
+@media screen and (max-width: 1599px) {
+    .table-item .table-header p {
+        font-size: 210%;
+    }
+    .table-div.hover .table-item .table-content p.offert-title {
+        font-size: 170%;
+    }
+    .table-item a.btn {
+        font-size: 210%;
+    }
 }
-.table-div.hover .table-item .table-header {
-    background-color: #000;
-}
-.table-div.hover .table-item .table-content p.offert-title {
-    border-color: #fff;
-    font-size: 200%;
-}
-.table-div.hover .table-item .table-content p.table-offert-old.offert-title {
-    border-color: #fff;
-    font-size: 160%;
-}
-.table-div.hover .table-item a.btn {
-    color: #000;
-    background-color: #fff;
-    border-color: #fff;
-}
-.table-div.hover .table-item a.btn:hover, .table-div.hover .table-item a.btn:focus {
-    background-color: #000;
-    border-color: #000;
-    color:#fff;
+
+@media screen and (max-width: 1199px) {
+    .table-div {
+        margin-bottom: 50px;
+    }
+    .table-div:last-child {
+        margin-bottom: 0;
+    }
 }
 
 /* /RESPONSIVE TABLE ---------------------------------------------------------------------------------------------- */

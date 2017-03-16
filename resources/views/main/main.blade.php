@@ -135,7 +135,7 @@
 
                     <div class="container-fluid table-item-container">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-4 table-div">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 table-div">
                                 <div class="table-item">
                                     <div class="table-logo">
                                         <img src="{{asset('images/logo.png')}}" alt="logo"/>
@@ -157,7 +157,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 col-sm-12 col-md-4 table-div hover">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 table-div hover">
                                 <div class="table-item">
                                     <div class="table-logo">
                                         <img src="{{asset('images/logo.png')}}" alt="logo"/>
@@ -179,7 +179,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 col-sm-12 col-md-4 table-div">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 table-div">
                                 <div class="table-item">
                                     <div class="table-logo">
                                         <img src="{{asset('images/logo.png')}}" alt="logo"/>
