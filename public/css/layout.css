@@ -184,6 +184,7 @@ nav .navbar-brand img {
 }
 
 .table-item .table-content p.title {
+    min-height: 130px;
     padding: 40px 40px;
     font-size: 175%;
     color: #ff9c10;
