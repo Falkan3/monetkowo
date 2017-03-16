@@ -170,12 +170,8 @@ function rotateBoxes() {
 var tables = $('.table-item');
 
 tables.hover(function (e) {
-    clearTimeout($(this).attr('mouseTimer'))
     $(this).addClass('hover');
     //boxesVars.activeBoxIndex = $(this).attr('data-box-index');
 }, function() {
-
-        $(this).removeClass('hover');
-
-    $(this).attr('mouseTimer', timer);
+    $(this).removeClass('hover');
 });
