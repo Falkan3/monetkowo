@@ -7,12 +7,16 @@
     color: #11a89e;
 }
 
-section#page_intro {
+#page_intro {
     padding: 0;
 }
 
 #page_tiles {
     box-shadow: 0px 4px 5px #ddd, 0px -4px 5px #ddd;
+}
+
+#page_steps {
+    padding: 100px 0 60px 0;
 }
 
 .carousel-inner .item {
@@ -417,4 +421,5 @@ section {
 }
 #page_tiles {
     padding: 0;
+    margin: 130px 0;
 }

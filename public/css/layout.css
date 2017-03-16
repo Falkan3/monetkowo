@@ -450,6 +450,9 @@ nav .navbar-brand img {
 span.downlight {
     font-size: 85%;
 }
+span.highlight {
+    font-size: 135%;
+}
 
 span.color_one {
     color: #000;
@@ -566,6 +569,10 @@ html.sticked-layout footer {
 }
 
 /* -------------------------------------- /CIRCLES -------------------------------------- */
+.circles > div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .circles .circle {
     color: #fff;
     margin: 0 auto;
@@ -592,10 +599,21 @@ html.sticked-layout footer {
 .circles .circle > div {
     position: relative;
 }
+.circles .div.numeration {
+    position: relative;
+    top: -30px;
+}
+.circles div.numeration p, .circles div.numeration-description p {
+    color: #36404b;
+    line-height: 140%;
+}
 .circles div.numeration p {
-    text-align: center;
-    font-size: 140%;
-    margin: 15px 0 0 0;
+    margin: 15px 0 15px 0;
+    font-size: 265%;
+    font-weight: 600;
+}
+.circles div.numeration-description p {
+
 }
 
 @media (min-width: 992px) {
@@ -620,10 +638,25 @@ html.sticked-layout footer {
     .circles > div.arrowed .circle::after {
         right: -70%;
     }
+    .circles > div:first-child {
+        padding-left: 0;
+    }
+    .circles > div:last-child {
+        padding-right: 0;
+    }
 }
-@media (min-width: 1599px) {
+@media (min-width: 1600px) {
     .circles > div.arrowed .circle::after {
         right: -83%;
+    }
+}
+
+@media (max-width: 1599px) {
+    .circles div.numeration p {
+        font-size: 175%;
+    }
+    .circles .numeration-description p {
+        font-size: 140%;
     }
 }
 
@@ -638,9 +671,14 @@ html.sticked-layout footer {
     }
     .circles div.numeration p {
         font-size: 160%;
+        text-align: left;
     }
     .circles div.numeration {
         margin: 0 0 15px 0;
+    }
+    .circles .numeration-description p {
+        margin: 0 0 35px 0;
+        text-align: left;
     }
 }
 

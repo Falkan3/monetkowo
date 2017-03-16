@@ -133,7 +133,7 @@ flippers.hover(function (e) {
 }, function() {
     var timer = setTimeout(function () {
         $(this).removeClass('hover');
-    }, 300);
+    }, 100);
     $(this).data('mouseTimer', timer);
 });
 
