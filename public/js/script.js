@@ -26,32 +26,29 @@ backToTop.click(function (e) {
 
 $("a").click(function (e) {
     var dest = $(this).attr('href');
-    console.log(dest)
     if (dest[0] == '\#') {
         e.preventDefault();
-        if (dest == '\#top') {
-            $("body,html").animate({
-                scrollTop: 0
-            }, 600);
-            return false;
-        }
-        else {
-            console.log('scrolling')
-            if ($(window).scrollTop() > 50) {
-                console.log('doing it')
+        if(dest.length > 1) {
+            if (dest == '\#top') {
                 $("body,html").animate({
-                    scrollTop: $(dest).offset().top - 50
+                    scrollTop: 0
                 }, 600);
+                return false;
             }
             else {
-                console.log('really doing it')
-                $("body,html").animate({
-                    scrollTop: $(dest).offset().top - 50
-                }, 600);
+                if ($(window).scrollTop() > 50) {
+                    $("body,html").animate({
+                        scrollTop: $(dest).offset().top - 50
+                    }, 600);
+                }
+                else {
+                    $("body,html").animate({
+                        scrollTop: $(dest).offset().top - 50
+                    }, 600);
+                }
             }
-
-            return false;
         }
+        return false;
     }
 });
 

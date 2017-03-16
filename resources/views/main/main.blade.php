@@ -133,352 +133,67 @@
                         </div>
                     </div>
 
-                    <div class="table-container">
-                        <div class="container-fluid">
-                            <div class="row table-header">
-                                <div class="col-xs-12 col-sm-12 col-md-3">
-                                    <p>Nazwy produktów</p>
+                    <div class="container-fluid table-item-container">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="table-item">
+                                <div class="table-logo">
+                                    <img src="{{asset('images/logo.png')}}" alt="logo" />
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3 table-hide-on-mobile">
-                                    <p>Promocje standardowe</p>
+                                <div class="table-header">
+                                    <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span></p>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3 table-hide-on-mobile">
-                                    <p>Super promocje</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-3 table-hide-on-mobile">
-                                    <p>Oszczędności</p>
-                                </div>
-                            </div>
-                        </div>
+                                <div class="table-content">
+                                    <p class="title">Abonament telefoniczny</p>
+                                    <p class="table-offert-old offert-title">Podstawowa oferta</p>
+                                    <p class="table-offert-old">0.2850 zł/kWh</p>
 
-                        <div class="table-body table-hide-on-mobile">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>pierwotne oprocentowanie kredytu 5,2%</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>aktualne oprocentowanie kredytu 0,6%</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>oprocentowanie kredytu zmniejszone o 0,6%</p>
-                                    </div>
-                                </div>
+                                    <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
+                                    <p class="table-offert-new">0.2111 zł/kWh</p>
 
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>początkowa wysokość abonamentu <span class="text-nowrap">50 zł</span></p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>wynegocjowany abonament <span class="text-nowrap">20 zł</span></p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>oszczędzasz <span class="text-nowrap">360 zł</span> w skali roku</p>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>koszty związane z prowadzeniem konta
-                                            30 zł</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>darmowe konto bankowe</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>oszczedzasz 360 zł <span class="text-nowrap">w skali</span> roku</p>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>abonament internetowy - 55 zł z umową na <span
-                                                    class="text-nowrap">2 lata</span></p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>szybszy internet i niższy abonament za 30 zł <span class="text-nowrap">z umową</span>
-                                            na 2 lata</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>oszczędności w trakcie trwania umowy <span class="text-nowrap">600 zł</span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>oprocentowanie lokaty 2%</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>wynegocjowane oprocentowanie 3%</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>duże</p>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <img src="{{asset('images/demo/logos/play.jpg', env('HTTPS'))}}" alt="logo"/>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3">
-                                        <p>Lorem</p>
-                                    </div>
+                                    <a href="#" class="btn">Korzystam</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-12 table-show-on-mobile">
-                            <div class="row table-show-on-mobile-contents">
-                                <?php //NAME ELEMENTS ?>
-                                <div class="container-fluid table-mobile-element">
-
-                                    <?php //ONE NAME ELEMENT ?>
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-12 name">
-                                            <p>abc</p>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <div class="container-fluid table-mobile-contents">
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Promocje standardowe</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 1</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Super promocje</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 2</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Oszczędności</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 3</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php //ONE NAME ELEMENT ?>
-
-                                    <?php //ONE NAME ELEMENT ?>
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-12 name">
-                                            <p>abc</p>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <div class="container-fluid table-mobile-contents">
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Promocje standardowe</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 1</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Super promocje</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 2</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Oszczędności</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 3</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php //ONE NAME ELEMENT ?>
-
-                                    <?php //ONE NAME ELEMENT ?>
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-12 name">
-                                            <p>abc</p>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <div class="container-fluid table-mobile-contents">
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Promocje standardowe</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 1</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Super promocje</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 2</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Oszczędności</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 3</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php //ONE NAME ELEMENT ?>
-
-                                    <?php //ONE NAME ELEMENT ?>
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-12 name">
-                                            <p>abc</p>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <div class="container-fluid table-mobile-contents">
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Promocje standardowe</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 1</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Super promocje</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 2</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Oszczędności</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 3</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php //ONE NAME ELEMENT ?>
-
-                                    <?php //ONE NAME ELEMENT ?>
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-12 name">
-                                            <p>abc</p>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <div class="container-fluid table-mobile-contents">
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Promocje standardowe</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 1</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Super promocje</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 2</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Oszczędności</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 3</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php //ONE NAME ELEMENT ?>
-
-                                    <?php //ONE NAME ELEMENT ?>
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-12 name">
-                                            <p>abc</p>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <div class="container-fluid table-mobile-contents">
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Promocje standardowe</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 1</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Super promocje</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 2</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>Oszczędności</p>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-12">
-                                                    <p>content 3</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php //ONE NAME ELEMENT ?>
-
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="table-item">
+                                <div class="table-logo">
+                                    <img src="{{asset('images/logo.png')}}" alt="logo" />
                                 </div>
-                                <?php //NAME ELEMENTS ?>
+                                <div class="table-header">
+                                    <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span></p>
+                                </div>
+                                <div class="table-content">
+                                    <p class="title">Prąd</p>
+                                    <p class="table-offert-old offert-title">Podstawowa oferta</p>
+                                    <p class="table-offert-old">0.2850 zł/kWh</p>
 
+                                    <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
+                                    <p class="table-offert-new">0.2111 zł/kWh</p>
+
+                                    <a href="#" class="btn">Korzystam</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="table-item">
+                                <div class="table-logo">
+                                    <img src="{{asset('images/logo.png')}}" alt="logo" />
+                                </div>
+                                <div class="table-header">
+                                    <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span></p>
+                                </div>
+                                <div class="table-content">
+                                    <p class="title">Abonament telefoniczny</p>
+                                    <p class="table-offert-old offert-title">Podstawowa oferta</p>
+                                    <p class="table-offert-old">0.2850 zł/kWh</p>
+
+                                    <p class="table-offert-new offert-title">Wynegocjowana oferta</p>
+                                    <p class="table-offert-new">0.2111 zł/kWh</p>
+
+                                    <a href="#" class="btn">Korzystam</a>
+                                </div>
                             </div>
                         </div>
                     </div>

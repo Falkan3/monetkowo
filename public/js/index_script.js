@@ -127,15 +127,15 @@ function resize_flippers() {
 }
 
 flippers.hover(function (e) {
-    flippers.removeClass('hover');
+    clearTimeout($(this).data('mouseTimer'))
     $(this).addClass('hover');
     boxesVars.activeBoxIndex = $(this).attr('data-box-index');
+}, function() {
+    var timer = setTimeout(function () {
+        $(this).removeClass('hover');
+    }, 300);
+    $(this).data('mouseTimer', timer);
 });
-/*
- flippers.mouseleave(function (e) {
- $(this).removeClass('hover');
- });
- */
 
 boxesVars = {
     'active': false,
@@ -151,7 +151,8 @@ function rotateBoxesInit() {
         $(this).attr('data-box-index', x++);
     });
     boxesVars.activeBoxIndex = 0;
-    boxesVars.timer.stop();
+    if(boxesVars.timer)
+        boxesVars.timer.stop();
     boxesVars.timer = new Interval(rotateBoxes, 3000);
     boxesVars.timer.start();
     rotateBoxes();
@@ -163,3 +164,18 @@ function rotateBoxes() {
     if (boxesVars.activeBoxIndex > boxesVars.maxBoxIndex)
         boxesVars.activeBoxIndex = 0;
 }
+
+/* Tables */
+
+var tables = $('.table-item');
+
+tables.hover(function (e) {
+    clearTimeout($(this).attr('mouseTimer'))
+    $(this).addClass('hover');
+    //boxesVars.activeBoxIndex = $(this).attr('data-box-index');
+}, function() {
+
+        $(this).removeClass('hover');
+
+    $(this).attr('mouseTimer', timer);
+});
