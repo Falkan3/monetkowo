@@ -127,7 +127,7 @@ function resize_flippers() {
 }
 
 flippers.hover(function (e) {
-    clearTimeout($(this).data('mouseTimer'))
+    clearTimeout($(this).data('mouseTimer'));
     $(this).addClass('hover');
     boxesVars.activeBoxIndex = $(this).attr('data-box-index');
 }, function() {

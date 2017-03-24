@@ -138,7 +138,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 table-div">
                                 <div class="table-item">
                                     <div class="table-logo">
-                                        <img src="{{asset('images/logo.png')}}" alt="logo"/>
+                                        <img src="{{asset('images/logo.png', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="table-header">
                                         <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span>
@@ -160,7 +160,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 table-div hover">
                                 <div class="table-item">
                                     <div class="table-logo">
-                                        <img src="{{asset('images/logo.png')}}" alt="logo"/>
+                                        <img src="{{asset('images/logo.png', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="table-header">
                                         <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span>
@@ -182,7 +182,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 table-div">
                                 <div class="table-item">
                                     <div class="table-logo">
-                                        <img src="{{asset('images/logo.png')}}" alt="logo"/>
+                                        <img src="{{asset('images/logo.png', env('HTTPS'))}}" alt="logo"/>
                                     </div>
                                     <div class="table-header">
                                         <p>Oszczędź <span class="text-block text-nowrap">40 <span class="text-currency">zł</span></span>
