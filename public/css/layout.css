@@ -167,6 +167,7 @@ nav .navbar-brand img {
 }
 .table-item .table-logo img {
     max-width: 70%;
+    max-height: 100px;
     padding: 25px 0;
 }
 .table-item .table-header {
@@ -206,6 +207,7 @@ nav .navbar-brand img {
     padding: 15px 0;
     margin-bottom: 0;
     text-transform: lowercase;
+    font-size: 165%;
 }
 .table-item .table-content p.offert-title {
     font-weight: 700;
@@ -776,6 +778,13 @@ html.sticked-layout footer {
     .opinions .opinion:last-child {
         padding-right: 0;
         padding-left: 20px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .opinions .opinion {
+        margin-bottom: 40px;
     }
 }
 

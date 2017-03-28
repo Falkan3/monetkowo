@@ -25,30 +25,32 @@ backToTop.click(function (e) {
 });
 
 $("a").click(function (e) {
-    var dest = $(this).attr('href');
-    if (dest[0] == '\#') {
-        e.preventDefault();
-        if(dest.length > 1) {
-            if (dest == '\#top') {
-                $("body,html").animate({
-                    scrollTop: 0
-                }, 600);
-                return false;
-            }
-            else {
-                if ($(window).scrollTop() > 50) {
+    if(!$(this).hasClass('carousel-control')) {
+        var dest = $(this).attr('href');
+        if (dest[0] == '\#') {
+            e.preventDefault();
+            if(dest.length > 1) {
+                if (dest == '\#top') {
                     $("body,html").animate({
-                        scrollTop: $(dest).offset().top - 50
+                        scrollTop: 0
                     }, 600);
+                    return false;
                 }
                 else {
-                    $("body,html").animate({
-                        scrollTop: $(dest).offset().top - 50
-                    }, 600);
+                    if ($(window).scrollTop() > 50) {
+                        $("body,html").animate({
+                            scrollTop: $(dest).offset().top - 50
+                        }, 600);
+                    }
+                    else {
+                        $("body,html").animate({
+                            scrollTop: $(dest).offset().top - 50
+                        }, 600);
+                    }
                 }
             }
+            return false;
         }
-        return false;
     }
 });
 

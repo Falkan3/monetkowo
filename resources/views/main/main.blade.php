@@ -14,14 +14,14 @@
     </section>
  */ ?>
     <section id="page_intro" class="screen-height">
-        <img id="loading" src="{{asset('images/ajax-loader.gif', env('HTTPS'))}}" alt="loading..."/>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <img id="loading" src="{{asset('images/ajax-loader2.gif', env('HTTPS'))}}" alt="loading..."/>
+        <div id="mainCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mainCarousel" data-slide-to="1"></li>
+                <li data-target="#mainCarousel" data-slide-to="2"></li>
+                <li data-target="#mainCarousel" data-slide-to="3"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -111,11 +111,11 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#mainCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <a class="right carousel-control" href="#mainCarousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -554,7 +554,7 @@
                         {{ Form::submit('Wyślij', ['class' => 'btn alternative'])}}
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12">
-                        <img src="{{asset('images/ajax-loader.gif', env('HTTPS'))}}" alt="loading..."
+                        <img src="{{asset('images/ajax-loader2.gif', env('HTTPS'))}}" alt="loading..."
                              class="hidden loading_ajax"/>
                         <div class="status"></div>
                     </div>
